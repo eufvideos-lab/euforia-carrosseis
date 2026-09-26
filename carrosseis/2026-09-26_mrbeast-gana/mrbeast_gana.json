@@ -1,0 +1,230 @@
+{
+  "pauta": "MrBeast gastou ~US$10 mi num vídeo que ele mesmo disse que ia performar mal (vila em Gana, 19/09/2026)",
+  "fontes": [
+    "https://fortune.com/2026/09/21/billionaire-youtuber-mrbeast-ghana-village-philanthropy-work-engagement/",
+    "https://www.businesstoday.in/latest/trends/photo/mrbeasts-biggest-video-arrives-saturday-10-million-budget-is-public-but-the-actual-concept-is-still-under-wraps-556261-2026-09-18",
+    "https://fortune.com/2025/03/11/youtube-biggest-star-mrbeast-makes-more-money-chocolate-videos/",
+    "https://en.wikipedia.org/wiki/MrBeast",
+    "https://www.pulse.com.gh/story/mrbeast-ghana-village-child-labour-2026092016314002746"
+  ],
+  "slides": [
+    {
+      "tipo": "capa",
+      "foto": "assets/fotos/mrbeast_2026_recorte.png",
+      "selo": "US$ 10 milhões",
+      "titulo_linhas": [
+        [
+          "Num vídeo que",
+          false
+        ],
+        [
+          "vai flopar",
+          true
+        ]
+      ],
+      "subtitulo": "Por que o __MrBeast__ fez isso de propósito?",
+      "credito": "Foto: Tyren Redd / Wikimedia Commons (CC BY 4.0)"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "claro",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "texto": "No dia 19 de setembro, o MrBeast publicou o que chamou de ==maior vídeo da carreira==."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Ele construiu uma **vila inteira em Gana**, do zero:"
+        },
+        {
+          "tipo": "chips",
+          "itens": [
+            "Escola",
+            "Clínica médica",
+            "Mercado",
+            "Energia solar",
+            "Água e saneamento"
+          ]
+        },
+        {
+          "tipo": "stats",
+          "itens": [
+            [
+              "~US$ 10 mi",
+              "de orçamento"
+            ],
+            [
+              "300+",
+              "vagas na escola"
+            ],
+            [
+              "~1.060",
+              "moradores atendidos"
+            ]
+          ]
+        }
+      ],
+      "barra": "E o que ele disse antes de postar?"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "escuro",
+      "foto": "assets/fotos/mrbeast_2026_recorte.png",
+      "foto_estilo": "height:62%;right:-120px;opacity:.9",
+      "corpo_estilo": "right:360px",
+      "blocos": [
+        {
+          "tipo": "citacao",
+          "texto": "“Provavelmente não vai performar tão bem.”",
+          "autor": "MrBeast, sobre o próprio vídeo"
+        },
+        {
+          "tipo": "texto",
+          "texto": "O primeiro criador a passar de **500 milhões de inscritos** gastou US$ 10 milhões sabendo que o vídeo podia *flopar*."
+        }
+      ],
+      "barra": "Burrice? Olha a conta.",
+      "credito": "Foto: Tyren Redd / Wikimedia Commons (CC BY 4.0)"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "claro",
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "texto": "A conta de 2024"
+        },
+        {
+          "tipo": "titulo",
+          "tam": "m",
+          "texto": "O canal ==dá prejuízo==. O chocolate paga a conta."
+        },
+        {
+          "tipo": "comparativo",
+          "linhas": [
+            {
+              "nome": "Mídia",
+              "detalhe": "YouTube + Beast Games",
+              "barras": [
+                {
+                  "rotulo": "Faturou",
+                  "valor": 250,
+                  "cor": "fat",
+                  "texto": "~US$ 250 mi"
+                },
+                {
+                  "rotulo": "Resultado",
+                  "valor": 80,
+                  "cor": "neg",
+                  "texto": "−US$ 80 mi"
+                }
+              ]
+            },
+            {
+              "nome": "Feastables",
+              "detalhe": "chocolate",
+              "barras": [
+                {
+                  "rotulo": "Faturou",
+                  "valor": 250,
+                  "cor": "fat",
+                  "texto": "~US$ 250 mi"
+                },
+                {
+                  "rotulo": "Resultado",
+                  "valor": 20,
+                  "cor": "pos",
+                  "texto": "+US$ 20 mi"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "fonte",
+          "texto": "Fonte: Fortune, com base em documentos a investidores (mar/2025)"
+        }
+      ],
+      "barra": "Então por que continuar gastando?"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "escuro",
+      "blocos": [
+        {
+          "tipo": "gigante",
+          "linha1": "O vídeo não é o produto.",
+          "linha2": "É a vitrine."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Cada vídeo é o anúncio mais assistido do mundo para o que ele vende de verdade: **chocolate, lanches, brinquedos, programa de TV**.\n\nEm janeiro de 2026, a Beast Industries foi avaliada em *US$ 5 bilhões*."
+        }
+      ],
+      "barra": "E por que um vídeo que flopa ainda vale?"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "claro",
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "texto": "A nossa leitura"
+        },
+        {
+          "tipo": "titulo",
+          "tam": "m",
+          "texto": "Views de hoje valem menos que ==reputação de 10 anos==."
+        },
+        {
+          "tipo": "numerados",
+          "itens": [
+            [
+              "Confiança",
+              "A gente compra de quem admira. Ajudar uma vila inteira constrói isso."
+            ],
+            [
+              "Assunto",
+              "O vídeo virou pauta na imprensa do mundo todo. Mídia espontânea."
+            ],
+            [
+              "Longo prazo",
+              "A marca que ele constrói hoje é o que vende chocolate daqui a 10 anos."
+            ]
+          ]
+        }
+      ],
+      "barra": "E o que isso tem a ver com você?"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "escuro",
+      "blocos": [
+        {
+          "tipo": "titulo",
+          "texto": "Você não precisa de US$ 10 milhões."
+        },
+        {
+          "tipo": "texto",
+          "texto": "Mas precisa da mesma lógica. Se você é **mentor, consultor ou palestrante**, o seu conteúdo é a vitrine.\n\nO faturamento está no que vem depois: a mentoria, o projeto, a palestra."
+        },
+        {
+          "tipo": "titulo",
+          "tam": "m",
+          "texto": "Pare de medir o seu conteúdo ==só por views==."
+        }
+      ],
+      "barra": "Quer montar a sua vitrine?"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+      "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+      "palavra": "VITRINE",
+      "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+      "rodape": "Salve e mande pra quem ainda mede tudo por views."
+    }
+  ],
+  "legenda": "MrBeast gastou cerca de US$ 10 milhões num vídeo que ele mesmo disse que provavelmente não ia performar bem. 🤯\n\nNo dia 19 de setembro, ele publicou o que ele chamou de maior vídeo da carreira: uma vila inteira em Gana, com escola, clínica, mercado, energia solar e água tratada.\n\nParece loucura, até você olhar a conta. Em 2024, a parte de mídia (YouTube + Beast Games) faturou perto de US$ 250 milhões e deu prejuízo de uns US$ 80 milhões. Quem deu lucro foi o chocolate, a Feastables.\n\nO vídeo não é o produto. É a vitrine.\n\nE isso vale pra você também: se você é mentor, consultor ou palestrante, o seu conteúdo é a vitrine. O faturamento está no que vem depois.\n\nVocê mede o seu conteúdo por views ou pelo que ele gera de negócio? Conta aqui 👇\n\n💬 Comente VITRINE e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem ainda mede tudo por views.\n\nFontes: Fortune (set/2026 e mar/2025), Pulse Ghana. Foto: Tyren Redd / Wikimedia Commons (CC BY 4.0).\n\n#mrbeast #youtube #marketingdeconteudo #posicionamento #negocios"
+}
