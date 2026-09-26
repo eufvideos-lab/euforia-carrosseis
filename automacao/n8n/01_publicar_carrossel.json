@@ -1,0 +1,673 @@
+{
+  "name": "Euforia | Publicar carrossel agendado",
+  "nodes": [
+    {
+      "id": "e33f74d5-6bd5-42d7-ad71-a518ea48d015",
+      "name": "A cada 10 minutos",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "efb3a5f4-0110-42b4-9aac-159079ce5d22",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        300
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "68d90d72-7e57-41fe-82da-c10ac9a4b3f7",
+              "name": "igUserId",
+              "value": "COLE_AQUI_O_ID_DA_CONTA_INSTAGRAM",
+              "type": "string"
+            },
+            {
+              "id": "aa6bef56-e1bd-4fe9-8aaf-0836f53488e1",
+              "name": "githubBase",
+              "value": "https://raw.githubusercontent.com/eufvideos-lab/euforia-carrosseis/main/",
+              "type": "string"
+            },
+            {
+              "id": "57c86b68-cd0a-419c-9809-cb0758e1769e",
+              "name": "notionDb",
+              "value": "b2343909ef1f428fa81f999da4ffe7bd",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "ee528366-bdda-467e-8fd3-7a0165f44273",
+      "name": "Notion: buscar post agendado",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        300
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://api.notion.com/v1/databases/{{ $json.notionDb }}/query",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Notion-Version",
+              "value": "2022-06-28"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ filter: { and: [ { property: 'Status', select: { equals: 'Agendado' } }, { property: 'Data de postagem', date: { on_or_before: $now.toISO() } } ] }, sorts: [ { property: 'Data de postagem', direction: 'ascending' } ], page_size: 1 }) }}"
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "TROCAR",
+          "name": "Notion Euforia"
+        }
+      }
+    },
+    {
+      "id": "30325834-ce78-4a22-ba1e-544c404631cf",
+      "name": "Preparar post",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        300
+      ],
+      "parameters": {
+        "jsCode": "// Pega o primeiro post agendado que já passou do horário e monta a lista de artes (JPEG no GitHub)\nconst res = $input.first().json;\nif (!res.results || res.results.length === 0) return []; // nada pra postar agora\nconst page = res.results[0];\nconst p = page.properties;\nconst txt = (rt) => (rt || []).map(t => t.plain_text).join('');\nconst pasta = txt(p['Pasta das artes']?.rich_text).trim().replace(/^\\/+|\\/+$/g, '');\nconst total = p['Slides']?.number || 0;\nconst legenda = txt(p['Legenda']?.rich_text);\nconst base = $('Config').first().json.githubBase;\nlet erro = '';\nif (!pasta) erro = 'Campo \"Pasta das artes\" vazio';\nelse if (total < 2 || total > 10) erro = 'Campo \"Slides\" precisa ser entre 2 e 10 (carrossel)';\nelse if (!legenda) erro = 'Campo \"Legenda\" vazio';\nif (legenda.length > 2200) erro = 'Legenda passa de 2.200 caracteres';\nconst urls = [];\nfor (let i = 1; i <= total; i++) urls.push(`${base}${pasta}/slide_${String(i).padStart(2, '0')}.jpg`);\nreturn [{ json: { pageId: page.id, titulo: txt(p['Título']?.title), legenda, urls, erro } }];"
+      }
+    },
+    {
+      "id": "b775fa8f-2a93-4519-a0f4-c704cca8cdc5",
+      "name": "Tem erro?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        880,
+        300
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "cb39fd53-72f9-4964-b72e-5192e0756e08",
+              "leftValue": "={{ $json.erro }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "1e3141a9-3fe4-4911-b006-3a9bd1538e13",
+      "name": "Notion: marcar erro",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1100,
+        120
+      ],
+      "parameters": {
+        "method": "PATCH",
+        "url": "=https://api.notion.com/v1/pages/{{ $('Preparar post').first().json.pageId }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Notion-Version",
+              "value": "2022-06-28"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ properties: { 'Status': { select: { name: 'Erro na postagem' } }, 'Erro': { rich_text: [ { text: { content: String($json.erro || $json.error?.message || $json.error || 'Erro desconhecido').slice(0, 1900) } } ] } } }) }}"
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "TROCAR",
+          "name": "Notion Euforia"
+        }
+      }
+    },
+    {
+      "id": "fb30f1bb-1596-45a1-aaa3-ab78a148e56b",
+      "name": "Notion: marcar Postando",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1100,
+        400
+      ],
+      "parameters": {
+        "method": "PATCH",
+        "url": "=https://api.notion.com/v1/pages/{{ $json.pageId }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Notion-Version",
+              "value": "2022-06-28"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ properties: { 'Status': { select: { name: 'Postando' } } } }) }}"
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "TROCAR",
+          "name": "Notion Euforia"
+        }
+      }
+    },
+    {
+      "id": "9fc2fda0-f18f-4905-8209-590d4e33b832",
+      "name": "Uma arte por item",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1320,
+        400
+      ],
+      "parameters": {
+        "jsCode": "const post = $('Preparar post').first().json;\nreturn post.urls.map((url, i) => ({ json: { url, ordem: i + 1 } }));"
+      }
+    },
+    {
+      "id": "b54e7583-9d87-49e9-868f-552c0eda2216",
+      "name": "IG: criar item do carrossel",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        400
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.instagram.com/v23.0/{{ $('Config').first().json.igUserId }}/media",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "image_url",
+              "value": "={{ $json.url }}"
+            },
+            {
+              "name": "is_carousel_item",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "id": "50fffeb2-6719-426b-ab70-613d995dc353",
+      "name": "Juntar IDs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1760,
+        400
+      ],
+      "parameters": {
+        "jsCode": "const ids = $input.all().map(i => i.json.id).filter(Boolean);\nconst post = $('Preparar post').first().json;\nif (ids.length !== post.urls.length) return [{ json: { erro: `Só ${ids.length} de ${post.urls.length} artes foram aceitas pelo Instagram` } }];\nreturn [{ json: { children: ids.join(','), legenda: post.legenda } }];"
+      }
+    },
+    {
+      "id": "e7cd1ec6-158a-4b52-ad8a-41381e27c7a3",
+      "name": "Artes OK?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1980,
+        400
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "e486a76f-4769-438e-978d-c8a3c4071a50",
+              "leftValue": "={{ $json.erro }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "empty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "cd6d6232-3747-47b1-a464-57945d8b1476",
+      "name": "IG: criar carrossel",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2200,
+        480
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.instagram.com/v23.0/{{ $('Config').first().json.igUserId }}/media",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "media_type",
+              "value": "CAROUSEL"
+            },
+            {
+              "name": "children",
+              "value": "={{ $json.children }}"
+            },
+            {
+              "name": "caption",
+              "value": "={{ $json.legenda }}"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "id": "9e898e35-2f94-494e-9904-51cbc2488a94",
+      "name": "Esperar processamento",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        2420,
+        480
+      ],
+      "parameters": {
+        "resume": "timeInterval",
+        "amount": 45,
+        "unit": "seconds"
+      },
+      "webhookId": "1e721485-f74f-4af4-875a-13ed6cc58c17"
+    },
+    {
+      "id": "005e5837-469a-4ea0-ad16-1e72af02895c",
+      "name": "IG: publicar",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2640,
+        480
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.instagram.com/v23.0/{{ $('Config').first().json.igUserId }}/media_publish",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "creation_id",
+              "value": "={{ $('IG: criar carrossel').first().json.id }}"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      },
+      "onError": "continueErrorOutput",
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "d4f6a4da-95d6-43af-932b-563038449364",
+      "name": "IG: pegar link",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2860,
+        480
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "=https://graph.instagram.com/v23.0/{{ $json.id }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "id,permalink"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "id": "cf5b95fd-811e-46f0-98de-63174954d7b3",
+      "name": "Notion: marcar Postado",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3080,
+        480
+      ],
+      "parameters": {
+        "method": "PATCH",
+        "url": "=https://api.notion.com/v1/pages/{{ $('Preparar post').first().json.pageId }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Notion-Version",
+              "value": "2022-06-28"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ properties: { 'Status': { select: { name: 'Postado' } }, 'Link do post': { url: $json.permalink || null }, 'ID do post': { rich_text: [ { text: { content: String($json.id) } } ] }, 'Erro': { rich_text: [] } } }) }}"
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "TROCAR",
+          "name": "Notion Euforia"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "A cada 10 minutos": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Notion: buscar post agendado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Notion: buscar post agendado": {
+      "main": [
+        [
+          {
+            "node": "Preparar post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Preparar post": {
+      "main": [
+        [
+          {
+            "node": "Tem erro?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tem erro?": {
+      "main": [
+        [
+          {
+            "node": "Notion: marcar erro",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Notion: marcar Postando",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Notion: marcar Postando": {
+      "main": [
+        [
+          {
+            "node": "Uma arte por item",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Uma arte por item": {
+      "main": [
+        [
+          {
+            "node": "IG: criar item do carrossel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG: criar item do carrossel": {
+      "main": [
+        [
+          {
+            "node": "Juntar IDs",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Notion: marcar erro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Juntar IDs": {
+      "main": [
+        [
+          {
+            "node": "Artes OK?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Artes OK?": {
+      "main": [
+        [
+          {
+            "node": "IG: criar carrossel",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Notion: marcar erro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG: criar carrossel": {
+      "main": [
+        [
+          {
+            "node": "Esperar processamento",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Notion: marcar erro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Esperar processamento": {
+      "main": [
+        [
+          {
+            "node": "IG: publicar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG: publicar": {
+      "main": [
+        [
+          {
+            "node": "IG: pegar link",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Notion: marcar erro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG: pegar link": {
+      "main": [
+        [
+          {
+            "node": "Notion: marcar Postado",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Notion: marcar erro",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Recife"
+  },
+  "active": false
+}

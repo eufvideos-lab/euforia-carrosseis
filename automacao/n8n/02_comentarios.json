@@ -1,0 +1,386 @@
+{
+  "name": "Euforia | Comentários (palavra-chave e ofensivos)",
+  "nodes": [
+    {
+      "id": "b10f0d62-3e13-4ec4-b014-42456c7389e5",
+      "name": "A cada 10 minutos",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "883ecb65-2247-41d8-98b9-674662914683",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        300
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1c61ce10-a029-4d08-984e-b49b0458a1a1",
+              "name": "igUserId",
+              "value": "COLE_AQUI_O_ID_DA_CONTA_INSTAGRAM",
+              "type": "string"
+            },
+            {
+              "id": "a854de92-b9e6-40f4-b223-12a4a67be501",
+              "name": "usuario",
+              "value": "euforiagrupo",
+              "type": "string"
+            },
+            {
+              "id": "490abb8f-e64d-48fb-9365-1592f59fc9ef",
+              "name": "linkAgenda",
+              "value": "COLE_AQUI_O_LINK_DE_AGENDAMENTO_DO_RAIO_X",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "b1538c5d-12ec-4a43-80b4-ceae2e6deed8",
+      "name": "IG: posts recentes",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "=https://graph.instagram.com/v23.0/{{ $json.igUserId }}/media",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "id,caption,timestamp"
+            },
+            {
+              "name": "limit",
+              "value": "8"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      }
+    },
+    {
+      "id": "7ab54b6e-2f5c-46a2-b8c8-9edbfbaa8af0",
+      "name": "Posts dos últimos 7 dias",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        300
+      ],
+      "parameters": {
+        "jsCode": "// A resposta privada (DM) só pode ser enviada até 7 dias depois do comentário\nconst limite = Date.now() - 7 * 24 * 3600 * 1000;\nconst data = $input.first().json.data || [];\nreturn data.filter(m => new Date(m.timestamp).getTime() > limite)\n  .map(m => {\n    const k = (m.caption || '').match(/Comente\\s+([A-Za-zÀ-ÿ0-9\\-]{3,})/i);\n    return { json: { mediaId: m.id, palavra: k ? k[1].toUpperCase() : '' } };\n  });"
+      }
+    },
+    {
+      "id": "4595458f-e90f-41dd-b09b-091ca3d412b1",
+      "name": "IG: comentários do post",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        300
+      ],
+      "parameters": {
+        "method": "GET",
+        "url": "=https://graph.instagram.com/v23.0/{{ $json.mediaId }}/comments",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "id,text,username,timestamp,hidden"
+            },
+            {
+              "name": "limit",
+              "value": "50"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      }
+    },
+    {
+      "id": "067f4ade-1cf5-41b3-9cb7-606f3207bcc3",
+      "name": "Classificar comentários",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        300
+      ],
+      "parameters": {
+        "jsCode": "// Decide o que fazer com cada comentário novo. Guarda os já tratados pra não repetir.\nconst memoria = $getWorkflowStaticData('global');\nmemoria.tratados = memoria.tratados || {};\nconst cfg = $('Config').first().json;\nconst posts = $('Posts dos últimos 7 dias').all();\nconst norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase();\n// Lista básica de ofensas/golpe. Ajuste à vontade.\nconst ofensivo = /\\b(lixo|golpista|golpe|fraude|picaret\\w*|vagabund\\w*|idiota|otari\\w*|burr[oa]s?|merda|porra|caralh\\w*|fdp|puta|arrombad\\w*|desgra[cç]\\w*|ladr[aã]o|ladroes)\\b/i;\nconst spam = /(https?:\\/\\/|www\\.|ganhe dinheiro|renda extra|me chama no pv|pix|bit\\.ly|onlyfans)/i;\nconst saida = [];\n$input.all().forEach((it, i) => {\n  const palavra = posts[i]?.json.palavra || '';\n  for (const c of (it.json.data || [])) {\n    if (memoria.tratados[c.id]) continue;\n    memoria.tratados[c.id] = Date.now();\n    if (!c.text || c.username === cfg.usuario || c.hidden) continue;\n    if (ofensivo.test(c.text) || spam.test(c.text)) {\n      saida.push({ json: { acao: 'ocultar', commentId: c.id, username: c.username, texto: c.text } });\n    } else if (palavra && norm(c.text).includes(norm(palavra))) {\n      saida.push({ json: { acao: 'dm', commentId: c.id, username: c.username, palavra, texto: c.text } });\n    }\n  }\n});\n// Limpa a memória de comentários com mais de 30 dias\nconst velho = Date.now() - 30 * 24 * 3600 * 1000;\nfor (const [k, t] of Object.entries(memoria.tratados)) if (t < velho) delete memoria.tratados[k];\nreturn saida;"
+      }
+    },
+    {
+      "id": "d11992d9-963c-4a70-b3e2-5fbf905ba877",
+      "name": "É palavra-chave?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1320,
+        300
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "4e131cf4-5e8f-4e25-9224-e0cae9efba56",
+              "leftValue": "={{ $json.acao }}",
+              "rightValue": "dm",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "0ed19b7b-d2ef-4b51-a0cb-cce0c0849b5e",
+      "name": "IG: enviar DM (resposta privada)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        200
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.instagram.com/v23.0/{{ $('Config').first().json.igUserId }}/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ recipient: { comment_id: $json.commentId }, message: { text: `Oi, @${$json.username}! Aqui é do Grupo Euforia 🧡\\n\\nVi que você comentou ${$json.palavra}. Segue o link pra agendar o seu Raio-X gratuito de 15 minutos com os nossos consultores:\\n\\n${$('Config').first().json.linkAgenda}\\n\\nÉ exclusivo para profissionais que já têm resultado no offline e querem escalar no digital.` } }) }}"
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "9d7b3894-f534-4ac5-91d4-f48373468df5",
+      "name": "IG: responder comentário",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1760,
+        200
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.instagram.com/v23.0/{{ $('É palavra-chave?').item.json.commentId }}/replies",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "message",
+              "value": "=@{{ $('É palavra-chave?').item.json.username }} te mandei no direct! 🧡"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "id": "8eb6fdc0-df24-4e01-aa7e-e40fc79e0709",
+      "name": "IG: ocultar comentário",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        420
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.instagram.com/v23.0/{{ $json.commentId }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpQueryAuth",
+        "options": {},
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "hide",
+              "value": "true"
+            }
+          ]
+        }
+      },
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "TROCAR",
+          "name": "Instagram Euforia"
+        }
+      },
+      "onError": "continueRegularOutput"
+    }
+  ],
+  "connections": {
+    "A cada 10 minutos": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "IG: posts recentes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG: posts recentes": {
+      "main": [
+        [
+          {
+            "node": "Posts dos últimos 7 dias",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Posts dos últimos 7 dias": {
+      "main": [
+        [
+          {
+            "node": "IG: comentários do post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG: comentários do post": {
+      "main": [
+        [
+          {
+            "node": "Classificar comentários",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Classificar comentários": {
+      "main": [
+        [
+          {
+            "node": "É palavra-chave?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "É palavra-chave?": {
+      "main": [
+        [
+          {
+            "node": "IG: enviar DM (resposta privada)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "IG: ocultar comentário",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IG: enviar DM (resposta privada)": {
+      "main": [
+        [
+          {
+            "node": "IG: responder comentário",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Recife"
+  },
+  "active": false
+}
