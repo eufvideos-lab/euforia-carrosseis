@@ -217,6 +217,8 @@ def render(roteiro, saida):
             pg.wait_for_timeout(150)
             f = out / f"slide_{i:02d}.png"
             pg.screenshot(path=str(f), clip={"x": 0, "y": 0, "width": 1080, "height": 1350})
+            from PIL import Image
+            Image.open(f).convert("RGB").save(f.with_suffix(".jpg"), "JPEG", quality=92)  # API do Instagram só aceita JPEG
             print(f)
         br.close()
     if data.get("legenda"):
