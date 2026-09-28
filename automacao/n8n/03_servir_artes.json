@@ -1,0 +1,261 @@
+{
+  "name": "Euforia | Servir artes (para o Instagram)",
+  "nodes": [
+    {
+      "id": "5017ca7e-f5a5-43cc-81f1-d35d7f5291cf",
+      "name": "Pedido da arte",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "ddec6ed9-a370-4c12-9734-fd1b1902b94a",
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "arte-euforia",
+        "responseMode": "responseNode",
+        "options": {}
+      }
+    },
+    {
+      "id": "0ce905f7-00da-49c1-973f-453d45131d59",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        300
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "4c259a00-d96c-4368-8e1e-19b5191b4ca9",
+              "name": "chave",
+              "value": "TROQUE_POR_UMA_SENHA_LONGA",
+              "type": "string"
+            },
+            {
+              "id": "4f87d7fe-0540-4ba7-921b-b986af2cd344",
+              "name": "repo",
+              "value": "eufvideos-lab/euforia-carrosseis",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "include": "all",
+        "options": {}
+      }
+    },
+    {
+      "id": "e73b9579-3e27-4a38-9adc-55a1f32a184a",
+      "name": "Validar pedido",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        300
+      ],
+      "parameters": {
+        "jsCode": "// Só entrega arquivos de arte (slide_XX.jpg/png dentro de carrosseis/) e só com a chave certa\nconst q = $('Pedido da arte').first().json.query || {};\nconst cfg = $('Config').first().json;\nconst p = String(q.p || '');\nconst ok = q.k === cfg.chave && /^carrosseis\\/[A-Za-z0-9_\\-]+\\/slide_\\d{2}\\.(jpg|png)$/.test(p);\nreturn [{ json: { ok, path: p, tipo: p.endsWith('.png') ? 'image/png' : 'image/jpeg', repo: cfg.repo } }];"
+      }
+    },
+    {
+      "id": "96e1292c-4471-489f-99ce-9a6bd7dbabc9",
+      "name": "Pedido válido?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        660,
+        300
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "1e5ff6be-e1e7-40b1-8b75-a8321e9cfb48",
+              "leftValue": "={{ $json.ok }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "0db8fd08-a665-4a50-b56a-deee42b4c840",
+      "name": "GitHub: baixar arte",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        200
+      ],
+      "parameters": {
+        "url": "=https://api.github.com/repos/{{ $json.repo }}/contents/{{ $json.path }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github.raw"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "TROCAR",
+          "name": "GitHub Euforia"
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "id": "23bf3a97-0fbb-4d85-ac33-9e8698d81507",
+      "name": "Entregar imagem",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        180
+      ],
+      "parameters": {
+        "respondWith": "binary",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "={{ $('Validar pedido').first().json.tipo }}"
+              },
+              {
+                "name": "Cache-Control",
+                "value": "public, max-age=3600"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "9638705a-09b6-4665-bb85-c4e09b24fe6f",
+      "name": "Não encontrado",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1100,
+        420
+      ],
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "not found",
+        "options": {
+          "responseCode": 404
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Pedido da arte": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Validar pedido",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validar pedido": {
+      "main": [
+        [
+          {
+            "node": "Pedido válido?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pedido válido?": {
+      "main": [
+        [
+          {
+            "node": "GitHub: baixar arte",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Não encontrado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GitHub: baixar arte": {
+      "main": [
+        [
+          {
+            "node": "Entregar imagem",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Não encontrado",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false
+}

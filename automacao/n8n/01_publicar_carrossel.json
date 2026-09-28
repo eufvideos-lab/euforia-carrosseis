@@ -41,8 +41,8 @@
             },
             {
               "id": "aa6bef56-e1bd-4fe9-8aaf-0836f53488e1",
-              "name": "githubBase",
-              "value": "https://raw.githubusercontent.com/eufvideos-lab/euforia-carrosseis/main/",
+              "name": "baseArtes",
+              "value": "https://n8n.grupoeuforia.tech/webhook/arte-euforia?k=TROQUE_POR_UMA_SENHA_LONGA&p=",
               "type": "string"
             },
             {
@@ -101,7 +101,7 @@
         300
       ],
       "parameters": {
-        "jsCode": "// Pega o primeiro post agendado que já passou do horário e monta a lista de artes (JPEG no GitHub)\nconst res = $input.first().json;\nif (!res.results || res.results.length === 0) return []; // nada pra postar agora\nconst page = res.results[0];\nconst p = page.properties;\nconst txt = (rt) => (rt || []).map(t => t.plain_text).join('');\nconst pasta = txt(p['Pasta das artes']?.rich_text).trim().replace(/^\\/+|\\/+$/g, '');\nconst total = p['Slides']?.number || 0;\nconst legenda = txt(p['Legenda']?.rich_text);\nconst base = $('Config').first().json.githubBase;\nlet erro = '';\nif (!pasta) erro = 'Campo \"Pasta das artes\" vazio';\nelse if (total < 2 || total > 10) erro = 'Campo \"Slides\" precisa ser entre 2 e 10 (carrossel)';\nelse if (!legenda) erro = 'Campo \"Legenda\" vazio';\nif (legenda.length > 2200) erro = 'Legenda passa de 2.200 caracteres';\nconst urls = [];\nfor (let i = 1; i <= total; i++) urls.push(`${base}${pasta}/slide_${String(i).padStart(2, '0')}.jpg`);\nreturn [{ json: { pageId: page.id, titulo: txt(p['Título']?.title), legenda, urls, erro } }];"
+        "jsCode": "// Pega o primeiro post agendado que já passou do horário e monta a lista de artes (JPEG servido pelo fluxo 03)\nconst res = $input.first().json;\nif (!res.results || res.results.length === 0) return []; // nada pra postar agora\nconst page = res.results[0];\nconst p = page.properties;\nconst txt = (rt) => (rt || []).map(t => t.plain_text).join('');\nconst pasta = txt(p['Pasta das artes']?.rich_text).trim().replace(/^\\/+|\\/+$/g, '');\nconst total = p['Slides']?.number || 0;\nconst legenda = txt(p['Legenda']?.rich_text);\nconst base = $('Config').first().json.baseArtes;\nlet erro = '';\nif (!pasta) erro = 'Campo \"Pasta das artes\" vazio';\nelse if (total < 2 || total > 10) erro = 'Campo \"Slides\" precisa ser entre 2 e 10 (carrossel)';\nelse if (!legenda) erro = 'Campo \"Legenda\" vazio';\nif (legenda.length > 2200) erro = 'Legenda passa de 2.200 caracteres';\nconst urls = [];\nfor (let i = 1; i <= total; i++) urls.push(`${base}${pasta}/slide_${String(i).padStart(2, '0')}.jpg`);\nreturn [{ json: { pageId: page.id, titulo: txt(p['Título']?.title), legenda, urls, erro } }];"
       }
     },
     {
