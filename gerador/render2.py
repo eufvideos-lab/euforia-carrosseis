@@ -34,7 +34,6 @@ def img_uri(path):
     return f"data:{mime};base64,{b64(path)}"
 
 LOGO_BRANCA = img_uri(MARCA / "logo_branca.png")
-LOGO_PRETA = img_uri(MARCA / "logo_preta.png")
 
 ICON = """<svg class="icone" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg"><defs>
 <linearGradient id="ig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB072"/><stop offset="1" stop-color="#FF5A00"/></linearGradient></defs>
@@ -130,6 +129,40 @@ b{font-weight:800}
 .cta .p{font-size:36px}
 .palavra{display:inline-block;font:800 120px/1 'Barlow Condensed';letter-spacing:.03em;background:linear-gradient(90deg,#FF7A1A,#FF4D00);color:#fff;padding:14px 40px 10px;border-radius:22px;box-shadow:0 16px 50px rgba(255,77,0,.4)}
 .rod{position:absolute;bottom:70px;left:0;right:0;text-align:center;font:500 26px 'Inter';opacity:.6}
+
+/* ===== institucional ===== */
+.hl.menor{font-size:112px}
+.capa .fundo{position:absolute;inset:0;background-size:cover;background-position:center;filter:saturate(.9) brightness(.8)}
+.capa.comfundo .halo{opacity:.55}
+.capa.comfundo .base{height:820px;background:linear-gradient(180deg,transparent,rgba(10,10,10,.92) 38%,#0A0A0A 60%)}
+.full{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(.75)}
+.fullgrad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,.55) 0%,rgba(10,10,10,0) 25%,rgba(10,10,10,.2) 45%,rgba(10,10,10,.92) 70%,#0A0A0A 100%)}
+.fototxt{position:absolute;left:80px;right:80px;bottom:190px;display:flex;flex-direction:column;gap:26px;color:#fff}
+.nums4{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.n4{background:#fff;border-radius:26px;padding:34px 30px;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+.escuro .n4{background:#161616;border:1px solid #262626;box-shadow:none}
+.n4 .v{font:800 96px/1 'Barlow Condensed';background:linear-gradient(180deg,#FF9A4A,#FF4D00);-webkit-background-clip:text;background-clip:text;color:transparent}
+.n4 .l{margin-top:12px;font:600 28px/1.3 'Inter'}
+.canais{display:grid;gap:22px}
+.canal{display:flex;align-items:center;gap:34px;background:#fff;border-radius:30px;padding:34px 36px;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+.escuro .canal{background:#161616;border:1px solid #262626;box-shadow:none}
+.canal img{width:190px;height:190px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 0 0 6px #fff,0 0 0 10px #FF6A1A}
+.escuro .canal img{box-shadow:0 0 0 6px #161616,0 0 0 10px #FF6A1A}
+.canal .cn{font:800 44px/1.12 'Inter'}
+.canal .ch{margin-top:10px;font:500 30px 'Inter';opacity:.6}
+.canal .yt{margin-left:auto;flex:none;width:64px;height:46px;border-radius:12px;background:#FF0000;position:relative}
+.canal .yt::after{content:"";position:absolute;left:25px;top:13px;border-left:18px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent}
+.valor .vn{font:800 230px/.8 'Barlow Condensed';background:linear-gradient(180deg,#FFB072,#FF4D00);-webkit-background-clip:text;background-clip:text;color:transparent}
+.valor .vt{font:800 34px 'Inter';letter-spacing:.12em;text-transform:uppercase;margin-top:26px;color:#FF5A00}
+.escuro .valor .vt{color:#FF8A3D}
+.valor .vf{font:800 88px/1.02 'Barlow Condensed';text-transform:uppercase;margin-top:18px}
+.valor .vd{font:400 34px/1.45 'Inter';opacity:.9;margin-top:26px}
+.imagem{width:100%;border-radius:28px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.25)}
+.imagem img{display:block;width:100%;height:100%;object-fit:cover}
+.galeria{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:330px 330px;gap:18px}
+.galeria div{border-radius:24px;overflow:hidden}
+.galeria div:first-child{grid-row:span 2}
+.galeria img{width:100%;height:100%;object-fit:cover;display:block}
 """
 
 def rich(t):
@@ -172,6 +205,18 @@ def bloco(b):
             for i, (h, d) in enumerate(b["itens"], 1)) + "</div>"
     if k == "fonte":
         return f'<div class="fonte">{rich(b["texto"])}</div>'
+    if k == "numeros":
+        return '<div class="nums4">' + "".join(f'<div class="n4"><div class="v">{rich(v)}</div><div class="l">{rich(l)}</div></div>' for v, l in b["itens"]) + "</div>"
+    if k == "canais":
+        return '<div class="canais">' + "".join(
+            f'<div class="canal"><img src="{img_uri(ROOT / c["foto"])}"><div><div class="cn">{rich(c["nome"])}</div><div class="ch">{rich(c.get("handle",""))}</div></div><i class="yt"></i></div>'
+            for c in b["itens"]) + "</div>"
+    if k == "valor":
+        return f'<div class="valor"><div class="vn">{html.escape(b["numero"])}</div><div class="vt">{rich(b["titulo"])}</div><div class="vf">{rich(b["frase"])}</div><div class="vd">{rich(b.get("texto",""))}</div></div>'
+    if k == "imagem":
+        return f'<div class="imagem" style="height:{b.get("altura",520)}px"><img src="{img_uri(ROOT / b["foto"])}" style="object-position:{b.get("posicao","center")}"></div>'
+    if k == "galeria":
+        return '<div class="galeria">' + "".join(f'<div><img src="{img_uri(ROOT / f)}"></div>' for f in b["fotos"]) + "</div>"
     if k == "espaco":
         return f'<div style="height:{b.get("px",20)}px"></div>'
     raise ValueError(k)
@@ -182,13 +227,25 @@ def slide(s, i, n):
     if tipo == "capa":
         linhas = "".join(
             f'<span class="{"d" if dest else ""}">{rich(txt)}</span><br>' for txt, dest in s["titulo_linhas"])
-        return f'''<div class="s capa"><div class="halo"></div><img class="pessoa" src="{img_uri(s["foto"])}">
+        if s.get("fundo"):
+            topo = f'<div class="fundo" style="background-image:url({img_uri(ROOT / s["fundo"])});background-position:{s.get("posicao","center")}"></div>'
+            cls = "s capa comfundo"
+        else:
+            topo = f'<div class="halo"></div><img class="pessoa" src="{img_uri(s["foto"])}">'
+            cls = "s capa"
+        tam = "menor" if s.get("titulo_menor") else ""
+        return f'''<div class="{cls}">{topo}
 <div class="base"></div><div class="topo"></div><img class="logo" src="{LOGO_BRANCA}">
-<div class="txt"><span class="selo">{rich(s["selo"])}</span><div class="hl">{linhas}</div><div class="st">{rich(s["subtitulo"])}</div></div>{cred}<div class="grain"></div></div>'''
+<div class="txt"><span class="selo">{rich(s["selo"])}</span><div class="hl {tam}">{linhas}</div><div class="st">{rich(s["subtitulo"])}</div></div>{cred}<div class="grain"></div></div>'''
     if tipo == "cta":
         return f'''<div class="s escuro cta"><img class="logo" src="{LOGO_BRANCA}"><div class="corpo">
 <div class="t m">{rich(s["titulo"])}</div><div class="p">{rich(s["texto"])}</div><div><span class="palavra">{html.escape(s["palavra"])}</span></div>
 <div class="p pequeno">{rich(s.get("apos",""))}</div></div><div class="rod">{rich(s.get("rodape",""))}</div><div class="grain"></div></div>'''
+    if tipo == "foto":
+        corpo = "".join(bloco(b) for b in s["blocos"])
+        barra = f'<div class="barra">{rich(s["barra"])}<span class="seta">→</span></div>' if s.get("barra") else ""
+        return f'''<div class="s escuro"><div class="full" style="background-image:url({img_uri(ROOT / s["fundo"])});background-position:{s.get("posicao","center")}"></div><div class="fullgrad"></div>{ICON}<div class="num">{i}/{n}</div>
+<div class="fototxt">{corpo}</div>{barra}<div class="grain"></div></div>'''
     tema = s.get("tema", "claro")
     foto = ""
     if s.get("foto"):

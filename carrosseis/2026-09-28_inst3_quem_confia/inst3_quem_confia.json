@@ -1,0 +1,140 @@
+{
+  "pauta": "Institucional 3: Quem confia no Grupo Euforia (clientes)",
+  "slides": [
+    {
+      "tipo": "capa",
+      "fundo": "assets/fotos/equipe_mesa.jpg",
+      "posicao": "center",
+      "selo": "Nossos parceiros",
+      "titulo_linhas": [
+        [
+          "Quem confia",
+          true
+        ],
+        [
+          "no Grupo Euforia",
+          false
+        ]
+      ],
+      "subtitulo": "Alguns dos canais que a gente ajuda a construir →"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "claro",
+      "blocos": [
+        {
+          "tipo": "rotulo",
+          "texto": "Canais que a gente ajuda a construir"
+        },
+        {
+          "tipo": "canais",
+          "itens": [
+            {
+              "foto": "assets/canais/ammg.jpg",
+              "nome": "As Melhores Músicas Gaúchas",
+              "handle": "@asmelhoresmusicasgauchas"
+            },
+            {
+              "foto": "assets/canais/acro.jpg",
+              "nome": "Nova Acrópole Brasil",
+              "handle": "@NovaAcropole"
+            },
+            {
+              "foto": "assets/canais/red.jpg",
+              "nome": "RedCast",
+              "handle": "@RedCastOficial"
+            }
+          ]
+        }
+      ],
+      "barra": "Tem mais"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "escuro",
+      "blocos": [
+        {
+          "tipo": "canais",
+          "itens": [
+            {
+              "foto": "assets/canais/raiam.jpg",
+              "nome": "Raiam Santos",
+              "handle": "@nomadedigitalraiam"
+            },
+            {
+              "foto": "assets/canais/gus.jpg",
+              "nome": "Dr. Gustavo Bonfadini",
+              "handle": "@gustavobonfadini"
+            },
+            {
+              "foto": "assets/canais/cnpj.jpg",
+              "nome": "Além do CNPJ",
+              "handle": "@AlemdoCNPJ"
+            }
+          ]
+        }
+      ],
+      "barra": "E mais"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "claro",
+      "blocos": [
+        {
+          "tipo": "canais",
+          "itens": [
+            {
+              "foto": "assets/canais/jp2.jpg",
+              "nome": "José Paulo",
+              "handle": "@JosePaulo-GIT"
+            },
+            {
+              "foto": "assets/canais/rg1.jpg",
+              "nome": "Rodrigo Góes",
+              "handle": "@rodrigo"
+            },
+            {
+              "foto": "assets/canais/cel.jpg",
+              "nome": "Coronel Leite",
+              "handle": "@CoronelLeite"
+            }
+          ]
+        }
+      ],
+      "barra": "Como a gente trabalha?"
+    },
+    {
+      "tipo": "conteudo",
+      "tema": "escuro",
+      "blocos": [
+        {
+          "tipo": "galeria",
+          "fotos": [
+            "assets/fotos/doutor_exame.jpg",
+            "assets/fotos/entrevista.jpg",
+            "assets/fotos/gravacao_sp.jpg"
+          ]
+        },
+        {
+          "tipo": "titulo",
+          "tam": "m",
+          "texto": "Do roteiro à câmera. ==Do Rio a São Paulo.=="
+        },
+        {
+          "tipo": "texto",
+          "texto": "Estratégia, gravação e edição com a mesma obsessão: fazer o conteúdo **virar resultado**."
+        }
+      ],
+      "barra": "Quer ser o próximo?"
+    },
+    {
+      "tipo": "cta",
+      "titulo": "Agende o seu *Raio-X gratuito*.",
+      "texto": "Em 15 minutos, olhamos o seu negócio e mostramos onde está o dinheiro parado no seu conteúdo.",
+      "palavra": "RAIO-X",
+      "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+      "rodape": "#pracimasempre"
+    }
+  ],
+  "legenda": "Quem confia no Grupo Euforia 🧡\n\nAs Melhores Músicas Gaúchas, Nova Acrópole Brasil, RedCast, Raiam Santos, Dr. Gustavo Bonfadini, Além do CNPJ, José Paulo, Rodrigo Góes e Coronel Leite.\n\nDo roteiro à câmera, do Rio a São Paulo: estratégia, gravação e edição com a mesma obsessão por fazer o conteúdo virar resultado.\n\nQuer ser o próximo?\n\n💬 Comente RAIO-X e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n\n#grupoeuforia #youtube #clientes #empresademidia #pracimasempre"
+}

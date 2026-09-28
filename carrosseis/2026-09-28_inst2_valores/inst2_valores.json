@@ -1,0 +1,16 @@
+{
+  "pauta": "Institucional 2: No que acreditamos (valores)",
+  "slides": [
+    {"tipo":"capa","fundo":"assets/fotos/editor.jpg","posicao":"center 40%","selo":"Nossos valores",
+     "titulo_linhas":[["5 coisas que a gente",false],["não negocia",true]],
+     "subtitulo":"O jeito __Grupo Euforia__ de trabalhar →"},
+    {"tipo":"conteudo","tema":"claro","blocos":[{"tipo":"valor","numero":"01","titulo":"Obsessão por resultado","frase":"Vaidade não paga conta.","texto":"Toda ação tem um propósito claro e mensurável: fazer o negócio do cliente **crescer e vender**."}],"barra":"O segundo é o mais polêmico"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[{"tipo":"valor","numero":"02","titulo":"Estratégia acima de tudo","frase":"Detestamos o postar por postar.","texto":"Cada vídeo, short ou carrossel tem uma função dentro do ecossistema. O **YouTube** é a nossa base."}],"barra":"O terceiro é o nosso grito"},
+    {"tipo":"foto","fundo":"assets/fotos/equipe_quadro.jpg","posicao":"center 60%","blocos":[{"tipo":"valor","numero":"03","titulo":"Cultura de entrega","frase":"#pracimasempre","texto":"Proatividade, responsabilidade e sangue no olho. **Em cada entrega.**"}],"barra":"E o quarto?"},
+    {"tipo":"conteudo","tema":"claro","blocos":[{"tipo":"valor","numero":"04","titulo":"Parceria de longo prazo","frase":"A gente acelera quem quer ser acelerado.","texto":"Relações duradouras, com **responsabilidade dos dois lados**."}],"barra":"O último sustenta todos"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[{"tipo":"valor","numero":"05","titulo":"Ética e transparência","frase":"Resultado sólido se constrói do jeito certo.","texto":"Processos claros, comunicação honesta e **crescimento sustentável**."}],"barra":"Se identificou?"},
+    {"tipo":"cta","titulo":"Se você pensa assim, *a gente devia conversar.*","texto":"Agende um Raio-X gratuito de 15 minutos com os nossos consultores.","palavra":"RAIO-X",
+     "apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"#pracimasempre"}
+  ],
+  "legenda": "5 coisas que a gente não negocia no Grupo Euforia:\n\n1️⃣ Obsessão por resultado: vaidade não paga conta.\n2️⃣ Estratégia acima de tudo: detestamos o postar por postar.\n3️⃣ Cultura de entrega: #pracimasempre.\n4️⃣ Parceria de longo prazo: a gente acelera quem quer ser acelerado.\n5️⃣ Ética e transparência: resultado sólido se constrói do jeito certo.\n\nQual desses mais combina com você? Conta aqui 👇\n\n💬 Comente RAIO-X e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n\n#grupoeuforia #valores #empresademidia #pracimasempre"
+}

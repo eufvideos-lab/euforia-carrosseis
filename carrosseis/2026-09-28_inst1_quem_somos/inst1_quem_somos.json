@@ -1,0 +1,38 @@
+{
+  "pauta": "Institucional 1: Quem somos (manifesto)",
+  "slides": [
+    {"tipo":"capa","fundo":"assets/fotos/equipe_ampla.jpg","posicao":"center 30%","selo":"Grupo Euforia","titulo_menor":true,
+     "titulo_linhas":[["Não somos uma agência.",false],["Somos uma empresa de mídia.",true]],
+     "subtitulo":"Arrasta pro lado e entenda a diferença →"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"titulo","texto":"Durante anos, o mercado ensinou que crescer no digital era ==postar todo dia==."},
+      {"tipo":"texto","texto":"A gente discorda.\n\nE construiu uma empresa inteira em cima dessa discordância."}],
+     "barra":"Por quê?"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"gigante","linha1":"Postar por postar","linha2":"é desperdício."},
+      {"tipo":"texto","texto":"Conteúdo sem estratégia custa **tempo, dinheiro e energia**. E não vira venda."}],
+     "barra":"Então o que a gente faz?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"imagem","foto":"assets/fotos/entrevista.jpg","altura":470},
+      {"tipo":"titulo","tam":"m","texto":"A gente constrói ==ecossistemas digitais==."},
+      {"tipo":"texto","texto":"Todo conteúdo tem uma função: gerar **autoridade**, **leads** ou **vendas**. Nada é feito pra ser desperdiçado."}],
+     "barra":"E qual é o motor disso?"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"imagem","foto":"assets/fotos/set_tv.jpg","altura":470},
+      {"tipo":"titulo","tam":"m","texto":"O motor é o ==YouTube==."},
+      {"tipo":"texto","texto":"O vídeo longo cria confiança de verdade. Shorts, reels e carrosséis distribuem essa confiança por todas as redes."}],
+     "barra":"E funciona?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"rotulo","texto":"Em números"},
+      {"tipo":"numeros","itens":[["+1 bi","de visualizações geradas"],["+10 mil","conteúdos produzidos"],["R$ 15,2 mi","gerados para parceiros"],["3 anos","de mercado"]]}],
+     "barra":"E pra onde a gente vai?"},
+    {"tipo":"foto","fundo":"assets/fotos/equipe_escritorio.jpg","posicao":"center","blocos":[
+      {"tipo":"rotulo","texto":"Nossa missão"},
+      {"tipo":"titulo","texto":"Ser a principal empresa de mídia parceira de ==experts==."},
+      {"tipo":"texto","texto":"Transformar conteúdo em receita e autoridade, de forma consistente e estratégica. O oposto do postar por postar."}],
+     "barra":"Quer isso no seu negócio?"},
+    {"tipo":"cta","titulo":"Estrutura antes da escala. Agende um *Raio-X gratuito*.","texto":"15 minutos com os nossos consultores pra mudar o rumo do seu negócio.","palavra":"RAIO-X",
+     "apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Bem-vindo ao Grupo Euforia. #pracimasempre"}
+  ],
+  "legenda": "Não somos uma agência. Somos uma empresa de mídia. 🧡\n\nDurante anos o mercado ensinou que crescer no digital era postar todo dia. A gente discorda.\n\nPostar por postar é desperdício. Aqui, todo conteúdo tem uma função: gerar autoridade, leads ou vendas. E o motor disso é o YouTube.\n\n+1 bilhão de visualizações geradas, +10 mil conteúdos produzidos, R$ 15,2 milhões gerados para parceiros, em 3 anos de mercado.\n\nNossa missão: ser a principal empresa de mídia parceira de experts, transformando conteúdo em receita e autoridade.\n\nEstrutura antes da escala.\n\n💬 Comente RAIO-X e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n\n#grupoeuforia #empresademidia #youtube #marketingdeconteudo #pracimasempre"
+}
