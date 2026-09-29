@@ -1,0 +1,45 @@
+{
+  "pauta": "Raio-X de YouTuber: Primo Rico (Thiago Nigro). AdSense estimado x Grupo Primo",
+  "fontes": [
+    "https://socialblade.com/youtube/handle/primorico",
+    "https://neofeed.com.br/wealth-management/grupo-primo-coloca-os-pes-na-faria-lima-e-mira-r-20-bilhoes/",
+    "https://neofeed.com.br/blog/home/muito-alem-do-primo-rico-a-milionaria-maquina-de-negocios-de-thiago-nigro/"
+  ],
+  "slides": [
+    {"tipo":"capa","foto":"assets/fotos/nigro3_recorte.png","selo":"Raio-X",
+     "titulo_linhas":[["O YouTube dele",false],["não é a renda",true]],
+     "subtitulo":"O que o __Primo Rico__ entendeu antes de todo mundo →",
+     "credito":"Foto: Guilherme Cácomo de Medeiros / Wikimedia Commons (CC BY-SA 4.0)"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"titulo","texto":"O canal O Primo Rico tem ==7,79 milhões== de inscritos."},
+      {"tipo":"stats","itens":[["7,79 mi","de inscritos"],["640 mi","de visualizações no total"],["~10,6 mi","de views nos últimos 30 dias"]]},
+      {"tipo":"fonte","texto":"Fonte: Social Blade, set/2026"}],
+     "barra":"Quanto isso paga em anúncio?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"rotulo","texto":"A conta do AdSense (estimativa)"},
+      {"tipo":"titulo","tam":"m","texto":"10,6 mi de views × US$ 0,25 a US$ 4 a cada mil views"},
+      {"tipo":"stats","itens":[["US$ 2,6 mil","por mês no cenário pessimista"],["US$ 42 mil","por mês no cenário otimista"]]},
+      {"tipo":"texto","tam":"pequeno","texto":"Faixa usada pelo Social Blade pra estimar ganho com anúncios. É estimativa, não faturamento declarado."}],
+     "barra":"Parece muito? Olha o resto."},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"rotulo","texto":"O Grupo Primo"},
+      {"tipo":"numeros","itens":[["R$ 250 mi","de receita só na área de investimentos (2024)"],["R$ 9 bi","sob gestão e consultoria"],["40 mi","de pessoas de audiência por mês"],["120 mil","assinantes da Finclass"]]},
+      {"tipo":"fonte","texto":"Fonte: NeoFeed, jan/2025"}],
+     "barra":"Como uma coisa leva à outra?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"gigante","linha1":"O canal não é a renda.","linha2":"É o funil."},
+      {"tipo":"texto","texto":"O vídeo gratuito educa, gera confiança e leva a pessoa pros produtos: **cursos, assinatura e consultoria de investimentos**."}],
+     "barra":"E tem mais um detalhe"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"citacao","texto":"“Nossa operação não depende mais da minha imagem.”","autor":"Thiago Nigro, à NeoFeed (2022)"},
+      {"tipo":"texto","texto":"Ele usou o rosto pra começar. E construiu uma **empresa** que não depende só dele pra vender."}],
+     "barra":"E o que isso tem a ver com você?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"titulo","texto":"Você não precisa de ==7 milhões== de inscritos."},
+      {"tipo":"texto","texto":"Precisa da mesma estrutura: **conteúdo que educa → confiança → oferta**.\n\nUm mentor com poucos milhares de inscritos certos pode vender mais que muito canal grande sem funil."}],
+     "barra":"Quer montar o seu funil?"},
+    {"tipo":"cta","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"FUNIL",
+     "apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem só pensa em views."}
+  ],
+  "legenda": "O YouTube do Primo Rico não é a renda. É o funil. 💰\n\nO canal tem 7,79 milhões de inscritos e fez cerca de 10,6 milhões de views nos últimos 30 dias (Social Blade). Pela faixa que o Social Blade usa, isso daria algo entre US$ 2,6 mil e US$ 42 mil por mês em anúncios. É uma estimativa.\n\nAgora olha o grupo por trás: R$ 250 milhões de receita só na área de investimentos em 2024, R$ 9 bilhões sob gestão e consultoria e 120 mil assinantes da Finclass (NeoFeed).\n\nO vídeo gratuito educa, gera confiança e leva a pessoa pros produtos.\n\nVocê não precisa de 7 milhões de inscritos. Precisa da mesma estrutura: conteúdo que educa, confiança e oferta.\n\n💬 Comente FUNIL e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem só pensa em views.\n\nFontes: Social Blade (set/2026), NeoFeed (jan/2025 e fev/2022). Foto: Guilherme Cácomo de Medeiros / Wikimedia Commons (CC BY-SA 4.0).\n\n#primorico #thiagonigro #youtube #funil #negocios"
+}

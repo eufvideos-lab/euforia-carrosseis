@@ -202,7 +202,7 @@ def bloco(b):
     if k == "numerados":
         return '<div class="nums">' + "".join(
             f'<div class="it"><div class="k">{i}</div><div><div class="h">{rich(h)}</div><div class="d">{rich(d)}</div></div></div>'
-            for i, (h, d) in enumerate(b["itens"], 1)) + "</div>"
+            for i, (h, d) in enumerate(b["itens"], b.get("inicio", 1))) + "</div>"
     if k == "fonte":
         return f'<div class="fonte">{rich(b["texto"])}</div>'
     if k == "numeros":

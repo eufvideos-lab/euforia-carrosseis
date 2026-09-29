@@ -1,0 +1,44 @@
+{
+  "pauta": "Notícia: estudo do Google mostra YouTube dominando a atenção na TV conectada (set/2026)",
+  "fontes": [
+    "https://exame.com/marketing/estudo-do-google-aponta-que-youtube-concentra-atencao-de-brasileiros-na-tv-conectada/",
+    "https://exame.com/marketing/youtube-registra-virada-historica-de-consumo-tv-conectada-ultrapassa-celular-no-brasil/"
+  ],
+  "slides": [
+    {"tipo":"capa","fundo":"assets/fotos/set_tv.jpg","posicao":"center 30%","selo":"Estudo do Google",
+     "titulo_linhas":[["O YouTube virou",false],["a TV da sala",true]],
+     "subtitulo":"E a maioria dos experts ainda não percebeu →"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"titulo","texto":"Mais de ==90 milhões== de brasileiros já assistem YouTube pela TV."},
+      {"tipo":"stats","itens":[["90 mi+","de brasileiros veem YouTube na TV"],["53%","do YouTube dos adultos já é na TV (Kantar, 2025)"],["300 lares","pesquisados de abril a julho de 2026"]]},
+      {"tipo":"fonte","texto":"Estudo Anatomia da Atenção, Amplified a pedido do Google (via Exame, set/2026)"}],
+     "barra":"E a atenção das pessoas?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"rotulo","texto":"Atenção ativa nos anúncios"},
+      {"tipo":"stats","itens":[["61,3%","de atenção ativa no YouTube na TV"],["+7 p.p.","acima da TV aberta, no mesmo anúncio"],["+85%","de atenção entre 18 e 29 anos vs. outras redes"]]},
+      {"tipo":"fonte","texto":"Fonte: Anatomia da Atenção (Amplified/Google, 2026)"}],
+     "barra":"O que isso quer dizer?"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"gigante","linha1":"A família voltou pro sofá.","linha2":"Só mudou o canal."},
+      {"tipo":"texto","texto":"O vídeo longo saiu do celular e foi pra tela grande. Hoje, quem ocupa a TV da sala é quem tem **canal no YouTube**."}],
+     "barra":"E no celular?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"titulo","texto":"No celular, o YouTube ==também ganhou==."},
+      {"tipo":"texto","texto":"**5,6 segundos** de atenção ativa por anúncio: mais que Instagram, TikTok e Facebook no mesmo estudo.\n\nE foi a **única** plataforma digital que aumentou a intenção de compra no curto prazo."}],
+     "barra":"E a nossa leitura?"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"rotulo","texto":"A nossa leitura"},
+      {"tipo":"numerados","itens":[
+        ["A TV mudou de dono","Quem produz vídeo longo ocupa o espaço que era das emissoras."],
+        ["Atenção vira confiança","Mais atenção gera mais memória. E memória vira venda."],
+        ["O curto chama, o longo fecha","Reels e shorts atraem. O vídeo longo convence."]]}],
+     "barra":"E o que isso tem a ver com você?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"titulo","texto":"O seu cliente já está no sofá, ==assistindo YouTube==."},
+      {"tipo":"texto","texto":"Se você é **mentor, consultor ou palestrante**, a pergunta não é mais *se* vale ter um canal.\n\nÉ quanto tempo você vai deixar esse espaço pro seu concorrente."}],
+     "barra":"Quer entrar na sala dele?"},
+    {"tipo":"cta","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"TELA",
+     "apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem ainda acha que YouTube é só entretenimento."}
+  ],
+  "legenda": "O YouTube virou a TV da sala. 📺\n\nUm estudo feito pela Amplified a pedido do Google (Anatomia da Atenção, 2026) mostrou que mais de 90 milhões de brasileiros já assistem YouTube pela TV.\n\nNa TV conectada, os anúncios do YouTube tiveram 61,3% de atenção ativa, 7 pontos acima da TV aberta no mesmo anúncio. E foi a única plataforma digital que aumentou a intenção de compra no curto prazo.\n\nA família voltou pro sofá. Só mudou o canal.\n\nSe você é mentor, consultor ou palestrante, a pergunta não é mais se vale ter um canal. É quanto tempo você vai deixar esse espaço pro seu concorrente.\n\n💬 Comente TELA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem ainda acha que YouTube é só entretenimento.\n\nFontes: Exame (set/2026 e out/2025), estudo Anatomia da Atenção (Amplified/Google), Kantar Ibope Media.\n\n#youtube #tvconectada #marketingdeconteudo #posicionamento #negocios"
+}

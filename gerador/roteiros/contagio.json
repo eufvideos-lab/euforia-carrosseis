@@ -1,0 +1,44 @@
+{
+  "pauta": "Livro: Contágio (Jonah Berger), os 6 princípios que fazem um conteúdo se espalhar",
+  "fontes": ["Contágio: por que as coisas pegam, Jonah Berger"],
+  "slides": [
+    {"tipo":"capa","foto":"assets/fotos/berger_recorte.png","selo":"O livro que explica",
+     "titulo_linhas":[["Por que uns posts",false],["viralizam",true]],
+     "subtitulo":"E os seus não, segundo __Jonah Berger__ →",
+     "credito":"Foto: Jonah Berger / Wikimedia Commons (CC BY-SA 3.0)"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"titulo","texto":"Viralizar não é sorte. ==É design.=="},
+      {"tipo":"texto","texto":"Jonah Berger, professor de marketing em Wharton, estudou por anos por que algumas ideias se espalham e outras morrem no feed.\n\nNo livro **Contágio**, ele chegou a *6 princípios*."}],
+     "barra":"Salva e vem comigo"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"numerados","itens":[
+        ["Moeda social","A gente compartilha o que nos faz parecer inteligente e por dentro."],
+        ["Gatilhos","O que está ligado ao dia a dia vira assunto."],
+        ["Emoção","Admiração, surpresa e indignação espalham. Conteúdo morno, não."]]}],
+     "barra":"Faltam três"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"numerados","inicio":4,"itens":[
+        ["Público","O que é visível é imitado. Ninguém copia o que não vê."],
+        ["Valor prático","A gente compartilha o que é útil pra alguém que conhece."],
+        ["Histórias","A ideia viaja escondida dentro de uma boa história."]]}],
+     "barra":"E qual é a lição?"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"gigante","linha1":"Ideia boa não se espalha sozinha.","linha2":"Ela é embalada."},
+      {"tipo":"texto","texto":"O conteúdo que circula foi **desenhado** pra circular."}],
+     "barra":"Como aplicar amanhã?"},
+    {"tipo":"conteudo","tema":"escuro","blocos":[
+      {"tipo":"rotulo","texto":"Na prática"},
+      {"tipo":"numerados","itens":[
+        ["Comece pela história","Conte o caso de um cliente, do problema à virada."],
+        ["Entregue valor prático","Passo a passo, checklist, erro comum."],
+        ["Mostre o bastidor","Deixe o seu trabalho à vista."]]}],
+     "barra":"E o que isso tem a ver com você?"},
+    {"tipo":"conteudo","tema":"claro","blocos":[
+      {"tipo":"titulo","texto":"Você já tem ==histórias== e ==valor prático== de sobra."},
+      {"tipo":"texto","texto":"Mentor, consultor, palestrante: está tudo nas suas sessões, aulas e palestras.\n\nFalta transformar isso em conteúdo feito pra circular. E num canal que trabalha por você anos depois, como o **YouTube**."}],
+     "barra":"Quer fazer o seu circular?"},
+    {"tipo":"cta","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"CONTÁGIO",
+     "apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem diz que o Instagram não entrega."}
+  ],
+  "legenda": "Viralizar não é sorte. É design. 🧠\n\nJonah Berger, professor de marketing em Wharton, estudou por anos por que algumas ideias se espalham e outras morrem no feed. No livro Contágio, ele chegou a 6 princípios:\n\n1️⃣ Moeda social: a gente compartilha o que nos faz parecer inteligente\n2️⃣ Gatilhos: o que está ligado ao dia a dia vira assunto\n3️⃣ Emoção: quando a gente sente, a gente compartilha\n4️⃣ Público: o que é visível é imitado\n5️⃣ Valor prático: útil pra alguém que eu conheço = compartilhado\n6️⃣ Histórias: a ideia viaja dentro de uma boa história\n\nSe você é mentor, consultor ou palestrante, já tem histórias e valor prático de sobra. Falta transformar isso em conteúdo feito pra circular.\n\nQual desses 6 você mais esquece na hora de postar? Conta aqui 👇\n\n💬 Comente CONTÁGIO e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve pra consultar antes do próximo post.\n\nFoto: Jonah Berger / Wikimedia Commons (CC BY-SA 3.0).\n\n#contagio #jonahberger #marketingdeconteudo #viralizar #livros"
+}
