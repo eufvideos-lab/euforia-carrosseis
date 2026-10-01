@@ -1,0 +1,203 @@
+{
+ "pauta": "Notícia: podcast Giggly Squad (nasceu numa live do Instagram em 2020) fecha contrato de ~US$ 140 mi com a SiriusXM (16/09/2026)",
+ "fontes": [
+  "https://www.siriusxm.com/blog/giggly-squad-siriusxm",
+  "https://entertainmentnow.com/bravo/paige-desorbo-hannah-berner-giggly-squad-deal/",
+  "https://www.playpodcast.net/giggly-squad-siriusxm-deal/"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "fundo": "assets/fotos/hannah.jpg",
+   "posicao": "46% center",
+   "selo": "~US$ 140 milhões",
+   "titulo_linhas": [
+    [
+     "Um podcast que",
+     false
+    ],
+    [
+     "nasceu numa live",
+     true
+    ]
+   ],
+   "subtitulo": "Como o __Giggly Squad__ virou empresa →",
+   "credito": "Foto: Darin Kamnetz / Wikimedia Commons (CC BY 4.0)",
+   "titulo_menor": true
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "texto": "Em 16 de setembro, a ==SiriusXM== fechou contrato com o podcast Giggly Squad."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Apresentado pelas amigas **Hannah Berner e Paige DeSorbo**. Comédia, namoro e cultura pop."
+    },
+    {
+     "tipo": "stats",
+     "itens": [
+      [
+       "~US$ 140 mi",
+       "valor reportado, por 4 anos"
+      ],
+      [
+       "3",
+       "empresas na disputa: SiriusXM, Amazon e Acast"
+      ],
+      [
+       "2x",
+       "episódios por semana"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "SiriusXM (16/09/2026) e newsletter Like and Subscribe, via Entertainment Now. A SiriusXM não divulgou o valor oficial."
+    }
+   ],
+   "barra": "E como isso começou?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "texto": "Em 2020, era só uma ==live==."
+    },
+    {
+     "tipo": "texto",
+     "texto": "No Instagram, em plena pandemia: duas amigas e um celular. Sem estúdio, sem emissora.\n\nSeis anos depois:"
+    },
+    {
+     "tipo": "chips",
+     "itens": [
+      "Top 10 de comédia",
+      "Turnê em 70 cidades",
+      "Best-seller do NYT",
+      "~US$ 140 mi"
+     ]
+    }
+   ],
+   "barra": "Mas por que alguém paga isso?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A conta"
+    },
+    {
+     "tipo": "titulo",
+     "tam": "m",
+     "texto": "Cerca de ==US$ 35 milhões por ano==."
+    },
+    {
+     "tipo": "texto",
+     "texto": "A SiriusXM não comprou episódios. Comprou **uma audiência fiel**, que volta toda semana há seis anos."
+    },
+    {
+     "tipo": "stats",
+     "itens": [
+      [
+       "US$ 125 mi",
+       "Call Her Daddy (2024)"
+      ],
+      [
+       "US$ 100 mi",
+       "SmartLess (2024)"
+      ],
+      [
+       "~US$ 140 mi",
+       "Giggly Squad (2026)"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Valores reportados pela imprensa americana (PlayPodcast, set/2026)"
+    }
+   ],
+   "barra": "Qual é a lição?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "linha1": "Conteúdo é o produto do dia.",
+     "linha2": "Audiência é o patrimônio."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Quem tem uma audiência que confia em você tem um ativo que dá pra **vender, licenciar e transformar em negócio**."
+    }
+   ],
+   "barra": "E a nossa leitura?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Comece simples",
+       "Elas começaram com um celular. Esperar o estúdio perfeito é a desculpa mais cara."
+      ],
+      [
+       "Constância",
+       "Episódio toda semana, por anos. Audiência cresce como juros compostos."
+      ],
+      [
+       "Uma marca, vários formatos",
+       "Podcast, vídeo, turnê e livro. A conversa virou empresa."
+      ]
+     ]
+    }
+   ],
+   "barra": "E o que isso tem a ver com você?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "titulo",
+     "texto": "Você não precisa de US$ 140 milhões."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Mas se você é **mentor, consultor ou palestrante**, já tem o que elas tinham em 2020: conversas que as pessoas querem ouvir.\n\nO que falta é transformar isso em *audiência própria*."
+    },
+    {
+     "tipo": "titulo",
+     "tam": "m",
+     "texto": "Comece pela ==primeira gravação==."
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "PODCAST",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem vive adiando o próprio podcast."
+  }
+ ],
+ "legenda": "Um podcast que começou numa live do Instagram acabou de fechar um contrato de cerca de US$ 140 milhões. 🎙️\n\nNo dia 16 de setembro, a SiriusXM fechou um acordo de 4 anos com o Giggly Squad, de Hannah Berner e Paige DeSorbo. A empresa não divulgou o valor, mas a imprensa americana reporta cerca de US$ 140 milhões, numa disputa que teve também Amazon e Acast.\n\nEm 2020, era só uma live: duas amigas, um celular e muita conversa. Seis anos depois, é top 10 de comédia, já fez turnê em 70 cidades e virou best-seller do New York Times.\n\nA SiriusXM não comprou episódios. Comprou uma audiência fiel.\n\nConteúdo é o produto do dia. Audiência é o patrimônio.\n\nSe você é mentor, consultor ou palestrante, já tem o que elas tinham em 2020: conversas que as pessoas querem ouvir. O que falta é transformar isso em audiência própria.\n\nO que te impede de gravar o primeiro episódio? Conta aqui 👇\n\n💬 Comente PODCAST e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem vive adiando o próprio podcast.\n\nFontes: SiriusXM (set/2026), Entertainment Now, PlayPodcast. Foto: Darin Kamnetz / Wikimedia Commons (CC BY 4.0).\n\n#podcast #youtube #creatoreconomy #marketingdeconteudo #negocios"
+}
