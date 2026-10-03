@@ -305,7 +305,7 @@ def slide(s, i, n, cat=""):
             topo = f'<div class="fundo" style="background-image:url({img_uri(ROOT / s["fundo"])});background-position:{s.get("posicao","center")}"></div>'
             cls = "s capa comfundo"
         else:
-            topo = f'<div class="halo"></div><img class="pessoa" src="{img_uri(s["foto"])}">'
+            topo = f'<div class="halo"></div><img class="pessoa" src="{img_uri(s["foto"])}" style="{s.get("foto_estilo","")}">'
             cls = "s capa"
         tam = "menor" if s.get("titulo_menor") else ""
         return f'''<div class="{cls}">{topo}

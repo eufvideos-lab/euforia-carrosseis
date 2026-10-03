@@ -8,12 +8,12 @@
  ],
  "slides": [
   {
-   "tipo": "capa_numero",
+   "tipo": "capa",
+   "foto": "assets/fotos/hormozi_recorte.png",
    "selo": "Recorde mundial",
-   "numero": "2,9 MI",
-   "linhas": [
+   "titulo_linhas": [
     [
-     "de livros vendidos",
+     "2,9 mi de livros",
      false
     ],
     [
@@ -21,7 +21,9 @@
      true
     ]
    ],
-   "subtitulo": "O que o __Alex Hormozi__ fez antes disso →"
+   "subtitulo": "O que o __Alex Hormozi__ fez antes disso →",
+   "credito": "Foto: divulgação / Acquisition.com",
+   "foto_estilo": "width:960px;bottom:270px"
   },
   {
    "tipo": "conteudo",
