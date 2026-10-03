@@ -1,0 +1,235 @@
+{
+ "pauta": "História de empresário: Alex Hormozi — de academias a recorde Guinness dando o método de graça",
+ "categoria": "História de negócio",
+ "fontes": [
+  "https://guinnessworldrecords.com/world-records/78599-fastest-selling-non-fiction-book",
+  "https://www.acquisition.com/",
+  "https://selfpublishing.com/alex-hormozi-book-launch/"
+ ],
+ "slides": [
+  {
+   "tipo": "capa_numero",
+   "selo": "Recorde mundial",
+   "numero": "2,9 MI",
+   "linhas": [
+    [
+     "de livros vendidos",
+     false
+    ],
+    [
+     "em 24 horas",
+     true
+    ]
+   ],
+   "subtitulo": "O que o __Alex Hormozi__ fez antes disso →"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "17 de agosto de 2025 · Las Vegas"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "O livro de negócios que ==quebrou um recorde== do Guinness"
+    },
+    {
+     "tipo": "texto",
+     "texto": "**$100M Money Models**, de Alex Hormozi, virou o livro de não ficção vendido mais rápido da história, num evento de lançamento ao vivo."
+    },
+    {
+     "tipo": "stats",
+     "itens": [
+      [
+       "2.917.443",
+       "cópias vendidas"
+      ],
+      [
+       "24 h",
+       "foi o tempo do recorde"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fonte: Guinness World Records. Parte das vendas veio de pacotes com vários livros (SelfPublishing.com)."
+    }
+   ],
+   "barra": "Mas quem é esse cara?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A trajetória"
+    },
+    {
+     "tipo": "linha_tempo",
+     "itens": [
+      [
+       "O começo",
+       "Academias",
+       "Ele começou no mercado fitness, ajudando academias a vender mais com a Gym Launch."
+      ],
+      [
+       "2021",
+       "Venda por US$ 46,2 mi",
+       "Gym Launch e Prestige Labs foram vendidas a um fundo."
+      ],
+      [
+       "Depois",
+       "Acquisition.com",
+       "Holding que investe e aconselha empresas: portfólio de US$ 250 mi+ por ano."
+      ],
+      [
+       "2025",
+       "Recorde Guinness",
+       "2,9 milhões de livros em 24 horas."
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: Acquisition.com (dados da própria empresa) e Guinness World Records"
+    }
+   ],
+   "barra": "E qual foi a virada?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "manchete",
+     "texto": "Ele ==dá de graça== o que outros cobram."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Os métodos que ele usou nas próprias empresas viraram **vídeos longos no YouTube e livros baratos**. Sem esconder o \"pulo do gato\"."
+    },
+    {
+     "tipo": "destaque",
+     "texto": "Resultado: **12 mi+** de pessoas seguem o conteúdo de negócios dele, e os dois primeiros livros passaram de **1 milhão** de cópias cada."
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fonte: Acquisition.com"
+    }
+   ],
+   "barra": "Mas como isso vira dinheiro?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A escada"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Cada degrau ==filtra e aproxima=="
+    },
+    {
+     "tipo": "funil",
+     "itens": [
+      [
+       "Conteúdo grátis",
+       "YouTube e redes",
+       "12 mi+",
+       "seguidores"
+      ],
+      [
+       "Livros",
+       "barato pra começar",
+       "1 mi+",
+       "cópias cada"
+      ],
+      [
+       "Workshops",
+       "presencial",
+       "12 mil",
+       "participantes"
+      ],
+      [
+       "Investimento",
+       "sócio das empresas",
+       "US$ 250 mi+",
+       "por ano"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Números divulgados pela Acquisition.com"
+    }
+   ],
+   "barra": "Qual é a lição?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "linha1": "Quem ensina de graça",
+     "linha2": "vende mais caro.",
+     "tam": "m"
+    },
+    {
+     "tipo": "texto",
+     "texto": "O conteúdo não concorre com a sua venda. Ele **prova que você sabe** antes da pessoa pagar qualquer coisa."
+    }
+   ],
+   "barra": "E o que isso tem a ver com você?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Você já tem o ==método==."
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Ensine o que você faz",
+       "Mentor, consultor e palestrante já têm o conteúdo pronto nas sessões e palestras."
+      ],
+      [
+       "Vídeo longo gera confiança",
+       "É no YouTube que a pessoa passa 20 minutos com você antes de comprar."
+      ],
+      [
+       "Monte a escada",
+       "Conteúdo grátis, uma oferta de entrada e a sua mentoria no topo."
+      ]
+     ]
+    }
+   ],
+   "barra": "Quer montar a sua escada?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "MÉTODO",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem tem medo de ensinar de graça."
+  }
+ ],
+ "legenda": "2,9 milhões de livros vendidos em 24 horas. 📚\n\nEm agosto de 2025, Alex Hormozi bateu o recorde do Guinness de livro de não ficção vendido mais rápido da história, com $100M Money Models.\n\nMas o recorde é só o fim da história. Ele começou no mercado fitness, ajudando academias a vender mais. Em 2021, vendeu a Gym Launch e a Prestige Labs por US$ 46,2 milhões. Hoje, a holding dele, a Acquisition.com, tem um portfólio de mais de US$ 250 milhões por ano.\n\nA virada? Ele dá de graça o que outros cobram. Os métodos que ele usa nas próprias empresas viraram vídeos longos no YouTube e livros baratos.\n\nQuem ensina de graça vende mais caro.\n\nSe você é mentor, consultor ou palestrante, você já tem o método. Falta colocar ele pra trabalhar por você.\n\nVocê tem medo de ensinar de graça? Conta aqui 👇\n\n💬 Comente MÉTODO e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem tem medo de ensinar de graça.\n\nFontes: Guinness World Records (ago/2025), Acquisition.com, SelfPublishing.com.\n\n#alexhormozi #negocios #marketingdeconteudo #youtube #empreendedorismo"
+}

@@ -92,6 +92,7 @@ b{font-weight:800}
 .bar.pos{background:linear-gradient(90deg,#FF7A1A,#FF4D00)}
 /* gigante */
 .gig{font:800 150px/.9 'Barlow Condensed';text-transform:uppercase;letter-spacing:-.01em}
+.gig.m{font-size:122px}
 .gig .g2{display:inline-block;background:linear-gradient(90deg,#FF7A1A,#FF4D00);color:#fff;padding:0 .12em .02em;border-radius:14px;margin-top:10px}
 /* numerados */
 .nums{display:grid;gap:22px}
@@ -163,6 +164,54 @@ b{font-weight:800}
 .galeria div{border-radius:24px;overflow:hidden}
 .galeria div:first-child{grid-row:span 2}
 .galeria img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* ===== v3: cabeçalho, progresso e blocos novos ===== */
+.prog{position:absolute;top:34px;left:80px;right:80px;display:flex;gap:8px}
+.prog i{flex:1;height:6px;border-radius:3px;background:currentColor;opacity:.13}
+.prog i.on{opacity:1;background:linear-gradient(90deg,#FF8A3D,#FF4D00)}
+.cat{position:absolute;top:72px;left:138px;font:800 21px 'Inter';letter-spacing:.16em;text-transform:uppercase;opacity:.55}
+.claro .pontos{position:absolute;inset:0;background-image:radial-gradient(rgba(20,20,20,.07) 1.6px,transparent 1.8px);background-size:34px 34px;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 30%,#000 70%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 30%,#000 70%,transparent 100%)}
+.mc{font:800 98px/.95 'Barlow Condensed';text-transform:uppercase;letter-spacing:-.005em}
+.mc.m{font-size:82px}
+.mc .tarja{border-radius:12px;padding:0 .12em}
+/* linha do tempo */
+.tl{position:relative;display:grid;gap:26px;padding-left:64px}
+.tl::before{content:"";position:absolute;left:18px;top:14px;bottom:14px;width:4px;border-radius:2px;background:linear-gradient(180deg,#FFB072,#FF4D00)}
+.tl .e{position:relative}
+.tl .e::before{content:"";position:absolute;left:-58px;top:8px;width:28px;height:28px;border-radius:50%;background:#F4F2EE;border:6px solid #FF5A00;box-sizing:border-box}
+.escuro .tl .e::before{background:#0A0A0A}
+.tl .e.ult::before{background:#FF5A00;box-shadow:0 0 0 8px rgba(255,90,0,.2)}
+.tl .ano{font:800 30px 'Barlow Condensed';letter-spacing:.06em;color:#FF5A00;text-transform:uppercase}
+.escuro .tl .ano{color:#FF8A3D}
+.tl .h{font:800 38px/1.18 'Inter';margin-top:2px}
+.tl .d{font:400 29px/1.38 'Inter';opacity:.8;margin-top:4px}
+/* funil */
+.funil{display:grid;gap:14px;justify-items:center}
+.fd{display:flex;align-items:center;justify-content:space-between;gap:24px;border-radius:22px;padding:26px 36px;color:#fff;box-shadow:0 10px 30px rgba(255,77,0,.18)}
+.fd .fl{font:800 34px/1.15 'Inter'}
+.fd .fl small{display:block;font:500 24px/1.3 'Inter';opacity:.85;margin-top:4px}
+.fd .fv{font:800 58px/1 'Barlow Condensed';white-space:nowrap;text-align:right}
+.fd .fv small{display:block;font:600 20px 'Inter';opacity:.85;margin-top:4px;letter-spacing:.02em}
+/* número herói */
+.heroi .hn{font:800 210px/.85 'Barlow Condensed';letter-spacing:-.01em;background:linear-gradient(180deg,#FFB072,#FF4D00);-webkit-background-clip:text;background-clip:text;color:transparent}
+.heroi .hl2{font:800 40px/1.2 'Inter';margin-top:18px}
+/* destaque (cartão) */
+.dq{background:#111;color:#fff;border-radius:26px;padding:34px 38px;border-left:10px solid #FF5A00;font:500 32px/1.42 'Inter'}
+.escuro .dq{background:#1A1A1A}
+.dq b{color:#FF8A3D}
+/* capa tipográfica */
+.capa.numero .aneis{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:1500px;height:1500px;border-radius:50%;background:repeating-radial-gradient(circle,rgba(255,110,30,.16) 0 2px,transparent 2px 70px);-webkit-mask-image:radial-gradient(circle,#000 20%,transparent 62%);mask-image:radial-gradient(circle,#000 20%,transparent 62%)}
+.capa.numero .halo{top:44%}
+.capa.numero .txt{bottom:auto;top:50%;transform:translateY(-46%)}
+.capa .gnum{font:800 300px/.82 'Barlow Condensed';letter-spacing:-.02em;background:linear-gradient(180deg,#FFFFFF 0%,#FFD2B0 45%,#FF6A1A 100%);-webkit-background-clip:text;background-clip:text;color:transparent;margin-top:30px;filter:drop-shadow(0 18px 50px rgba(255,80,0,.35))}
+.capa .gnum2{font:800 96px/.95 'Barlow Condensed';text-transform:uppercase;margin-top:6px}
+.capa .gnum2 .d{background:linear-gradient(90deg,#FF7A1A,#FF4D00);padding:0 .14em .02em;border-radius:12px}
+.capa .arrasta{position:absolute;bottom:62px;left:0;right:0;text-align:center;font:700 24px 'Inter';letter-spacing:.2em;text-transform:uppercase;opacity:.55}
+/* cta comentário */
+.coment{display:inline-flex;align-items:center;gap:22px;background:#fff;color:#141414;border-radius:999px;padding:18px 40px 18px 18px;box-shadow:0 18px 50px rgba(255,77,0,.35)}
+.coment .av{width:78px;height:78px;border-radius:50%;background:linear-gradient(135deg,#FFB072,#FF4D00);flex:none}
+.coment .cw{font:800 76px/1 'Barlow Condensed';letter-spacing:.04em;color:#FF4D00}
+.coment .cur{width:5px;height:64px;background:#FF4D00;border-radius:3px}
 """
 
 def rich(t):
@@ -198,7 +247,7 @@ def bloco(b):
             out += "</div></div>"
         return out + "</div>"
     if k == "gigante":
-        return f'<div class="gig">{rich(b["linha1"])}<br><span class="g2">{rich(b["linha2"])}</span></div>'
+        return f'<div class="gig {b.get("tam","")}">{rich(b["linha1"])}<br><span class="g2">{rich(b["linha2"])}</span></div>'
     if k == "numerados":
         return '<div class="nums">' + "".join(
             f'<div class="it"><div class="k">{i}</div><div><div class="h">{rich(h)}</div><div class="d">{rich(d)}</div></div></div>'
@@ -217,12 +266,37 @@ def bloco(b):
         return f'<div class="imagem" style="height:{b.get("altura",520)}px"><img src="{img_uri(ROOT / b["foto"])}" style="object-position:{b.get("posicao","center")}"></div>'
     if k == "galeria":
         return '<div class="galeria">' + "".join(f'<div><img src="{img_uri(ROOT / f)}"></div>' for f in b["fotos"]) + "</div>"
+    if k == "manchete":
+        return f'<div class="mc {b.get("tam","")}">{rich(b["texto"])}</div>'
+    if k == "linha_tempo":
+        its=b["itens"];out='<div class="tl">'
+        for j,(a,h,d) in enumerate(its):
+            out+=f'<div class="e{" ult" if j==len(its)-1 else ""}"><div class="ano">{rich(a)}</div><div class="h">{rich(h)}</div>'+(f'<div class="d">{rich(d)}</div>' if d else '')+'</div>'
+        return out+'</div>'
+    if k == "funil":
+        its=b["itens"];n=len(its);out='<div class="funil">'
+        for j,(l,sl,v,sv) in enumerate(its):
+            w=100-j*(34/max(1,n-1)); op=0.72+0.28*j/max(1,n-1)
+            out+=f'<div class="fd" style="width:{w:.0f}%;background:linear-gradient(90deg,rgba(255,122,26,{op:.2f}),rgba(255,77,0,{op:.2f}))"><div class="fl">{rich(l)}<small>{rich(sl)}</small></div><div class="fv">{rich(v)}<small>{rich(sv)}</small></div></div>'
+        return out+'</div>'
+    if k == "heroi":
+        return f'<div class="heroi"><div class="hn">{html.escape(b["numero"])}</div><div class="hl2">{rich(b["texto"])}</div></div>'
+    if k == "destaque":
+        return f'<div class="dq">{rich(b["texto"])}</div>'
     if k == "espaco":
         return f'<div style="height:{b.get("px",20)}px"></div>'
     raise ValueError(k)
 
-def slide(s, i, n):
+def cabecalho(i, n, cat):
+    prog = '<div class="prog">' + "".join(f'<i class="{"on" if j<=i else ""}"></i>' for j in range(1, n+1)) + '</div>'
+    return prog + (f'<div class="cat">{html.escape(cat)}</div>' if cat else "")
+
+def slide(s, i, n, cat=""):
     tipo = s["tipo"]
+    if tipo == "capa_numero":
+        return f'''<div class="s capa numero"><div class="aneis"></div><div class="halo"></div><div class="topo"></div><img class="logo" src="{LOGO_BRANCA}">
+<div class="txt"><span class="selo">{rich(s["selo"])}</span><div class="gnum">{html.escape(s["numero"])}</div><div class="gnum2">{"".join(f'<span class="{"d" if d else ""}">{rich(t)}</span><br>' for t, d in s["linhas"])}</div><div class="st">{rich(s["subtitulo"])}</div></div>
+<div class="arrasta">Arrasta pro lado →</div><div class="grain"></div></div>'''
     cred = f'<div class="credito">{html.escape(s["credito"])}</div>' if s.get("credito") else ""
     if tipo == "capa":
         linhas = "".join(
@@ -238,8 +312,10 @@ def slide(s, i, n):
 <div class="base"></div><div class="topo"></div><img class="logo" src="{LOGO_BRANCA}">
 <div class="txt"><span class="selo">{rich(s["selo"])}</span><div class="hl {tam}">{linhas}</div><div class="st">{rich(s["subtitulo"])}</div></div>{cred}<div class="grain"></div></div>'''
     if tipo == "cta":
+        palavra = (f'<div class="coment"><i class="av"></i><span class="cw">{html.escape(s["palavra"])}</span><i class="cur"></i></div>' if s.get("estilo") == "comentario"
+                   else f'<span class="palavra">{html.escape(s["palavra"])}</span>')
         return f'''<div class="s escuro cta"><img class="logo" src="{LOGO_BRANCA}"><div class="corpo">
-<div class="t m">{rich(s["titulo"])}</div><div class="p">{rich(s["texto"])}</div><div><span class="palavra">{html.escape(s["palavra"])}</span></div>
+<div class="t m">{rich(s["titulo"])}</div><div class="p">{rich(s["texto"])}</div><div>{palavra}</div>
 <div class="p pequeno">{rich(s.get("apos",""))}</div></div><div class="rod">{rich(s.get("rodape",""))}</div><div class="grain"></div></div>'''
     if tipo == "foto":
         corpo = "".join(bloco(b) for b in s["blocos"])
@@ -254,7 +330,9 @@ def slide(s, i, n):
     barra = f'<div class="barra">{rich(s["barra"])}<span class="seta">→</span></div>' if s.get("barra") else ""
     alinh = "topo" if s.get("alinhar") == "topo" else ""
     estilo = s.get("corpo_estilo", "")
-    return f'''<div class="s {tema}">{foto}{ICON}<div class="num">{i}/{n}</div>
+    cab = cabecalho(i, n, cat) if cat else ""
+    pontos = '<div class="pontos"></div>' if (cat and tema == "claro") else ""
+    return f'''<div class="s {tema}">{pontos}{foto}{ICON}{cab}<div class="num">{i}/{n}</div>
 <div class="corpo {alinh}" style="{estilo}">{corpo}</div>{barra}{cred}<div class="grain"></div></div>'''
 
 def render(roteiro, saida):
@@ -269,7 +347,7 @@ def render(roteiro, saida):
         br = pw.chromium.launch()
         pg = br.new_page(viewport={"width": 1080, "height": 1350})
         for i, s in enumerate(slides, 1):
-            pg.set_content(f"<!doctype html><html><head><meta charset='utf-8'><style>{FONT_CSS}{CSS}</style></head><body>{slide(s, i, len(slides))}</body></html>")
+            pg.set_content(f"<!doctype html><html><head><meta charset='utf-8'><style>{FONT_CSS}{CSS}</style></head><body>{slide(s, i, len(slides), data.get('categoria',''))}</body></html>")
             pg.evaluate("document.fonts.ready")
             pg.wait_for_timeout(150)
             f = out / f"slide_{i:02d}.png"
