@@ -1,0 +1,210 @@
+{
+ "pauta": "Raio-X de YouTuber: Manual do Mundo (Iberê Thenório e Mari Fulfaro) — 18 anos de constância e receita fora do YouTube",
+ "categoria": "Raio-X de YouTuber",
+ "fontes": [
+  "https://socialblade.com/youtube/handle/manualdomundo",
+  "https://meioemensagem.com.br/midia/manual-do-mundo-e-o-desafio-de-ser-relevante-alem-do-youtube",
+  "https://pt.wikipedia.org/wiki/Manual_do_Mundo"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "assets/fotos/ibere_capa.png",
+   "foto_estilo": "width:900px;bottom:260px",
+   "selo": "Raio-X de YouTuber",
+   "titulo_linhas": [
+    [
+     "Começou de madrugada,",
+     false
+    ],
+    [
+     "hoje tem 20 mi",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "Quanto o __Manual do Mundo__ fatura? →",
+   "credito": "Foto: Campus Party Brasil / Wikimedia Commons (CC BY-SA 2.0)"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O começo, em 2008"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "Câmera emprestada e ==trabalho de madrugada=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "**Iberê Thenório** era jornalista. **Mari Fulfaro**, terapeuta ocupacional. O canal nasceu à noite, depois do expediente, com vídeos simples de experimentos."
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: Meio & Mensagem (nov/2018) e Wikipédia"
+    }
+   ],
+   "barra": "E hoje?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O canal hoje"
+    },
+    {
+     "tipo": "numeros",
+     "itens": [
+      [
+       "20,5 mi",
+       "inscritos"
+      ],
+      [
+       "5,6 bi",
+       "visualizações"
+      ],
+      [
+       "3.382",
+       "vídeos publicados"
+      ],
+      [
+       "~56 mi",
+       "views nos últimos 30 dias"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fonte: Social Blade (out/2026). Views de 30 dias projetadas a partir dos últimos 14 dias."
+    }
+   ],
+   "barra": "Quanto isso rende de anúncio?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A conta (estimativa)"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Só de anúncio: ==US$ 14 mil a 223 mil== por mês"
+    },
+    {
+     "tipo": "destaque",
+     "texto": "**~56 mi** de views por mês × **US$ 0,25 a 4** a cada mil views (faixa usada pelo Social Blade)."
+    },
+    {
+     "tipo": "texto",
+     "tam": "pequeno",
+     "texto": "A faixa é larga porque o valor por mil views muda com o público, o país e a época do ano. É uma estimativa, não o faturamento real."
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Base: Social Blade"
+    }
+   ],
+   "barra": "Mas o anúncio é o principal?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "As fontes de receita"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "O dinheiro vem ==de vários lugares=="
+    },
+    {
+     "tipo": "chips",
+     "itens": [
+      "Anúncios",
+      "Projetos com marcas",
+      "Livros",
+      "Licenciamento",
+      "Eventos e shows",
+      "TV (Cartoon Network)"
+     ]
+    },
+    {
+     "tipo": "citacao",
+     "texto": "“Diminuir as receitas de publicidade em vídeo, fortalecendo as frentes de negócio off-line.”",
+     "autor": "Mari Fulfaro, ao Meio & Mensagem (2018)"
+    }
+   ],
+   "barra": "E qual é a lição?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "18 anos. 3.382 vídeos.",
+     "linha2": "Nenhum atalho."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Três vídeos por semana, ano após ano. O Manual do Mundo não viralizou uma vez: **apareceu toda semana** até virar referência."
+    }
+   ],
+   "barra": "E a nossa leitura?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Use o que ==você já tem=="
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Comece pequeno",
+       "Eles começaram com câmera emprestada. Você já tem um celular melhor."
+      ],
+      [
+       "Constância vence talento",
+       "Um calendário fixo de vídeos vale mais que um vídeo perfeito."
+      ],
+      [
+       "Audiência abre portas",
+       "Livro, palestra, evento, parceria. Tudo veio depois do canal."
+      ]
+     ]
+    }
+   ],
+   "barra": "Quer começar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "CONSTÂNCIA",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem vive esperando o momento perfeito."
+  }
+ ],
+ "legenda": "Começou de madrugada, com câmera emprestada. Hoje tem 20,5 milhões de inscritos. 🔬\n\nEm 2008, Iberê Thenório (jornalista) e Mari Fulfaro (terapeuta ocupacional) criaram o Manual do Mundo à noite, depois do expediente.\n\nHoje o canal tem 5,6 bilhões de visualizações e 3.382 vídeos. Pelos dados do Social Blade, faz cerca de 56 milhões de views por mês, o que daria algo entre US$ 14 mil e US$ 223 mil por mês só em anúncios. É uma estimativa.\n\nMas o anúncio nunca foi o plano inteiro. O dinheiro vem de projetos com marcas, livros, licenciamento, eventos e até TV. Nas palavras da Mari, a ideia é diminuir a dependência da publicidade em vídeo e fortalecer os negócios fora dela.\n\n18 anos. 3.382 vídeos. Nenhum atalho.\n\nSe você é mentor, consultor ou palestrante, não precisa de um vídeo viral. Precisa aparecer toda semana.\n\nO que te impede de começar o seu canal? Conta aqui 👇\n\n💬 Comente CONSTÂNCIA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem vive esperando o momento perfeito.\n\nFontes: Social Blade (out/2026), Meio & Mensagem (2018), Wikipédia. Foto: Campus Party Brasil / Wikimedia Commons (CC BY-SA 2.0).\n\n#manualdomundo #youtube #criadordeconteudo #marketingdeconteudo #negocios"
+}
