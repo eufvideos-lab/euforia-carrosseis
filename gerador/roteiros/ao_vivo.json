@@ -1,0 +1,52 @@
+{
+ "pauta": "Notícia quente: SBT News faz a maior live da história na cobertura da eleição (04/10/2026) + recordes da Copa no YouTube — o ao vivo mudou de endereço",
+ "categoria": "Notícia quente",
+ "fontes": [
+  "https://sbtnews.sbt.com.br/noticia/institucional/sbt-news-faz-historia-no-dia-das-eleicoes-no-youtube",
+  "https://blog.youtube/intl/pt-br/news-and-events/como-o-brasil-fez-historia-no-youtube-durante-a-copa-do-mundo-da-fifa-2026/"
+ ],
+ "slides": [
+  {"tipo":"capa_numero","selo":"Eleições 2026","numero":"785 MIL","linhas":[["pessoas ao mesmo tempo",false],["no YouTube",true]],
+   "subtitulo":"Até a TV já entendeu pra onde o público foi →"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+    {"tipo":"rotulo","texto":"Domingo, 4 de outubro"},
+    {"tipo":"manchete","texto":"A apuração da eleição bateu ==recorde no YouTube=="},
+    {"tipo":"texto","texto":"O **SBT News**, canal de notícias lançado em dezembro de 2025, fez a maior transmissão da sua história cobrindo o 1º turno. No YouTube."},
+    {"tipo":"stats","itens":[["785,8 mil","pessoas assistindo ao mesmo tempo, no pico"],["32,8 mi","de visualizações no dia"],["3,9 mi","de horas assistidas"]]},
+    {"tipo":"fonte","texto":"Fonte: dados divulgados pelo SBT News (out/2026)"}],
+   "barra":"Foi um caso isolado?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+    {"tipo":"rotulo","texto":"Três meses antes, na Copa"},
+    {"tipo":"manchete","tam":"m","texto":"O Brasil inteiro ==viu a Copa no YouTube=="},
+    {"tipo":"numeros","itens":[["23 mi","ao mesmo tempo em Espanha x França: recorde mundial"],["20 mi+","ao mesmo tempo em Brasil x Japão"],["120 mi+","de pessoas alcançadas pela CazéTV"],["70%+","do tempo assistido foi na TV da sala"]]},
+    {"tipo":"fonte","texto":"Fonte: Blog oficial do YouTube Brasil (jul/2026)"}],
+   "barra":"O que isso quer dizer?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+    {"tipo":"gigante","tam":"m","linha1":"O ao vivo mudou","linha2":"de endereço."},
+    {"tipo":"texto","texto":"Copa, eleição, os grandes momentos do país. O brasileiro continua no sofá, na frente da TV. Só que agora **o canal é o YouTube**."}],
+   "barra":"E tem um detalhe que pouca gente viu"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+    {"tipo":"rotulo","texto":"O detalhe"},
+    {"tipo":"manchete","tam":"m","texto":"Uma live vira ==dezenas de conteúdos=="},
+    {"tipo":"funil","itens":[
+      ["Transmissão ao vivo","a live completa","785,8 mil","no pico"],
+      ["Cortes","vídeos curtos horizontais","8,9 mi","de views"],
+      ["Shorts","vídeos verticais","7,6 mi","de views"]]},
+    {"tipo":"fonte","texto":"Fonte: SBT News. A mesma cobertura rendeu cortes e Shorts no mesmo dia."}],
+   "barra":"E a nossa leitura?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+    {"tipo":"rotulo","texto":"A nossa leitura"},
+    {"tipo":"numerados","itens":[
+      ["Ao vivo gera confiança","Quem responde ao vivo mostra que sabe. Não tem edição pra esconder."],
+      ["Uma gravação, vários formatos","A live vira cortes, Shorts e posts. O esforço é um só."],
+      ["Esteja onde o público está","Se até a TV montou canal no YouTube, o seu público também está lá."]]}],
+   "barra":"E o que isso tem a ver com você?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+    {"tipo":"manchete","texto":"Você não precisa de uma ==eleição== pra fazer live."},
+    {"tipo":"texto","texto":"Se você é **mentor, consultor ou palestrante**, uma aula aberta ou uma sessão de perguntas por semana já é uma live.\n\nDepois, cada resposta boa vira um *corte*."}],
+   "barra":"Quer montar a sua estratégia?"},
+  {"tipo":"cta","estilo":"comentario","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"LIVE",
+   "apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem ainda acha que live é coisa de gamer."}
+ ],
+ "legenda": "785 mil pessoas assistindo ao mesmo tempo. No YouTube. 📺\n\nNo domingo, 4 de outubro, o SBT News fez a maior transmissão da sua história cobrindo a apuração do 1º turno. Segundo o próprio canal, foram 785,8 mil pessoas ao mesmo tempo no pico, 32,8 milhões de visualizações e 3,9 milhões de horas assistidas.\n\nE não foi um caso isolado. Na Copa, Espanha x França bateu o recorde mundial de audiência simultânea no YouTube, com 23 milhões, e mais de 70% do tempo assistido foi na TV da sala.\n\nO ao vivo mudou de endereço.\n\nE tem um detalhe: a mesma cobertura virou 8,9 milhões de views em cortes e 7,6 milhões em Shorts. Uma live vira dezenas de conteúdos.\n\nSe você é mentor, consultor ou palestrante, não precisa de uma eleição pra fazer live. Uma aula aberta por semana já é o começo.\n\nVocê já fez live no YouTube? Conta aqui 👇\n\n💬 Comente LIVE e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem ainda acha que live é coisa de gamer.\n\nFontes: SBT News (out/2026), Blog oficial do YouTube Brasil (jul/2026).\n\n#youtube #live #marketingdeconteudo #posicionamento #negocios"
+}
