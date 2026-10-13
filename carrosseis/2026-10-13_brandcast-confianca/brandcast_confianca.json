@@ -1,0 +1,209 @@
+{
+ "pauta": "Notícia quente: Brandcast 2026 (07/10) — YouTube no Brasil: 130 mi de espectadores, 87% veem criadores mais confiáveis, podcast no YouTube supera Spotify",
+ "categoria": "Notícia quente",
+ "fontes": [
+  "https://www.meioemensagem.com.br/midia/youtube-focara-na-creator-economy-em-2027",
+  "https://exame.com/marketing/youtube-aposta-em-futebol-ia-e-creators-para-ampliar-negocios-em-2027"
+ ],
+ "slides": [
+  {
+   "tipo": "capa_numero",
+   "selo": "Brandcast 2026",
+   "numero": "87%",
+   "linhas": [
+    [
+     "acham mais confiáveis",
+     false
+    ],
+    [
+     "os criadores do YouTube",
+     true
+    ]
+   ],
+   "subtitulo": "E isso muda o jogo de quem vende conhecimento →"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Quarta, 7 de outubro · São Paulo"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "O tamanho do YouTube ==no país=="
+    },
+    {
+     "tipo": "texto",
+     "tam": "pequeno",
+     "texto": "Números apresentados no **Brandcast**, evento anual do YouTube para anunciantes."
+    },
+    {
+     "tipo": "numeros",
+     "itens": [
+      [
+       "130 mi",
+       "de brasileiros assistem YouTube"
+      ],
+      [
+       "90 mi+",
+       "veem criadores na TV conectada"
+      ],
+      [
+       "R$ 6 bi+",
+       "no PIB, gerados pelos criadores em 2025"
+      ],
+      [
+       "150 mil",
+       "empregos equivalentes"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: Meio & Mensagem e Exame (08/10/2026), com dados de Google, Kantar e Oxford Economics"
+    }
+   ],
+   "barra": "E o dado mais importante?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O dado que mais importa"
+    },
+    {
+     "tipo": "heroi",
+     "numero": "87%",
+     "texto": "da audiência concorda que o YouTube tem criadores mais confiáveis."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Não é sobre alcance. É sobre **acreditar** em quem está falando."
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Dado apresentado pelo YouTube no Brandcast 2026 (via Meio & Mensagem)"
+    }
+   ],
+   "barra": "E tem mais um sinal"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Onde o brasileiro ouve podcast"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "O podcast ==também virou vídeo=="
+    },
+    {
+     "tipo": "comparativo",
+     "linhas": [
+      {
+       "nome": "Ouvintes semanais de podcast",
+       "detalhe": "no Brasil",
+       "barras": [
+        {
+         "rotulo": "YouTube",
+         "valor": 52,
+         "cor": "pos",
+         "texto": "52%"
+        },
+        {
+         "rotulo": "Spotify",
+         "valor": 30,
+         "cor": "fat",
+         "texto": "30%"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fonte: Google/Edison Research, citada no Brandcast (via Exame)"
+    }
+   ],
+   "barra": "O que isso quer dizer?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "Atenção se compra.",
+     "linha2": "Confiança se constrói."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Anúncio traz gente. Mas quem fecha uma mentoria, uma consultoria ou uma palestra é a **confiança**. E ela nasce de horas de vídeo assistidas."
+    }
+   ],
+   "barra": "E a nossa leitura?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Confiança vende serviço caro",
+       "Ninguém contrata uma mentoria de alto valor por um Reels de 15 segundos."
+      ],
+      [
+       "Tempo de tela vira autoridade",
+       "Um vídeo de 20 minutos faz o que 20 posts não fazem."
+      ],
+      [
+       "Um conteúdo, vários formatos",
+       "O vídeo longo vira podcast, corte e Shorts. Você grava uma vez."
+      ]
+     ]
+    }
+   ],
+   "barra": "E o que isso tem a ver com você?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "manchete",
+     "texto": "O seu cliente já confia ==em alguém== no YouTube."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Se você é **mentor, consultor ou palestrante**, a pergunta é: esse alguém é você ou o seu concorrente?"
+    }
+   ],
+   "barra": "Quer ser esse alguém?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "CONFIANÇA",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem ainda vende só no boca a boca."
+  }
+ ],
+ "legenda": "87% da audiência concorda que o YouTube tem os criadores mais confiáveis. 🎯\n\nNa última quarta (7/10), o YouTube fez o Brandcast, evento anual para anunciantes, e mostrou o tamanho da plataforma no Brasil: 130 milhões de brasileiros assistindo, mais de 90 milhões vendo criadores pela TV conectada e mais de R$ 6 bilhões gerados no PIB pela economia dos criadores em 2025.\n\nOutro sinal: 52% dos ouvintes semanais de podcast no Brasil usam o YouTube pra ouvir. No Spotify, são 30%.\n\nAtenção se compra. Confiança se constrói.\n\nAnúncio traz gente. Mas quem fecha uma mentoria, uma consultoria ou uma palestra é a confiança. E ela nasce de horas de vídeo assistidas.\n\nSe você é mentor, consultor ou palestrante, o seu cliente já confia em alguém no YouTube. Esse alguém é você ou o seu concorrente?\n\n💬 Comente CONFIANÇA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem ainda vende só no boca a boca.\n\nFontes: Meio & Mensagem e Exame (out/2026), com dados de Google, Kantar, Oxford Economics e Edison Research.\n\n#youtube #brandcast #marketingdeconteudo #posicionamento #negocios"
+}
