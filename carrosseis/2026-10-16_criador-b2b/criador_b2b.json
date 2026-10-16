@@ -1,0 +1,200 @@
+{
+ "pauta": "Notícia quente: Billion Dollar Boy compra a Creator Authority (14/10/2026) — criador B2B é a próxima fronteira da creator economy (\"parece o YouTube em 2010\")",
+ "categoria": "Notícia quente",
+ "fontes": [
+  "https://dnyuz.com/2026/10/14/billion-dollar-boy-just-made-an-acquisition-that-points-to-influencer-marketings-next-hot-opportunity/ (repost da Business Insider, 14/10/2026)",
+  "https://dealroom.co/news/162681-billion-dollar-boys-first-acquisition-bets-100m-on-b2b-creator-marketing/ (Dealroom, 14/10/2026)"
+ ],
+ "slides": [
+  {
+   "tipo": "capa_numero",
+   "selo": "Creator economy · out/2026",
+   "numero": "20%",
+   "linhas": [
+    [
+     "dos decisores de marketing",
+     false
+    ],
+    [
+     "já investem",
+     true
+    ],
+    [
+     "em criador B2B",
+     false
+    ]
+   ],
+   "subtitulo": "E quem entende do assunto diz: “parece o YouTube em 2010” →"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Quarta, 14 de outubro"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Uma empresa de criadores ==comprou outra=="
+    },
+    {
+     "tipo": "texto",
+     "tam": "pequeno",
+     "texto": "A **Billion Dollar Boy**, grupo global de marketing de influência, fez a primeira aquisição da sua história: a **Creator Authority**, especializada em criadores que falam com empresas (o tal do B2B)."
+    },
+    {
+     "tipo": "numeros",
+     "itens": [
+      [
+       "70",
+       "negócios de compra e venda na creator economy no 1º semestre de 2026"
+      ],
+      [
+       "+23%",
+       "em relação ao mesmo período de 2025"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: Business Insider e Dealroom (14/10/2026), com dados da Quartermast Advisors"
+    }
+   ],
+   "barra": "E por que isso importa?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Quem vendeu a empresa"
+    },
+    {
+     "tipo": "citacao",
+     "texto": "“Parece o YouTube em 2010. Tem um momento em que simplesmente explode.”",
+     "autor": "Brendan Gahan, fundador da Creator Authority"
+    },
+    {
+     "tipo": "texto",
+     "texto": "Detalhe: o negócio começou com **uma mensagem no LinkedIn**, depois que os sócios da compradora passaram a acompanhar o conteúdo dele."
+    }
+   ],
+   "barra": "E quem já está apostando?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Quem já está investindo"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Empresa ==sem glamour== na frente"
+    },
+    {
+     "tipo": "numeros",
+     "itens": [
+      [
+       "20%",
+       "dos decisores de marketing investiram em criador B2B em 2026"
+      ],
+      [
+       "33%",
+       "em arquitetura, engenharia e construção"
+      ],
+      [
+       "24%",
+       "na indústria e em serviços públicos"
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "tam": "pequeno",
+     "texto": "E o **LinkedIn** lançou um marketplace de criadores e passou a dividir receita de anúncio com eles."
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Pesquisa Censuswide para a Billion Dollar Boy (set/2026), 1.000+ decisores nos EUA e Reino Unido, via Business Insider"
+    }
+   ],
+   "barra": "O que isso quer dizer?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "O próximo grande criador não dança.",
+     "linha2": "Ele ensina."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Engenheiro, advogado, contador, consultor. Quem explica bem o próprio mercado vira **referência** pra quem compra nele."
+    }
+   ],
+   "barra": "E a nossa leitura?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "O especialista virou mídia",
+       "Marca grande está pagando pra falar com o público que você já atende."
+      ],
+      [
+       "Nicho pequeno, ticket alto",
+       "Não precisa de milhões de views. Precisa das pessoas certas assistindo."
+      ],
+      [
+       "Quem chega primeiro, fica",
+       "Em 2010 o YouTube tinha espaço sobrando. O conteúdo B2B está nesse momento agora."
+      ]
+     ]
+    }
+   ],
+   "barra": "E o que isso tem a ver com você?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "manchete",
+     "texto": "O seu cliente ==já procura== alguém que explique o mercado dele."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Se você é **mentor, consultor ou palestrante**, esse alguém pode ser você. No YouTube, onde a busca não para nunca."
+    }
+   ],
+   "barra": "Quer começar agora?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "AUTORIDADE",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem acha que conteúdo é coisa de influencer."
+  }
+ ],
+ "legenda": "“Parece o YouTube em 2010.” 🚀\n\nNa quarta (14/10), a Billion Dollar Boy, grupo global de marketing de influência, fez a primeira aquisição da sua história: comprou a Creator Authority, especializada em criadores que falam com empresas, o famoso B2B.\n\nE não é um caso isolado. Foram 70 negócios de compra e venda na creator economy só no primeiro semestre de 2026, 23% a mais que no ano anterior.\n\nUma pesquisa encomendada pela compradora com mais de mil decisores de marketing nos EUA e no Reino Unido mostrou que 20% já investiram em criador B2B em 2026. Na frente estão arquitetura, engenharia e construção (33%) e indústria (24%). E o LinkedIn já divide receita de anúncio com criadores.\n\nO próximo grande criador não dança. Ele ensina.\n\nSe você é mentor, consultor ou palestrante, o seu cliente já procura alguém que explique o mercado dele. Esse alguém pode ser você.\n\nVocê já produz conteúdo pro seu mercado? Conta aqui 👇\n\n💬 Comente AUTORIDADE e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem acha que conteúdo é coisa de influencer.\n\nFontes: Business Insider e Dealroom (out/2026), com dados da Quartermast Advisors e da Censuswide.\n\n#creatoreconomy #b2b #youtube #marketingdeconteudo #autoridade"
+}
