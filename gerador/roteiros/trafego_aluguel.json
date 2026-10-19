@@ -1,0 +1,114 @@
+{
+ "pauta": "DOSSIÊ 01 (vídeo do @flau.henrique): TRÁFEGO PAGO ESTÁ TE DEIXANDO POBRE. Carrossel: anúncio é aluguel, conteúdo é ativo.",
+ "categoria": "Dossiê",
+ "fontes": [
+  "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm (Meta, 10-Q do 1º tri/2025: preço médio por anúncio +10% a/a)",
+  "https://www.marketingdive.com/news/metas-ad-biz-stays-strong-but-economic-regulatory-uncertainty-looms/746838/ (Marketing Dive, abr/2025)",
+  "https://www.reformatributaria.com/wp-content/uploads/2025/09/Comunicado-oficial-Meta.pdf (comunicado da Meta: PIS/Cofins 9,25% + ISS 2,9% repassados desde 01/01/2026)",
+  "https://tecnoblog.net/noticias/meta-decide-repassar-os-custos-com-impostos-no-brasil-para-os-anunciantes/ (Tecnoblog)",
+  "Números oficiais do Grupo Euforia: 250 ecossistemas, R$ 15,2 mi faturados para clientes, 1,8 bi de visualizações"
+ ],
+ "slides": [
+  {
+   "tipo": "capa_numero",
+   "selo": "Dossiê · Tráfego pago",
+   "numero": "+12%",
+   "linhas": [["a mais em cada anúncio", false], ["no Brasil", true], ["desde janeiro", false]],
+   "subtitulo": "Tráfego pago está te deixando __pobre__? →"
+  },
+  {
+   "tipo": "conteudo", "tema": "claro",
+   "blocos": [
+    {"tipo": "rotulo", "texto": "Pensa assim"},
+    {"tipo": "manchete", "texto": "Anúncio é ==aluguel=="},
+    {"tipo": "texto", "texto": "Enquanto você paga, alguém te vê.\n\nNo dia em que para de pagar, **você some**. Não fica nada."}
+   ],
+   "barra": "E esse aluguel só sobe"
+  },
+  {
+   "tipo": "conteudo", "tema": "claro",
+   "blocos": [
+    {"tipo": "rotulo", "texto": "A conta subiu"},
+    {"tipo": "manchete", "tam": "m", "texto": "Pagar pra aparecer ==ficou mais caro=="},
+    {"tipo": "numeros", "itens": [
+      ["+10%", "no preço médio do anúncio da Meta em um ano (1º tri de 2025)"],
+      ["+12,15%", "de impostos repassados a quem anuncia no Brasil desde jan/2026"]
+    ]},
+    {"tipo": "texto", "tam": "pequeno", "texto": "Na prática: R$ 1.000 de anúncio viram **R$ 1.121,50** na fatura."},
+    {"tipo": "fonte", "texto": "Fontes: relatório trimestral da Meta (abr/2025) e comunicado da Meta aos anunciantes (PIS/Cofins 9,25% + ISS 2,9%)"}
+   ],
+   "barra": "Mas o problema maior é outro"
+  },
+  {
+   "tipo": "conteudo", "tema": "escuro",
+   "blocos": [
+    {"tipo": "gigante", "tam": "m", "linha1": "Especialista vende confiança.", "linha2": "E confiança não nasce em 15 segundos."},
+    {"tipo": "texto", "texto": "Ninguém contrata um advogado, um consultor ou um mentor porque foi **interrompido no meio do story do primo**."}
+   ],
+   "barra": "Então o que fazem os que têm fila?"
+  },
+  {
+   "tipo": "conteudo", "tema": "claro",
+   "blocos": [
+    {"tipo": "rotulo", "texto": "O que eles fazem diferente"},
+    {"tipo": "manchete", "tam": "m", "texto": "Eles não alugam atenção. ==Constroem um ativo.=="},
+    {"tipo": "texto", "texto": "Gravam uma vez, e aquilo trabalha por anos. Um conteúdo de dois anos atrás ainda traz cliente às 3 da manhã de um domingo.\n\nE esse cliente chega depois de te assistir por horas: **pedindo pra fechar, não pedindo desconto**."}
+   ],
+   "barra": "Quer ver na prática?"
+  },
+  {
+   "tipo": "conteudo", "tema": "escuro",
+   "blocos": [
+    {"tipo": "rotulo", "texto": "Exemplo ilustrativo"},
+    {"tipo": "manchete", "tam": "m", "texto": "Dois advogados. ==Mesma cidade.=="},
+    {"tipo": "numerados", "itens": [
+      ["Advogado 1", "Paga anúncio todo mês e passa o dia explicando quem ele é."],
+      ["Advogado 2", "Tem 50 vídeos respondendo as dúvidas que o cliente digita na busca."]
+    ]},
+    {"tipo": "texto", "texto": "Os dois são bons. **Em quem o cliente confia primeiro?**"}
+   ],
+   "barra": "E como se monta isso?"
+  },
+  {
+   "tipo": "conteudo", "tema": "claro",
+   "blocos": [
+    {"tipo": "rotulo", "texto": "Grava uma vez, alimenta tudo"},
+    {"tipo": "manchete", "tam": "m", "texto": "Um ==ecossistema==, não um post solto"},
+    {"tipo": "chips", "itens": ["Vídeo longo", "Cortes curtos", "Carrossel", "Post", "Resposta pronta no WhatsApp"]},
+    {"tipo": "texto", "tam": "pequeno", "texto": "Cada peça leva pro mesmo lugar: **até você**. E quem chega já vem aquecido."},
+    {"tipo": "stats", "itens": [["250", "ecossistemas digitais construídos"], ["R$ 15,2 mi", "faturados para clientes"], ["1,8 bi", "de visualizações"]]},
+    {"tipo": "fonte", "texto": "Números do Grupo Euforia"}
+   ],
+   "barra": "E o que te deixa de fora?"
+  },
+  {
+   "tipo": "conteudo", "tema": "escuro",
+   "blocos": [
+    {"tipo": "rotulo", "texto": "3 erros que te deixam de fora"},
+    {"tipo": "numerados", "itens": [
+      ["Postar por postar", "Conteúdo sem estratégia é barulho. Não traz cliente, só cansa."],
+      ["Depender só de indicação", "Indicação é ótima, mas você não controla. Um mês vem, outro não."],
+      ["Achar que precisa virar influencer", "Não precisa dançar nem expor a sua vida. Precisa mostrar o que sabe pras pessoas certas."]
+    ]}
+   ],
+   "barra": "Então o tráfego é o vilão?"
+  },
+  {
+   "tipo": "conteudo", "tema": "escuro",
+   "blocos": [
+    {"tipo": "gigante", "linha1": "Tráfego não é o vilão.", "linha2": "O problema é depender só dele."},
+    {"tipo": "texto", "texto": "Quem tem fila de cliente não é mais bonito nem mais carismático que você. **Só parou de alugar atenção e começou a construir.**"}
+   ],
+   "barra": "Quer construir o seu?"
+  },
+  {
+   "tipo": "cta", "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "ATIVO",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem vive só de anúncio."
+  }
+ ],
+ "legenda": "Anúncio é aluguel. Conteúdo é ativo. 🧾\n\nEnquanto você paga, alguém te vê. Parou de pagar, você some. E esse aluguel só sobe: o preço médio do anúncio na Meta subiu 10% em um ano (1º tri de 2025) e, desde janeiro de 2026, quem anuncia no Brasil paga 12,15% a mais de impostos em cada anúncio.\n\nMas o problema maior nem é o preço. Especialista vende confiança, e confiança não nasce em 15 segundos interrompendo alguém no meio do story.\n\nOs especialistas com fila de cliente gravam uma vez e alimentam tudo: vídeo longo, cortes, carrossel, post, resposta pronta no WhatsApp. Cada peça leva pro mesmo lugar, e quem chega já vem aquecido.\n\nTráfego não é o vilão. O problema é depender só dele.\n\nHoje você depende de anúncio, de indicação ou de conteúdo? Conta aqui 👇\n\n💬 Comente ATIVO e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem vive só de anúncio.\n\nFontes: relatório trimestral da Meta (abr/2025) e comunicado da Meta aos anunciantes no Brasil (PIS/Cofins 9,25% + ISS 2,9%, desde 01/01/2026).\n\n#marketingdeconteudo #trafegopago #autoridade #empreendedorismo #negocios"
+}
