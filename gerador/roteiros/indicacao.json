@@ -1,0 +1,43 @@
+{
+ "pauta": "Institucional: pare de depender de indicação (ecossistema digital = indicação em escala)",
+ "categoria": "Institucional",
+ "fontes": ["Números oficiais do Grupo Euforia (250 ecossistemas, R$ 15,2 mi faturados para clientes, 1,8 bi de visualizações)"],
+ "slides": [
+  {"tipo":"capa","fundo":"assets/fotos/gravacao_sp.jpg","posicao":"center","selo":"Pare de depender de indicação","titulo_linhas":[["Seu próximo cliente",false],["depende de",false],["alguém lembrar de você?",true]],"titulo_menor":true,"subtitulo":"Indicação é ótima. Mas ela __não é sua__ →"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"A real"},
+   {"tipo":"manchete","texto":"Indicação é ótima. ==Mas não é sua.=="},
+   {"tipo":"texto","texto":"Ela depende de alguém lembrar de você, na hora certa, e falar bem.\n\nUm mês chegam três clientes. No outro, nenhum. **Você não controla a torneira.**"}
+  ],"barra":"E o problema não para aí"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"rotulo","texto":"O teto invisível"},
+   {"tipo":"numerados","itens":[
+    ["Você não escolhe quem chega","Vem o amigo do amigo. Nem sempre é o cliente que você quer atender."],
+    ["Você não consegue planejar","Sem saber quanto entra no mês que vem, não dá pra contratar, investir nem crescer."],
+    ["Seu preço fica preso","Quem chega por indicação quer pagar o mesmo que quem indicou."]
+   ]}
+  ],"barra":"Então qual é a saída?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"gigante","tam":"m","linha1":"Indicação traz quem já te conhece.","linha2":"Conteúdo faz o mundo te conhecer."},
+   {"tipo":"texto","texto":"O especialista com agenda cheia não é melhor que você. **Ele só é encontrado por quem ainda não sabia que ele existia.**"}
+  ],"barra":"E como isso funciona?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"Indicação em escala"},
+   {"tipo":"manchete","tam":"m","texto":"Seu conteúdo ==te indica== 24 horas por dia"},
+   {"tipo":"texto","texto":"Um bom vídeo faz o que o seu melhor cliente faz: explica o que você resolve, tira a dúvida e passa confiança.\n\nA diferença é que ele **fala com milhares de pessoas ao mesmo tempo**. Inclusive às 3 da manhã de um domingo."}
+  ],"barra":"E sem virar influencer?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"Grava uma vez, alimenta tudo"},
+   {"tipo":"manchete","tam":"m","texto":"Um ==ecossistema digital==, não um post solto"},
+   {"tipo":"texto","tam":"pequeno","texto":"Você grava uma vez. Daquilo saem vídeo longo, cortes, carrossel e post, todos levando pro mesmo lugar: **até você**. Quem chega já te assistiu e já confia."},
+   {"tipo":"stats","itens":[["250","ecossistemas digitais construídos"],["R$ 15,2 mi","faturados para clientes"],["1,8 bi","de visualizações"]]},
+   {"tipo":"fonte","texto":"Números do Grupo Euforia"}
+  ],"barra":"Isso serve pra você?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"manchete","texto":"Se você é ==bom no que faz==, já tem a parte mais difícil."},
+   {"tipo":"texto","texto":"Mentor, consultor, terapeuta, advogado, palestrante: **quem tem resultado no offline já tem o que mostrar.** Só falta mostrar pras pessoas certas, todo dia, sem depender da memória de ninguém."}
+  ],"barra":"Quer montar o seu?"},
+  {"tipo":"cta","estilo":"comentario","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"FILA","apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem vive só de indicação."}
+ ],
+ "legenda": "Indicação é ótima. Mas ela não é sua. 🔁\n\nEla depende de alguém lembrar de você, na hora certa, e falar bem. Um mês chegam três clientes, no outro nenhum. E sem saber quanto entra no mês que vem, não dá pra contratar, investir nem crescer.\n\nIndicação traz quem já te conhece. Conteúdo faz o mundo te conhecer.\n\nUm bom vídeo faz o que o seu melhor cliente faz: explica o que você resolve, tira a dúvida e passa confiança. Só que fala com milhares de pessoas ao mesmo tempo, inclusive às 3 da manhã de um domingo.\n\nÉ isso que a gente chama de ecossistema digital: você grava uma vez e daquilo saem vídeo longo, cortes, carrossel e post, todos levando até você. Quem chega já te assistiu e já confia.\n\nHoje, de onde vem a maioria dos seus clientes? Conta aqui 👇\n\n💬 Comente FILA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem vive só de indicação.\n\n#marketingdeconteudo #autoridade #empreendedorismo #negocios #consultoria"
+}
