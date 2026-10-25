@@ -1,0 +1,43 @@
+{
+ "pauta": "Notícia quente: YouTube Fair 2026 (20/10, São Paulo) — canal virou negócio",
+ "categoria": "Notícia quente",
+ "fontes": ["https://exame.com/negocios/youtube-reune-produtoras-e-canais-em-sp-para-mostrar-o-futuro-da-creator-economy/","https://propmark.com.br/digital/youtube-fair-reune-marcas-e-criadores-para-apresentar-projetos-de-conteudo-para-2027/","https://telaviva.com.br/21/10/2026/youtube-fair-2026-conecta-marcas-e-criadores-para-transformar-conteudo-em-novos-negocios/"],
+ "slides": [
+  {"tipo":"capa","fundo":"assets/fotos/set_tv.jpg","posicao":"center","selo":"YouTube Fair 2026","titulo_linhas":[["O YouTube fez",false],["uma feira de",false],["negócios.",true]],"titulo_menor":true,"subtitulo":"E o recado é pra __quem tem canal__ →"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"O fato"},
+   {"tipo":"manchete","texto":"Em 20/10, o YouTube fez a ==1ª YouTube Fair== em São Paulo"},
+   {"tipo":"texto","texto":"Na mesma sala: **criadores, produtoras, marcas e investidores.** A ideia era apresentar projetos de conteúdo para 2027 e fechar negócio."},
+   {"tipo":"fonte","texto":"Fontes: Exame, Propmark e Tela Viva (21/10/2026)"}
+  ],"barra":"E o que foi apresentado?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"rotulo","texto":"O que estava na vitrine"},
+   {"tipo":"chips","itens":["Novelas","Realities","Microdramas","Ligas esportivas","Programas de gastronomia"]},
+   {"tipo":"texto","texto":"Foram **15 parceiros** apresentando apostas. O Podpah chegou a gravar um episódio ao vivo dentro do evento."}
+  ],"barra":"E o que o Google disse?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"citacao","texto":"“O mercado de conteúdo mudou, e o YouTube Fair nasce para reunir os diferentes lados desse ecossistema.”","autor":"Líder de Projetos de Conteúdo do Google, segundo a Propmark"}
+  ],"barra":"Qual é a leitura?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"gigante","tam":"m","linha1":"Canal não é passatempo.","linha2":"É ativo de negócio."},
+   {"tipo":"texto","texto":"Quando o próprio YouTube monta uma feira pra marca e investidor, **ele está dizendo onde a atenção e o dinheiro estão indo.**"}
+  ],"barra":"E se eu não sou o Podpah?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"A nossa leitura"},
+   {"tipo":"manchete","tam":"m","texto":"Você não precisa de novela. Precisa ==ser encontrado.=="},
+   {"tipo":"texto","texto":"Pro mentor, consultor ou advogado, o jogo é menor e mais direto: **um canal que responde o que o seu cliente pesquisa** e leva quem assistiu até a sua agenda."}
+  ],"barra":"Como isso vira cliente?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"Grava uma vez, alimenta tudo"},
+   {"tipo":"numerados","itens":[
+    ["Vídeo longo","Responde a dúvida que trava a compra. Fica sendo encontrado por meses."],
+    ["Cortes e carrosséis","Levam o mesmo assunto pro Instagram, sem gravar de novo."],
+    ["Caminho até você","Cada peça aponta pro mesmo lugar: a sua agenda."]
+   ]},
+   {"tipo":"stats","itens":[["250","ecossistemas digitais construídos"],["1,8 bi","de visualizações"]]},
+   {"tipo":"fonte","texto":"Números do Grupo Euforia"}
+  ],"barra":"Quer ver como fica o seu?"},
+  {"tipo":"cta","estilo":"comentario","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"EMPRESA","apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem ainda acha que canal é hobby."}
+ ],
+ "legenda": "O YouTube fez uma feira de negócios. E isso diz muito. 📺\n\nNo dia 20 de outubro, o YouTube realizou em São Paulo a primeira YouTube Fair: criadores, produtoras, marcas e investidores na mesma sala, com 15 parceiros apresentando projetos para 2027. Novelas, realities, microdramas, ligas esportivas. O Podpah gravou um episódio ao vivo lá dentro.\n\n“O mercado de conteúdo mudou, e o YouTube Fair nasce para reunir os diferentes lados desse ecossistema”, disse a líder de Projetos de Conteúdo do Google, segundo a Propmark.\n\nA leitura é simples: canal deixou de ser passatempo. É ativo de negócio.\n\nE você não precisa de novela pra isso. Pro mentor, consultor, advogado ou terapeuta, o jogo é mais direto: um canal que responde o que o seu cliente pesquisa e leva quem assistiu até a sua agenda. Grava uma vez, e daquilo saem cortes, carrosséis e posts, todos apontando pra você.\n\nVocê trata o seu conteúdo como hobby ou como empresa? Conta aqui 👇\n\n💬 Comente EMPRESA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem ainda acha que canal é hobby.\n\nFontes: Exame, Propmark e Tela Viva (21/10/2026).\n\n#marketingdeconteudo #autoridade #empreendedorismo #negocios #youtube"
+}
