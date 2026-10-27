@@ -1,0 +1,43 @@
+{
+ "pauta": "História de empresário: Gary Vaynerchuk e o Wine Library TV (loja da família + programa no YouTube)",
+ "categoria": "História de empresário",
+ "fontes": ["https://en.wikipedia.org/wiki/Gary_Vaynerchuk","https://garyvaynerchuk.com/biography/"],
+ "slides": [
+  {"tipo":"capa","fundo":"assets/fotos/estudio_sofa.jpg","posicao":"center","selo":"História de empresário","titulo_linhas":[["Uma loja de vinho,",false],["uma câmera e",false],["US$ 60 milhões.",true]],"titulo_menor":true,"subtitulo":"A história de __Gary Vaynerchuk__ →"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"O começo"},
+   {"tipo":"manchete","texto":"Ele não era influencer. ==Ele vendia vinho.=="},
+   {"tipo":"texto","texto":"Gary Vaynerchuk trabalhava na loja de bebidas da família, em Nova Jersey (EUA). Um negócio de bairro, como tantos outros.\n\n**Em 2006, ele ligou uma câmera dentro da loja.**"}
+  ],"barra":"E o que ele gravava?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"rotulo","texto":"O Wine Library TV"},
+   {"tipo":"manchete","tam":"m","texto":"Um programa diário no YouTube ==sobre o que ele já sabia=="},
+   {"tipo":"texto","texto":"Ele provava vinhos e explicava do jeito dele, sem estúdio e sem cara de TV. O programa foi um dos primeiros formatos longos e episódicos do YouTube.\n\n**Foram cerca de 1.000 episódios, de 2006 a 2011.**"}
+  ],"barra":"E o que aconteceu com a loja?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"Os números"},
+   {"tipo":"stats","itens":[["US$ 3 a 4 mi","de vendas por ano quando ele assumiu"],["US$ 60 mi","de vendas por ano durante a gestão dele"],["~1.000","episódios do programa"]]},
+   {"tipo":"texto","tam":"pequeno","texto":"Não foi só o vídeo: ele também levou as vendas da loja pra internet. **Mas o programa colocou a loja na tela de quem nunca ia passar na porta dela.**"},
+   {"tipo":"fonte","texto":"Fontes: Wikipedia e biografia oficial (garyvaynerchuk.com). Valor inicial varia entre US$ 3 e 4 mi conforme a fonte."}
+  ],"barra":"Qual é a lição?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"gigante","tam":"m","linha1":"Ele não virou influencer.","linha2":"Virou a referência."},
+   {"tipo":"texto","texto":"Quem queria entender de vinho assistia ao Gary. **E quem confia em quem ensina, compra de quem ensina.**"}
+  ],"barra":"E pro meu negócio?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"A nossa leitura"},
+   {"tipo":"manchete","tam":"m","texto":"Seu negócio offline já tem ==o assunto do programa=="},
+   {"tipo":"texto","texto":"Mentor, consultor, advogado, terapeuta: o que você explica todo dia pro cliente na sala é exatamente o que outras pessoas estão procurando na internet.\n\n**Falta ligar a câmera e criar o caminho até você.**"}
+  ],"barra":"Por onde começar?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"O método, em 3 passos"},
+   {"tipo":"numerados","itens":[
+    ["Fale do que você já domina","Responda as dúvidas que o seu cliente traz. Não precisa inventar assunto."],
+    ["Grave uma vez, distribua tudo","Do vídeo longo saem cortes, carrossel e post para as outras redes."],
+    ["Aponte pro mesmo lugar","Cada conteúdo leva até a sua agenda. Quem chega já confia."]
+   ]}
+  ],"barra":"Quer montar o seu?"},
+  {"tipo":"cta","estilo":"comentario","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"REFERENCIA","apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem tem negócio físico e ainda não grava."}
+ ],
+ "legenda": "Uma loja de vinho, uma câmera e US$ 60 milhões. 🍷\n\nAntes de virar nome conhecido, Gary Vaynerchuk trabalhava na loja de bebidas da família, em Nova Jersey. Em 2006, ele ligou uma câmera dentro da loja e criou o Wine Library TV: um programa diário no YouTube em que provava vinhos e explicava do jeito dele. Foram cerca de 1.000 episódios até 2011.\n\nDurante a gestão dele, as vendas da loja passaram de algo entre US$ 3 e 4 milhões para US$ 60 milhões por ano. Não foi só o vídeo (ele também levou as vendas pra internet), mas o programa colocou a loja na tela de quem nunca ia passar na porta dela.\n\nEle não virou influencer. Virou a referência. E quem confia em quem ensina, compra de quem ensina.\n\nPro mentor, consultor, advogado ou terapeuta vale a mesma lógica: o que você explica todo dia na sala é exatamente o que as pessoas procuram na internet. Grava uma vez, distribui em todas as redes e aponta tudo pra sua agenda.\n\nVocê já é a referência do seu assunto na sua cidade? E fora dela? 👇\n\n💬 Comente REFERENCIA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem tem negócio físico e ainda não grava.\n\nFontes: Wikipedia e biografia oficial de Gary Vaynerchuk.\n\n#marketingdeconteudo #autoridade #empreendedorismo #negocios #historiadeempresario"
+}
