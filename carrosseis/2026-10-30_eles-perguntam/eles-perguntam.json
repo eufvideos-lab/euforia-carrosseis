@@ -1,0 +1,43 @@
+{
+ "pauta": "Livro: They Ask, You Answer (Marcus Sheridan) e a empresa de piscinas que se salvou respondendo perguntas",
+ "categoria": "Livro",
+ "fontes": ["https://www.prnewsonline.com/to-save-his-business-marcus-sheridan-became-a-pool-reporter/","https://www.marketingspeak.com/sell-like-a-lion-lead-the-pride-marcus-sheridan/","https://www.getabstract.com/en/summary/they-ask-you-answer/45846"],
+ "slides": [
+  {"tipo":"capa","fundo":"assets/fotos/gravacao_sp.jpg","posicao":"center","selo":"Livro","titulo_linhas":[["Ele salvou a empresa",false],["respondendo o que",false],["o cliente pergunta.",true]],"titulo_menor":true,"subtitulo":"A ideia de __They Ask, You Answer__ →"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"O começo"},
+   {"tipo":"manchete","texto":"Uma empresa de piscinas ==quase quebrando=="},
+   {"tipo":"texto","texto":"Marcus Sheridan era sócio da River Pools, nos EUA. Na crise de 2008, os clientes sumiram e a empresa chegou perto da falência.\n\n**Sem dinheiro pra anúncio, ele fez outra coisa.**"}
+  ],"barra":"O que ele fez?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"rotulo","texto":"A virada"},
+   {"tipo":"manchete","tam":"m","texto":"Ele começou a responder ==em público== o que ouvia na venda"},
+   {"tipo":"texto","texto":"Preço, problemas, comparação com a concorrência. Tudo o que o cliente perguntava na visita virou conteúdo no site.\n\n**O primeiro texto: “Quanto custa uma piscina de fibra?”**"}
+  ],"barra":"E deu certo?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"O resultado"},
+   {"tipo":"manchete","tam":"m","texto":"O texto do preço ==virou o maior vendedor da empresa=="},
+   {"tipo":"texto","texto":"Segundo o próprio Sheridan, esse único artigo trouxe milhões de dólares em vendas ao longo dos anos. A River Pools virou um dos sites de piscina mais visitados do mundo.\n\n**E a experiência virou o livro They Ask, You Answer.**"},
+   {"tipo":"fonte","texto":"Fontes: PR News, Marketing Speak (entrevista com Sheridan) e resumo do livro (getAbstract)."}
+  ],"barra":"Qual é a lição?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"gigante","tam":"m","linha1":"O cliente já está perguntando.","linha2":"Quem responde, vende."},
+   {"tipo":"texto","texto":"Antes de falar com você, ele pesquisa. **Se a resposta for sua, a confiança também é.**"}
+  ],"barra":"E pro meu negócio?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"A nossa leitura"},
+   {"tipo":"manchete","tam":"m","texto":"Você já tem ==a pauta pronta=="},
+   {"tipo":"texto","texto":"Mentor, consultor, advogado, terapeuta: as perguntas que você responde toda semana na sala são os vídeos que você ainda não gravou.\n\n**Quanto custa, como funciona, pra quem não serve.**"}
+  ],"barra":"Como aplicar?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"Em 3 passos"},
+   {"tipo":"numerados","itens":[
+    ["Anote as perguntas","Por uma semana, liste tudo o que os clientes te perguntam antes de fechar."],
+    ["Grave uma resposta por vídeo","Sem enrolar. Inclusive preço e o que você não faz."],
+    ["Distribua e aponte pra agenda","Do vídeo saem cortes, carrossel e post. Tudo leva até você."]
+   ]}
+  ],"barra":"Quer montar o seu?"},
+  {"tipo":"cta","estilo":"comentario","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"PERGUNTA","apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem diz que não sabe o que postar."}
+ ],
+ "legenda": "Ele salvou a empresa respondendo o que o cliente pergunta. 📚\n\nNa crise de 2008, a River Pools, empresa de piscinas de Marcus Sheridan nos EUA, chegou perto da falência. Sem dinheiro pra anúncio, ele começou a responder no site tudo o que ouvia nas visitas de venda: preço, problemas, comparação com a concorrência.\n\nO primeiro texto foi \"Quanto custa uma piscina de fibra?\". Segundo o próprio Sheridan, esse único artigo trouxe milhões de dólares em vendas ao longo dos anos. A experiência virou o livro They Ask, You Answer.\n\nA lição: o cliente já está perguntando. Quem responde, vende.\n\nPro mentor, consultor, advogado ou terapeuta, as perguntas que você responde toda semana na sala são os vídeos que você ainda não gravou. Grava uma vez, distribui em todas as redes e aponta tudo pra sua agenda.\n\nQual pergunta você mais ouve dos seus clientes? Conta aqui 👇\n\n💬 Comente PERGUNTA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem diz que não sabe o que postar.\n\nFontes: PR News, Marketing Speak e getAbstract.\n\n#marketingdeconteudo #autoridade #empreendedorismo #livros #negocios"
+}
