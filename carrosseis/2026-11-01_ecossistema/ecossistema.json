@@ -1,0 +1,39 @@
+{
+ "pauta": "Institucional: o que é um ecossistema digital (do vídeo à agenda)",
+ "categoria": "Institucional",
+ "fontes": ["Números oficiais do Grupo Euforia (250 ecossistemas, R$ 15,2 mi faturados para clientes, 1,8 bi de visualizações)"],
+ "slides": [
+  {"tipo":"capa","fundo":"assets/fotos/editor.jpg","posicao":"center","selo":"Ecossistema digital","titulo_linhas":[["Um vídeo.",false],["Todas as redes.",false],["Uma agenda cheia.",true]],"titulo_menor":true,"subtitulo":"Como funciona um __ecossistema digital__ →"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"O problema"},
+   {"tipo":"manchete","texto":"Você posta. ==Ninguém chama.=="},
+   {"tipo":"texto","texto":"Cada rede pede um conteúdo diferente, todo dia. Você vira refém da produção e, no fim do mês, a agenda continua dependendo de indicação.\n\n**O problema não é postar pouco. É postar solto.**"}
+  ],"barra":"Qual é a alternativa?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"rotulo","texto":"Passo 1"},
+   {"tipo":"manchete","tam":"m","texto":"Grave uma vez, ==bem feito=="},
+   {"tipo":"texto","texto":"Um vídeo longo respondendo o que o seu cliente pergunta antes de fechar. É ali que ele te conhece de verdade.\n\n**Esse vídeo é a matéria-prima de tudo.**"}
+  ],"barra":"E depois?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"Passo 2"},
+   {"tipo":"manchete","tam":"m","texto":"Um vídeo vira ==a semana inteira=="},
+   {"tipo":"texto","texto":"Dele saem os cortes, o carrossel, o post e a frase do dia. Você aparece em todas as redes sem gravar todo dia.\n\n**Menos tempo gravando. Mais presença.**"}
+  ],"barra":"E como vira cliente?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"rotulo","texto":"Passo 3"},
+   {"tipo":"manchete","tam":"m","texto":"Tudo aponta ==pro mesmo lugar=="},
+   {"tipo":"texto","texto":"Cada peça leva até a sua agenda. Quem chega já te assistiu, já entendeu como você pensa e já confia.\n\n**A conversa de venda começa pela metade.**"}
+  ],"barra":"Isso funciona mesmo?"},
+  {"tipo":"conteudo","tema":"claro","blocos":[
+   {"tipo":"rotulo","texto":"Os nossos números"},
+   {"tipo":"stats","itens":[["250","ecossistemas digitais construídos"],["R$ 15,2 mi","faturados para clientes"],["1,8 bi","de visualizações"]]},
+   {"tipo":"texto","tam":"pequeno","texto":"**Mentores, consultores, advogados, médicos e terapeutas** que já tinham resultado no offline e passaram a ser encontrados no digital."}
+  ],"barra":"Por onde começar?"},
+  {"tipo":"conteudo","tema":"escuro","blocos":[
+   {"tipo":"gigante","tam":"m","linha1":"Pare de postar por postar.","linha2":"Construa o caminho até você."},
+   {"tipo":"texto","texto":"Conteúdo solto some no feed. **Ecossistema trabalha por você enquanto você atende.**"}
+  ],"barra":"Quer montar o seu?"},
+  {"tipo":"cta","estilo":"comentario","titulo":"Agende um *Raio-X gratuito* com os nossos consultores.","texto":"Apenas 15 minutos pra mudar o rumo do seu negócio.","palavra":"ECOSSISTEMA","apos":"Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.","rodape":"Salve e mande pra quem posta todo dia e não vê retorno."}
+ ],
+ "legenda": "Um vídeo. Todas as redes. Uma agenda cheia. 📲\n\nA maioria dos especialistas posta muito e vende pouco. Não por falta de conteúdo, mas porque cada post vive sozinho e não leva a lugar nenhum.\n\nUm ecossistema digital funciona assim:\n1. Você grava uma vez, bem feito, respondendo o que o seu cliente pergunta.\n2. Desse vídeo saem os cortes, o carrossel e os posts da semana.\n3. Tudo aponta pro mesmo lugar: a sua agenda.\n\nQuem chega já te assistiu, já entendeu como você pensa e já confia.\n\nJá construímos 250 ecossistemas digitais, que somam R$ 15,2 milhões faturados para clientes e 1,8 bilhão de visualizações.\n\nHoje o seu conteúdo leva a algum lugar? Conta aqui 👇\n\n💬 Comente ECOSSISTEMA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem posta todo dia e não vê retorno.\n\n#marketingdeconteudo #autoridade #empreendedorismo #negocios #consultoria"
+}
