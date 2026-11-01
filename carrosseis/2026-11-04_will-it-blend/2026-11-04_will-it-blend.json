@@ -1,0 +1,184 @@
+{
+ "pauta": "História de empresário: Blendtec e o Will It Blend? (liquidificador industrial que virou fenômeno no YouTube)",
+ "categoria": "História de empresário",
+ "fontes": [
+  "https://magazine.byu.edu/article/will-it-blend",
+  "https://www.ksl.com/article/641888",
+  "https://www.mediapost.com/publications/article/100795/whip-it-good.html"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "fundo": "assets/fotos/gravacao_sp.jpg",
+   "posicao": "center",
+   "selo": "História de empresário",
+   "titulo_linhas": [
+    [
+     "Um liquidificador,",
+     false
+    ],
+    [
+     "US$ 50 e um jaleco.",
+     false
+    ],
+    [
+     "Vendas 7x maiores.",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "A história do __Will It Blend?__ →"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O começo"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "Uma fábrica de ==liquidificadores== nos EUA"
+    },
+    {
+     "tipo": "texto",
+     "texto": "A Blendtec, de Utah, fazia liquidificadores profissionais. Produto bom, marca pouco conhecida.\n\n**O fundador, Tom Dickson, testava a potência das máquinas triturando tábuas na fábrica.**"
+    }
+   ],
+   "barra": "E alguém viu isso?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A virada"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "O diretor de marketing ==ligou uma câmera=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Em 2006, George Wright gastou cerca de US$ 50 em jaleco, bolas de golfe e bolinhas de gude. Gravou o fundador triturando tudo e perguntando: “Will it blend?” (Será que tritura?).\n\n**Depois vieram celulares, tablets e muito mais.**"
+    }
+   ],
+   "barra": "E o resultado?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Os números"
+    },
+    {
+     "tipo": "stats",
+     "itens": [
+      [
+       "~US$ 50",
+       "no primeiro vídeo"
+      ],
+      [
+       "~700%",
+       "de aumento nas vendas, segundo a empresa"
+      ],
+      [
+       "2006",
+       "ano em que tudo começou"
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "tam": "pequeno",
+     "texto": "O número de vendas é da própria Blendtec e varia de acordo com a fonte e o ano. **Mas a marca saiu do anonimato e virou referência.**"
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: BYU Magazine, KSL e MediaPost."
+    }
+   ],
+   "barra": "Qual é a lição?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "Ele não falou do produto.",
+     "linha2": "Mostrou o produto."
+    },
+    {
+     "tipo": "texto",
+     "texto": "Ninguém precisou explicar a potência do motor. **O vídeo provou na frente de todo mundo.**"
+    }
+   ],
+   "barra": "E pro meu negócio?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Você também tem ==uma prova pra mostrar=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "O antes e depois do cliente, o raciocínio numa consulta, o bastidor do seu método.\n\n**O que você faz bem vira conteúdo quando alguém vê acontecendo.**"
+    }
+   ],
+   "barra": "Por onde começar?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Em 3 passos"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Escolha o que só você prova",
+       "Um resultado, um método, um jeito de pensar."
+      ],
+      [
+       "Grave uma vez, bem feito",
+       "Do vídeo longo saem cortes, carrossel e post."
+      ],
+      [
+       "Aponte pra sua agenda",
+       "Quem viu a prova chega pronto pra fechar."
+      ]
+     ]
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "PROVA",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem tem um produto bom que ninguém conhece."
+  }
+ ],
+ "legenda": "Um liquidificador, US$ 50 e um jaleco. 🧪\n\nEm 2006, a Blendtec era uma fábrica de liquidificadores profissionais em Utah (EUA). Produto bom, marca pouco conhecida.\n\nO diretor de marketing, George Wright, viu o fundador Tom Dickson testando as máquinas e teve uma ideia: gastou cerca de US$ 50 em jaleco, bolas de golfe e bolinhas de gude, ligou a câmera e perguntou: “Will it blend?” (Será que tritura?).\n\nA série virou fenômeno. Segundo a empresa, as vendas chegaram a crescer cerca de 700%.\n\nA lição: ele não falou do produto. Mostrou o produto. O vídeo provou o que nenhum anúncio conseguiria explicar.\n\nVocê também tem uma prova pra mostrar: o resultado do cliente, o raciocínio numa consulta, o bastidor do seu método.\n\nQual seria a sua prova na frente da câmera? 👇\n\n💬 Comente PROVA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem tem um produto bom que ninguém conhece.\n\nFontes: BYU Magazine, KSL e MediaPost.\n\n#historiadeempresario #videomarketing #marketingdeconteudo #empreendedorismo #negocios"
+}

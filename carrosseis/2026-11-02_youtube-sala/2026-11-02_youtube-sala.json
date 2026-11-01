@@ -1,0 +1,175 @@
+{
+ "pauta": "Notícia: YouTube fatura US$ 11,2 bi em anúncios no 3º tri de 2026, cerca de 1/3 vindo da TV da sala",
+ "categoria": "Notícia quente",
+ "fontes": [
+  "https://thewrap.com/industry-news/business/alphabet-earnings-q3-2026/",
+  "https://www.rttnews.com/3319651/alphabet-q3-results-miss-street-view-as-youtube-ad-revenues-drop-stock-down-5.aspx",
+  "https://9to5google.com/?p=734922"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "fundo": "assets/fotos/estudio_sofa.jpg",
+   "posicao": "center",
+   "selo": "Notícia",
+   "titulo_linhas": [
+    [
+     "US$ 11,2 bilhões",
+     true
+    ],
+    [
+     "em 3 meses.",
+     false
+    ],
+    [
+     "E 1/3 veio da sala.",
+     false
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "O que o balanço do __YouTube__ diz sobre o seu cliente →"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O fato"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "O YouTube faturou ==US$ 11,2 bi== só com anúncios"
+    },
+    {
+     "tipo": "texto",
+     "texto": "É o resultado do 3º trimestre de 2026, divulgado pela Alphabet (dona do Google) na semana passada.\n\n**Cerca de 9% a mais que no mesmo período do ano anterior.**"
+    }
+   ],
+   "barra": "E de onde veio esse dinheiro?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O detalhe"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Cerca de 1/3 veio de ==quem assiste na TV=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Não é celular no intervalo. É gente no sofá, na TV da sala, assistindo vídeo longo com atenção.\n\n**O YouTube virou a nova televisão.**"
+    }
+   ],
+   "barra": "Os números"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Os números"
+    },
+    {
+     "tipo": "stats",
+     "itens": [
+      [
+       "US$ 11,2 bi",
+       "em anúncios no 3º tri de 2026"
+      ],
+      [
+       "~9%",
+       "de alta em um ano"
+      ],
+      [
+       "~1/3",
+       "da receita de anúncios veio da TV da sala"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: TheWrap, RTTNews e 9to5Google (balanço da Alphabet, out/2026)."
+    }
+   ],
+   "barra": "E o que isso tem a ver comigo?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "Seu cliente não está só rolando o feed.",
+     "linha2": "Ele está assistindo."
+    }
+   ],
+   "barra": "A nossa leitura"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "O vídeo longo é ==a sua vitrine premium=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Quem assiste 20 minutos de você na TV da sala já entendeu como você pensa antes da primeira conversa.\n\n**Mentor, consultor, advogado: é ali que a confiança se constrói.**"
+    }
+   ],
+   "barra": "Por onde começar?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Em 3 passos"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Grave o vídeo longo",
+       "Responda a dúvida que o seu cliente traz. Bem feito, uma vez."
+      ],
+      [
+       "Distribua em todas as redes",
+       "Do mesmo vídeo saem cortes, carrossel e post."
+      ],
+      [
+       "Aponte pra sua agenda",
+       "Cada peça leva até você. Quem chega já confia."
+      ]
+     ]
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "SALA",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem ainda acha que vídeo é coisa de celular."
+  }
+ ],
+ "legenda": "US$ 11,2 bilhões em 3 meses. E cerca de 1/3 veio da sala. 📺\n\nO YouTube faturou US$ 11,2 bi só com anúncios no 3º trimestre de 2026, segundo o balanço da Alphabet divulgado na semana passada. Cerca de 9% a mais que um ano antes.\n\nO detalhe que mais importa: perto de um terço dessa receita veio de quem assiste na TV da sala. Gente no sofá, vendo vídeo longo, com atenção.\n\nO YouTube virou a nova televisão. E o seu cliente está lá.\n\nQuem assiste 20 minutos de você já entendeu como você pensa antes da primeira conversa. É a lógica do ecossistema digital: grava uma vez, bem feito, distribui em todas as redes e aponta tudo pra sua agenda.\n\nVocê já tem um vídeo que explica o seu trabalho de verdade? 👇\n\n💬 Comente SALA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem ainda acha que vídeo é coisa de celular.\n\nFontes: TheWrap, RTTNews e 9to5Google.\n\n#youtube #marketingdeconteudo #autoridade #negocios #videomarketing"
+}

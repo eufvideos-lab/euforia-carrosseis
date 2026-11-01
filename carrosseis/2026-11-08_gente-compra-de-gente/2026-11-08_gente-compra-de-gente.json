@@ -1,0 +1,141 @@
+{
+ "pauta": "Institucional: gente compra de gente (founder-led growth para profissionais)",
+ "categoria": "Institucional",
+ "fontes": [
+  "Posicionamento do Grupo Euforia"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "fundo": "assets/fotos/equipe_escritorio.jpg",
+   "posicao": "center",
+   "selo": "Ecossistema digital",
+   "titulo_linhas": [
+    [
+     "Ninguém contrata",
+     false
+    ],
+    [
+     "um logo.",
+     false
+    ],
+    [
+     "Contrata você.",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "Por que __o dono do negócio__ precisa aparecer →"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O problema"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "Seu perfil fala ==da empresa=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Post de data comemorativa, foto do escritório, promoção. E o cliente continua sem saber quem você é e como você pensa.\n\n**Serviço de confiança se compra de uma pessoa.**"
+    }
+   ],
+   "barra": "Por quê?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A lógica"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Quem contrata um especialista ==quer conhecer o especialista=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Advogado, médico, mentor, consultor. Antes de pagar, o cliente quer saber se confia em você.\n\n**E confiança se constrói vendo, ouvindo e entendendo.**"
+    }
+   ],
+   "barra": "E se eu não gosto de aparecer?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A boa notícia"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Você não precisa ==aparecer todo dia=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Uma gravação bem feita, com roteiro e produção de alto padrão, rende conteúdo pra semana inteira em todas as redes.\n\n**Você grava uma vez. O ecossistema trabalha o resto.**"
+    }
+   ],
+   "barra": "Qual é a lição?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "O logo é lembrado.",
+     "linha2": "A pessoa é escolhida."
+    }
+   ],
+   "barra": "E na prática?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Em 3 passos"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Mostre como você pensa",
+       "Responda as dúvidas que o seu cliente traz na primeira conversa."
+      ],
+      [
+       "Grave uma vez, bem feito",
+       "Do vídeo longo saem cortes, carrossel e post."
+      ],
+      [
+       "Aponte pra sua agenda",
+       "Quem chega já te conhece. A conversa começa pela metade."
+      ]
+     ]
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "DONO",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem tem um negócio ótimo e um perfil sem rosto."
+  }
+ ],
+ "legenda": "Ninguém contrata um logo. Contrata você. 🤝\n\nTem muito profissional bom com um perfil que só fala da empresa: data comemorativa, foto do escritório, promoção. E o cliente continua sem saber quem é a pessoa por trás.\n\nServiço de confiança se compra de gente. Antes de pagar um advogado, um médico, um mentor ou um consultor, o cliente quer saber se confia em quem vai atender.\n\nA boa notícia: você não precisa aparecer todo dia. Uma gravação bem feita, com roteiro e produção de alto padrão, rende conteúdo pra semana inteira em todas as redes.\n\nO logo é lembrado. A pessoa é escolhida.\n\nSeu perfil mostra você ou só a empresa? 👇\n\n💬 Comente DONO e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem tem um negócio ótimo e um perfil sem rosto.\n\n#autoridade #marketingpessoal #posicionamento #negocios #ecossistemadigital"
+}

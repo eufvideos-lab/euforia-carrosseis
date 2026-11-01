@@ -1,0 +1,166 @@
+{
+ "pauta": "Livro: A Vaca Roxa (Purple Cow), de Seth Godin",
+ "categoria": "Livro",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Purple_Cow_(book)",
+  "https://seths.blog/"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "fundo": "assets/fotos/editor.jpg",
+   "posicao": "center",
+   "selo": "Livro",
+   "titulo_linhas": [
+    [
+     "Ninguém para",
+     false
+    ],
+    [
+     "pra olhar",
+     false
+    ],
+    [
+     "uma vaca marrom.",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "A ideia de __A Vaca Roxa__, de Seth Godin →"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A história"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "Uma viagem de carro ==pela França=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Seth Godin conta que ficou encantado com as vacas na beira da estrada. Minutos depois, ninguém no carro olhava mais.\n\n**Vaca é vaca. Depois da décima, vira paisagem.**"
+    }
+   ],
+   "barra": "E se fosse roxa?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A ideia"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Uma vaca roxa ==todo mundo comentaria=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "No livro de 2003, Godin defende que ser “muito bom” não basta. O que é seguro e parecido com o resto vira paisagem.\n\n**Só o que é notável faz alguém parar e falar de você.**"
+    }
+   ],
+   "barra": "E na internet?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "No digital"
+    },
+    {
+     "tipo": "chips",
+     "itens": [
+      "Post genérico",
+      "Dica que todo mundo dá",
+      "Frase motivacional",
+      "Vídeo tremido"
+     ]
+    },
+    {
+     "tipo": "texto",
+     "texto": "Isso é vaca marrom. **O feed está cheio.** Ninguém para, ninguém lembra, ninguém indica."
+    }
+   ],
+   "barra": "Qual é a lição?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "Ser bom é obrigação.",
+     "linha2": "Ser lembrado é estratégia."
+    }
+   ],
+   "barra": "A nossa leitura"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Sua vaca roxa é ==o jeito que só você pensa=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Não é dancinha nem polêmica. É o seu método, os seus casos e a sua opinião, gravados com produção de alto padrão.\n\n**Isso ninguém copia.**"
+    }
+   ],
+   "barra": "Por onde começar?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Em 3 passos"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Ache o seu ângulo",
+       "O que você defende que o mercado não fala?"
+      ],
+      [
+       "Grave com qualidade",
+       "Imagem e som de alto padrão já te separam da maioria."
+      ],
+      [
+       "Repita em todas as redes",
+       "Do mesmo vídeo saem cortes, carrossel e post."
+      ]
+     ]
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com os nossos consultores.",
+   "texto": "Apenas 15 minutos pra mudar o rumo do seu negócio.",
+   "palavra": "ROXA",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem é muito bom e ainda não é lembrado."
+  }
+ ],
+ "legenda": "Ninguém para pra olhar uma vaca marrom. 🐄\n\nNo livro A Vaca Roxa (2003), Seth Godin conta que, numa viagem pela França, ficou encantado com as vacas na beira da estrada. Minutos depois, ninguém no carro olhava mais. Vaca é vaca. Mas uma vaca roxa todo mundo comentaria.\n\nA ideia do livro: ser muito bom não basta. O que é seguro e parecido com o resto vira paisagem. Só o que é notável faz alguém parar e falar de você.\n\nNo digital é igual. Post genérico, dica que todo mundo dá, vídeo tremido: tudo isso é vaca marrom.\n\nA sua vaca roxa é o jeito que só você pensa. O seu método, os seus casos, a sua opinião, gravados com produção de alto padrão.\n\nQual é a sua vaca roxa? 👇\n\n💬 Comente ROXA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem é muito bom e ainda não é lembrado.\n\nFontes: A Vaca Roxa (Purple Cow), Seth Godin, 2003.\n\n#livros #sethgodin #posicionamento #marketing #autoridade"
+}

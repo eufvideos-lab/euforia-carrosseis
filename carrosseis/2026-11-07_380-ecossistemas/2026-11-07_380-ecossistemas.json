@@ -1,0 +1,32 @@
+{
+ "pauta": "Post único (números oficiais): +380 ecossistemas digitais construídos",
+ "categoria": "Institucional",
+ "fontes": [
+  "Números oficiais do Grupo Euforia (31/10/2026)"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "fundo": "assets/fotos/equipe_ampla.jpg",
+   "posicao": "center",
+   "selo": "Grupo Euforia",
+   "titulo_linhas": [
+    [
+     "+380",
+     true
+    ],
+    [
+     "ecossistemas digitais",
+     false
+    ],
+    [
+     "construídos.",
+     false
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "+R$ 18,2 mi que ajudamos nossos clientes a faturar. __+2,1 bi de visualizações.__"
+  }
+ ],
+ "legenda": "+380 ecossistemas digitais construídos. 🧩\n\nMentores, consultores, advogados, médicos e terapeutas que já tinham resultado no offline e passaram a ser encontrados no digital.\n\nCada ecossistema começa do mesmo jeito: um vídeo bem feito, que vira conteúdo pra todas as redes e aponta pro mesmo lugar. A agenda.\n\nAté aqui foram +R$ 18,2 milhões que ajudamos nossos clientes a faturar e +2,1 bilhões de visualizações.\n\nO próximo pode ser o seu. 👇\n\n💬 Comente ESCALA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve pra lembrar quando for a hora de escalar.\n\n#grupoeuforia #ecossistemadigital #autoridade #negocios #marketingdeconteudo"
+}
