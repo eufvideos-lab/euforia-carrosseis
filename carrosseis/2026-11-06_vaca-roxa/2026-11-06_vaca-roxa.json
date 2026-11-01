@@ -8,8 +8,6 @@
  "slides": [
   {
    "tipo": "capa",
-   "fundo": "assets/fotos/editor.jpg",
-   "posicao": "center",
    "selo": "Livro",
    "titulo_linhas": [
     [
@@ -26,7 +24,8 @@
     ]
    ],
    "titulo_menor": true,
-   "subtitulo": "A ideia de __A Vaca Roxa__, de Seth Godin →"
+   "subtitulo": "A ideia de __A Vaca Roxa__, de Seth Godin →",
+   "estilo": "simbolo"
   },
   {
    "tipo": "conteudo",

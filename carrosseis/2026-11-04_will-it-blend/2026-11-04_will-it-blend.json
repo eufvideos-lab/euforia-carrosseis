@@ -9,8 +9,6 @@
  "slides": [
   {
    "tipo": "capa",
-   "fundo": "assets/fotos/gravacao_sp.jpg",
-   "posicao": "center",
    "selo": "História de empresário",
    "titulo_linhas": [
     [
@@ -27,7 +25,8 @@
     ]
    ],
    "titulo_menor": true,
-   "subtitulo": "A história do __Will It Blend?__ →"
+   "subtitulo": "A história do __Will It Blend?__ →",
+   "estilo": "simbolo"
   },
   {
    "tipo": "conteudo",

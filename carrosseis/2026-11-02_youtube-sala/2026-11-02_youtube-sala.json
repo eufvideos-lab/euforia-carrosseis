@@ -9,8 +9,6 @@
  "slides": [
   {
    "tipo": "capa",
-   "fundo": "assets/fotos/estudio_sofa.jpg",
-   "posicao": "center",
    "selo": "Notícia",
    "titulo_linhas": [
     [
@@ -27,7 +25,8 @@
     ]
    ],
    "titulo_menor": true,
-   "subtitulo": "O que o balanço do __YouTube__ diz sobre o seu cliente →"
+   "subtitulo": "O que o balanço do __YouTube__ diz sobre o seu cliente →",
+   "estilo": "simbolo"
   },
   {
    "tipo": "conteudo",

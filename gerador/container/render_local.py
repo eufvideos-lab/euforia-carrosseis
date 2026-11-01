@@ -227,6 +227,10 @@ b{font-weight:800}
 .icone{width:58px !important;top:66px !important}
 .capa .logo{width:320px !important}
 .cta .logo{width:360px !important}
+.capa.tipo{background:#050505}
+.capa.tipo .simbolo-g{position:absolute;width:500px;left:50%;transform:translateX(-50%);top:250px}
+.capa.tipo .simbolo-g.contorno{width:640px;top:200px}
+.capa.tipo .base{display:none}
 """
 
 def rich(t):
@@ -316,7 +320,12 @@ def slide(s, i, n, cat=""):
     if tipo == "capa":
         linhas = "".join(
             f'<span class="{"d" if dest else ""}">{rich(txt)}</span><br>' for txt, dest in s["titulo_linhas"])
-        if s.get("fundo"):
+        if s.get("estilo") in ("simbolo", "contorno"):
+            d = re.search(r'd="([^"]+)"', ICON).group(1)
+            pinta = 'fill="none" stroke="#FF6518" stroke-width="1.1"' if s["estilo"] == "contorno" else 'fill="#FF6518"'
+            topo = f'<svg class="simbolo-g {s["estilo"]}" viewBox="0 0 150 122"><path {pinta} d="{d}"/></svg>'
+            cls = "s capa tipo"
+        elif s.get("fundo"):
             topo = f'<div class="fundo" style="background-image:url({img_uri(ROOT / s["fundo"])});background-position:{s.get("posicao","center")}"></div>'
             cls = "s capa comfundo"
         else:

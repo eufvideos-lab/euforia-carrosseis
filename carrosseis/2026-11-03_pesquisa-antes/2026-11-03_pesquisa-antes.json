@@ -7,8 +7,6 @@
  "slides": [
   {
    "tipo": "capa",
-   "fundo": "assets/fotos/editor.jpg",
-   "posicao": "center",
    "selo": "Antes de te chamar",
    "titulo_linhas": [
     [
@@ -25,7 +23,8 @@
     ]
    ],
    "titulo_menor": true,
-   "subtitulo": "Quem te encontra bem __já chega decidido.__"
+   "subtitulo": "Quem te encontra bem __já chega decidido.__",
+   "estilo": "contorno"
   }
  ],
  "legenda": "Antes de te chamar, ele pesquisa o seu nome. 🔎\n\nIndicação, anúncio, cartão de visita: não importa por onde ele chegou. Antes da primeira mensagem, ele procura você no Google, no YouTube e no Instagram.\n\nSe encontra um perfil parado, ele compara preço. Se encontra você explicando o que sabe, ele já chega confiando.\n\nA venda começa antes da conversa. E acontece onde você aparece.\n\nFaz o teste agora: pesquisa o seu nome. Gostou do que viu? 👇\n\n💬 Comente PESQUISA e receba o link pra agendar um Raio-X gratuito de 15 min com os nossos consultores. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e faça o teste com o seu nome.\n\n#autoridade #marketingdeconteudo #posicionamento #negocios #consultoria"

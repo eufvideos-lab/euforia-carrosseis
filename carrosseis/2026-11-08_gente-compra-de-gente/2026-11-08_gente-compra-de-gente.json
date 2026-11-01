@@ -7,8 +7,6 @@
  "slides": [
   {
    "tipo": "capa",
-   "fundo": "assets/fotos/equipe_escritorio.jpg",
-   "posicao": "center",
    "selo": "Ecossistema digital",
    "titulo_linhas": [
     [
@@ -25,7 +23,8 @@
     ]
    ],
    "titulo_menor": true,
-   "subtitulo": "Por que __o dono do negócio__ precisa aparecer →"
+   "subtitulo": "Por que __o dono do negócio__ precisa aparecer →",
+   "estilo": "simbolo"
   },
   {
    "tipo": "conteudo",
