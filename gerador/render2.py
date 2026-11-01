@@ -33,11 +33,9 @@ def img_uri(path):
     mime = "image/png" if ext == "png" else "image/jpeg"
     return f"data:{mime};base64,{b64(path)}"
 
-LOGO_BRANCA = img_uri(MARCA / "logo_branca.png")
+LOGO_BRANCA = img_uri(MARCA / "logo_play_branca.png")  # marca Play (01/11/2026)
 
-ICON = """<svg class="icone" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg"><defs>
-<linearGradient id="ig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB072"/><stop offset="1" stop-color="#FF5A00"/></linearGradient></defs>
-<rect x="0" y="4" width="100" height="30" rx="15" fill="url(#ig)"/><rect x="0" y="55" width="100" height="30" rx="15" fill="url(#ig)"/><rect x="0" y="106" width="100" height="30" rx="15" fill="url(#ig)"/></svg>"""
+ICON = """<svg class="icone" viewBox="0 0 150 122" xmlns="http://www.w3.org/2000/svg"><path fill="#FF6518" d="M15,0L79.28,0A8,8 0 0 1 83.77,1.38L106.08,16.5A7.39,7.39 0 0 1 101.94,30L15,30A15,15 0 0 1 15,0Z M15,46L125.41,46A8,8 0 0 1 129.9,47.38L140.23,54.38A8,8 0 0 1 140.23,67.62L129.9,74.62A8,8 0 0 1 125.41,76L15,76A15,15 0 0 1 15,46Z M15,92L101.94,92A7.39,7.39 0 0 1 106.08,105.5L83.77,120.62A8,8 0 0 1 79.28,122L15,122A15,15 0 0 1 15,92Z"/></svg>"""
 
 CSS = """
 *{margin:0;padding:0;box-sizing:border-box}
@@ -212,6 +210,26 @@ b{font-weight:800}
 .coment .av{width:78px;height:78px;border-radius:50%;background:linear-gradient(135deg,#FFB072,#FF4D00);flex:none}
 .coment .cw{font:800 76px/1 'Barlow Condensed';letter-spacing:.04em;color:#FF4D00}
 .coment .cur{width:5px;height:64px;background:#FF4D00;border-radius:3px}
+
+/* ===== Marca Play (01/11/2026): cores chapadas, sem degradê/brilho, Archivo larga nos títulos ===== */
+.escuro{background:#050505 !important}
+.escuro::before,.grain,.capa .halo,.capa.numero .aneis{display:none !important}
+.claro{background:#F2EFEA !important;color:#050505 !important}
+.tarja,.barra,.gig .g2,.it .k,.bar.pos,.hl .d,.palavra,.chip i{background:#FF6518 !important;box-shadow:none !important}
+.tarja,.gig .g2,.hl .d,.palavra,.it .k{color:#050505 !important}
+.barra{color:#050505 !important;border-radius:18px !important}
+.barra .seta{background:#050505 !important;color:#FF6518 !important}
+.stat .v,.n4 .v,.valor .vn{background:none !important;-webkit-text-fill-color:#FF6518 !important;color:#FF6518 !important}
+.lj,.rot,.escuro .lj,.escuro .rot,.valor .vt,.escuro .valor .vt,.dq b{color:#FF6518 !important}
+.sub{text-decoration-color:#FF6518 !important}
+.cit{border-left-color:#FF6518 !important}
+.selo{color:#050505 !important;background:#FF6518 !important;transform:none !important;border-radius:8px !important}
+.capa .base{background:linear-gradient(180deg,transparent,#050505 42%) !important}
+.capa .topo{background:linear-gradient(180deg,rgba(5,5,5,.85),transparent) !important}
+.fullgrad{background:linear-gradient(180deg,rgba(5,5,5,.55) 0%,rgba(5,5,5,0) 25%,rgba(5,5,5,.2) 45%,rgba(5,5,5,.92) 70%,#050505 100%) !important}
+.icone{width:58px !important;top:66px !important}
+.capa .logo{width:320px !important}
+.cta .logo{width:360px !important}
 """
 
 def rich(t):
