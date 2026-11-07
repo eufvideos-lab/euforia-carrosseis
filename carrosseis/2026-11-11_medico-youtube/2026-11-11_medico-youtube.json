@@ -1,0 +1,146 @@
+{
+ "pauta": "História de empresário: Ali Abdaal, médico que virou referência no YouTube e empresário",
+ "categoria": "História de empresário",
+ "fontes": [
+  "https://podcastle.ai/blog/ali-abdaal",
+  "https://async.com/blog/ali-abdaal/",
+  "https://lewishowes.com/podcast/the-productivity-expert-how-to-make-2024-your-most-productive-abundant-year-yet-ali-abdaal/"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "selo": "História de empresário",
+   "titulo_linhas": [
+    [
+     "Ele era médico.",
+     false
+    ],
+    [
+     "Gravava nas horas vagas.",
+     false
+    ],
+    [
+     "Virou empresa.",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "A história de __Ali Abdaal__ →",
+   "estilo": "simbolo"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O começo"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "Um estudante de medicina ==com uma câmera=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Ali Abdaal estudava medicina em Cambridge, na Inglaterra, e começou gravando vídeos com dicas de estudo.\n\n**Nada de produção grande: ele ensinava o que já fazia no dia a dia.**"
+    }
+   ],
+   "barra": "E depois de formado?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A virada"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Médico no sistema público ==e gravando mesmo assim=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Já formado, trabalhou como médico no NHS, o sistema público de saúde britânico, e continuou gravando nos horários livres.\n\n**Até que o conteúdo virou o negócio principal e ele deixou a medicina.**"
+    }
+   ],
+   "barra": "Onde ele chegou?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Hoje"
+    },
+    {
+     "tipo": "stats",
+     "itens": [
+      [
+       "~6 mi",
+       "de inscritos no YouTube"
+      ],
+      [
+       "Best-seller",
+       "do New York Times com o livro Feel-Good Productivity"
+      ],
+      [
+       "Empresa",
+       "de cursos e conteúdo construída a partir do canal"
+      ]
+     ]
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: perfis publicados por Podcastle, Async e The School of Greatness."
+    }
+   ],
+   "barra": "Qual é a lição?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "Ele não inventou assunto.",
+     "linha2": "Ensinou o que já sabia."
+    }
+   ],
+   "barra": "E pro meu negócio?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Seu consultório ==já é a pauta=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Médico, advogado, consultor, terapeuta: você explica as mesmas coisas toda semana pra quem está na sua frente.\n\n**Gravado uma vez, isso chega em quem ainda não te conhece.**"
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com a nossa equipe.",
+   "texto": "Uma conversa pra entender o próximo passo do seu negócio.",
+   "palavra": "MEDICO",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra um profissional que explica muito bem o que faz."
+  }
+ ],
+ "legenda": "Ele era médico, gravava nas horas vagas e virou empresa. 🩺\n\nAli Abdaal estudava medicina em Cambridge, na Inglaterra, quando começou a gravar dicas de estudo no YouTube. Já formado, trabalhou como médico no sistema público britânico e continuou gravando nos horários livres. Com o tempo, o conteúdo virou o negócio principal e ele deixou a medicina.\n\nHoje são cerca de 6 milhões de inscritos, um livro best-seller do New York Times e uma empresa de cursos e conteúdo construída a partir do canal.\n\nEle não inventou assunto. Ensinou o que já sabia, com constância.\n\nO que você explica toda semana pros seus clientes, gravado uma vez, chega em quem ainda não te conhece.\n\nQual dúvida você mais responde no seu trabalho? 👇\n\n💬 Comente MEDICO e receba o link pra agendar um Raio-X gratuito com a nossa equipe. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra um profissional que explica muito bem o que faz.\n\nFontes: Podcastle, Async e The School of Greatness.\n\n#historiadeempresario #youtube #autoridade #marketingdeconteudo #negocios"
+}

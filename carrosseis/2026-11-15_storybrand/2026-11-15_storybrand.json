@@ -1,0 +1,140 @@
+{
+ "pauta": "Livro: Building a StoryBrand (Donald Miller): o cliente é o herói, a marca é o guia",
+ "categoria": "Livro",
+ "fontes": [
+  "https://storybrand.com/"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "selo": "Livro",
+   "titulo_linhas": [
+    [
+     "O herói da história",
+     false
+    ],
+    [
+     "não é você.",
+     false
+    ],
+    [
+     "É o seu cliente.",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "A ideia de __StoryBrand__, de Donald Miller →",
+   "estilo": "simbolo"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O livro"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "Building a StoryBrand, ==de Donald Miller=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Lançado em 2017, virou referência pra quem precisa explicar o que faz sem confundir o cliente.\n\n**A ideia central cabe numa frase.**"
+    }
+   ],
+   "barra": "Qual é a ideia?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "O cliente é o herói.",
+     "linha2": "Você é o guia."
+    }
+   ],
+   "barra": "O erro mais comum"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O erro"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Falar de si ==em vez de falar do problema dele=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "\"Tenho 15 anos de experiência, sou pós-graduado...\". O cliente lê e pensa: e eu?\n\n**Ele quer saber se você entende o problema dele e como sair dali.**"
+    }
+   ],
+   "barra": "Como o guia fala?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Na prática"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Nomeie o problema",
+       "Mostre que você entende o que o cliente está vivendo."
+      ],
+      [
+       "Mostre o caminho",
+       "Um plano simples, em poucos passos."
+      ],
+      [
+       "Chame pra ação",
+       "Diga exatamente qual é o próximo passo."
+      ]
+     ]
+    }
+   ],
+   "barra": "E no vídeo?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Todo bom vídeo ==começa pela dúvida do cliente=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Quando você responde o que ele pergunta, ele se vê na história.\n\n**E quem se vê na história procura o guia.**"
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com a nossa equipe.",
+   "texto": "Uma conversa pra entender o próximo passo do seu negócio.",
+   "palavra": "HEROI",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem só fala do próprio currículo."
+  }
+ ],
+ "legenda": "O herói da história não é você. É o seu cliente. 📚\n\nEssa é a ideia central de Building a StoryBrand, de Donald Miller, lançado em 2017: o cliente é o herói, e a sua marca é o guia que mostra o caminho.\n\nO erro mais comum é falar de si. Anos de experiência, títulos, certificados. O cliente lê e pensa: e eu?\n\nO guia faz três coisas: nomeia o problema, mostra um caminho simples e diz qual é o próximo passo.\n\nNo vídeo é igual. Quando você começa pela dúvida do cliente, ele se vê na história. E quem se vê na história procura o guia.\n\nO seu conteúdo fala mais de você ou do seu cliente? 👇\n\n💬 Comente HEROI e receba o link pra agendar um Raio-X gratuito com a nossa equipe. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem só fala do próprio currículo.\n\nFonte: o livro e o site oficial StoryBrand.\n\n#livros #storytelling #marketingdeconteudo #autoridade #negocios"
+}

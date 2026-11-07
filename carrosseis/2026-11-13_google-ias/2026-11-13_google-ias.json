@@ -1,0 +1,142 @@
+{
+ "pauta": "Autoridade ampla (★ Google e IAs): o cliente agora pergunta pro ChatGPT. Quem ele cita?",
+ "categoria": "Autoridade ampla",
+ "fontes": [
+  "https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents",
+  "https://searchengineland.com/?p=437650"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "selo": "Curiosidade",
+   "titulo_linhas": [
+    [
+     "Seu cliente",
+     false
+    ],
+    [
+     "perguntou pro ChatGPT.",
+     false
+    ],
+    [
+     "Ele citou você?",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "A busca está mudando de lugar →",
+   "estilo": "contorno"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A mudança"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "Antes: ==10 links no Google=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Agora muita gente pergunta direto pro ChatGPT ou pro Gemini: \"quem é bom em tal assunto na minha cidade?\".\n\n**E recebe uma resposta pronta, com poucos nomes.**"
+    }
+   ],
+   "barra": "Isso é grande?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A previsão"
+    },
+    {
+     "tipo": "stats",
+     "itens": [
+      [
+       "-25%",
+       "no volume da busca tradicional até 2026, segundo previsão do Gartner"
+      ]
+     ]
+    },
+    {
+     "tipo": "texto",
+     "tam": "pequeno",
+     "texto": "A previsão é de 2024 e foi contestada por parte do mercado. **Mas a direção é clara: a resposta está saindo da lista de links.**"
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fonte: Gartner (fev/2024) e Search Engine Land."
+    }
+   ],
+   "barra": "E quem aparece na resposta?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O que pesa"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Quem tem ==conteúdo público e consistente=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Vídeo explicando o assunto, texto no site, perfil completo, gente falando de você.\n\n**Quem não publica nada não tem como ser citado.**"
+    }
+   ],
+   "barra": "E vocês?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Bastidor"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "A gente fez ==na nossa própria casa=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Site novo, blog com conteúdo toda semana e presença organizada em cada rede.\n\n**Pouca gente no mercado cuida disso junto com o vídeo.**"
+    }
+   ],
+   "barra": "Faz o teste"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "Pergunte pro ChatGPT quem é referência no seu assunto.",
+     "linha2": "Você apareceu?"
+    }
+   ],
+   "barra": "Quer aparecer?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com a nossa equipe.",
+   "texto": "Uma conversa pra entender o próximo passo do seu negócio.",
+   "palavra": "BUSCA",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e faça o teste com o seu nome."
+  }
+ ],
+ "legenda": "Seu cliente perguntou pro ChatGPT. Ele citou você? 🤖\n\nMuita gente já não pesquisa só no Google. Pergunta direto pro ChatGPT ou pro Gemini quem é referência num assunto e recebe uma resposta pronta, com poucos nomes.\n\nEm 2024, o Gartner previu que o volume da busca tradicional cairia 25% até 2026. Parte do mercado contestou o número, mas a direção é clara: a resposta está saindo da lista de links.\n\nQuem aparece nessas respostas é quem tem conteúdo público e consistente. Vídeo explicando o assunto, texto no site, perfil completo. Quem não publica nada não tem como ser citado.\n\nFaz o teste agora: pergunta quem é referência no seu assunto na sua cidade. Você apareceu? 👇\n\n💬 Comente BUSCA e receba o link pra agendar um Raio-X gratuito com a nossa equipe. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e faça o teste com o seu nome.\n\nFontes: Gartner e Search Engine Land.\n\n#google #chatgpt #autoridade #marketingdeconteudo #negocios"
+}

@@ -1,0 +1,146 @@
+{
+ "pauta": "Notícia: Google cria perfis de criadores e especialistas na Busca (reúne redes sociais; LinkedIn começa a aparecer; Brasil em breve)",
+ "categoria": "Notícia quente",
+ "fontes": [
+  "https://9to5google.com/2026/06/04/google-search-profiles/",
+  "https://www.seroundtable.com/google-search-profiles-adds-linkedin-42458.html",
+  "https://www.seroundtable.com/november-2026-google-webmaster-report-42431.html"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "selo": "Notícia",
+   "titulo_linhas": [
+    [
+     "O Google agora",
+     false
+    ],
+    [
+     "monta um perfil",
+     false
+    ],
+    [
+     "de quem produz conteúdo.",
+     true
+    ]
+   ],
+   "titulo_menor": true,
+   "subtitulo": "E o __Brasil__ está na fila →",
+   "estilo": "simbolo"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "O fato"
+    },
+    {
+     "tipo": "manchete",
+     "texto": "A Busca ganhou ==perfis de criadores=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Desde junho, o Google testa os Search Profiles: um espaço na própria Busca que reúne o conteúdo de uma pessoa em várias plataformas.\n\n**Começou nos EUA, foi para Índia e Canadá e o Brasil está anunciado como o próximo.**"
+    }
+   ],
+   "barra": "O que aparece nesse perfil?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A novidade da semana"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "YouTube, Threads, X ==e agora o LinkedIn=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Na semana passada, usuários começaram a ver o LinkedIn entre as redes mostradas no perfil, adicionado de forma automática.\n\n**O Google está juntando tudo o que você publica em um lugar só.**"
+    },
+    {
+     "tipo": "fonte",
+     "texto": "Fontes: 9to5Google e Search Engine Roundtable (jun e nov/2026). A inclusão do LinkedIn foi vista por usuários e ainda não tem anúncio oficial."
+    }
+   ],
+   "barra": "E o que isso muda?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "escuro",
+   "blocos": [
+    {
+     "tipo": "gigante",
+     "tam": "m",
+     "linha1": "Quem pesquisa o seu nome",
+     "linha2": "vai ver tudo junto."
+    }
+   ],
+   "barra": "A nossa leitura"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "A nossa leitura"
+    },
+    {
+     "tipo": "manchete",
+     "tam": "m",
+     "texto": "Perfil parado ==vira vitrine vazia=="
+    },
+    {
+     "tipo": "texto",
+     "texto": "Se o seu cliente pesquisar e encontrar um vídeo seu explicando o que você sabe, ele chega confiando.\n\n**Se encontrar um perfil parado desde 2022, ele compara preço.**"
+    }
+   ],
+   "barra": "Como se preparar?"
+  },
+  {
+   "tipo": "conteudo",
+   "tema": "claro",
+   "blocos": [
+    {
+     "tipo": "rotulo",
+     "texto": "Em 3 passos"
+    },
+    {
+     "tipo": "numerados",
+     "itens": [
+      [
+       "Pesquise o seu nome hoje",
+       "Veja o que aparece no Google, no YouTube e no LinkedIn."
+      ],
+      [
+       "Publique com constância",
+       "Um vídeo bem feito por semana já muda o que o Google mostra."
+      ],
+      [
+       "Ligue tudo ao mesmo lugar",
+       "Cada rede apontando pra sua agenda. Um ecossistema digital, não posts soltos."
+      ]
+     ]
+    }
+   ],
+   "barra": "Quer montar o seu?"
+  },
+  {
+   "tipo": "cta",
+   "estilo": "comentario",
+   "titulo": "Agende um *Raio-X gratuito* com a nossa equipe.",
+   "texto": "Uma conversa pra entender o próximo passo do seu negócio.",
+   "palavra": "PERFIL",
+   "apos": "Comente a palavra acima e a gente te manda o link no direct.\n\n**Exclusivo para profissionais com resultado no offline** que precisam escalar no digital.",
+   "rodape": "Salve e mande pra quem ainda não pesquisou o próprio nome."
+  }
+ ],
+ "legenda": "O Google agora monta um perfil de quem produz conteúdo. 🔎\n\nDesde junho, o Google testa os Search Profiles: um espaço dentro da própria Busca que reúne o que uma pessoa publica em várias plataformas. Começou nos EUA, chegou à Índia e ao Canadá, e o Brasil já foi anunciado como o próximo.\n\nNa semana passada, usuários começaram a ver também o LinkedIn nesses perfis, ao lado de YouTube, Threads e X. Ainda não há anúncio oficial do Google sobre isso.\n\nO recado: quem pesquisar o seu nome vai ver tudo junto. Vídeo explicando o que você sabe gera confiança. Perfil parado faz o cliente comparar preço.\n\nJá pesquisou o seu nome no Google esta semana? 👇\n\n💬 Comente PERFIL e receba o link pra agendar um Raio-X gratuito com a nossa equipe. Exclusivo para profissionais com resultado no offline que precisam escalar no digital.\n📌 Salve e mande pra quem ainda não pesquisou o próprio nome.\n\nFontes: 9to5Google e Search Engine Roundtable.\n\n#google #autoridade #marketingdeconteudo #linkedin #negocios"
+}
