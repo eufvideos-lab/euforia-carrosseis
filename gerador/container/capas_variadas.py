@@ -91,6 +91,37 @@ M["livro"] = lambda t: f"""<div class="cv" style="background:{O};color:{K}">{loc
 <h1 class="T w" style="position:absolute;left:76px;right:76px;top:900px;font-size:104px">{t['titulo']}</h1>
 <p style="position:absolute;left:76px;right:76px;bottom:80px;font:600 34px Inter">{t['sub']}</p></div>"""
 
+def foto_uri(path):
+    import base64
+    return "data:image/png;base64," + base64.b64encode(open(path, "rb").read()).decode()
+
+def credito(t, cor):
+    return f'<div style="position:absolute;right:30px;top:50%;transform:translateY(-50%) rotate(-90deg);transform-origin:right center;font:600 18px Inter;letter-spacing:.08em;color:{cor};opacity:.8;white-space:nowrap">{t}</div>'
+
+# 8. Recorte + riscado: pessoa recortada à direita, palavras riscadas à esquerda (fundo preto)
+M["recorte_riscado"] = lambda t: f"""<div class="cv" style="background:{K};color:{W}">
+<div class="T w" style="position:absolute;left:-20px;bottom:330px;font-size:250px;color:#141414;white-space:nowrap">{t.get('fantasma','')}</div>
+<img src="{foto_uri(t['foto'])}" style="position:absolute;right:{t.get('direita',-140)}px;bottom:0;height:{t.get('altura',900)}px">
+<div style="position:absolute;left:0;right:0;bottom:0;height:420px;background:linear-gradient(to top,{K} 45%,rgba(5,5,5,0))"></div>
+{logo_branco()}
+<span class="tag" style="position:absolute;left:76px;top:240px;background:{O};color:{K}">{t['tag']}</span>
+<div style="position:absolute;left:70px;top:340px;width:560px">
+{''.join(f'<div class="T w" style="font-size:84px;color:#6a6a6a;position:relative;display:inline-block;margin-bottom:26px">{x}<span style="position:absolute;left:-8px;right:-8px;top:46%;height:12px;background:{O}"></span></div><br>' for x in t['riscadas'])}
+{''.join(f'<div class="T w o" style="font-size:88px;margin-top:8px;text-shadow:0 4px 30px rgba(0,0,0,.6)">{x}</div>' for x in t['viradas'])}</div>
+<p style="position:absolute;left:76px;right:76px;bottom:90px;font:600 38px/1.3 Inter;color:#e8e4dd">{t['sub']}</p>
+{credito(t['credito'], '#8a8a8a')}</div>"""
+
+# 9. Recorte + palavra gigante: pessoa no centro sobre palavra vazada (fundo laranja)
+M["recorte_eco"] = lambda t: f"""<div class="cv" style="background:{O};color:{K}">
+<div class="T n" style="position:absolute;left:0;right:0;top:{t.get('eco_top',420)}px;text-align:center;font-size:{t.get('eco_size',270)}px;color:transparent;-webkit-text-stroke:4px {K};white-space:nowrap">{t['eco']}</div>
+<img src="{foto_uri(t['foto'])}" style="position:absolute;left:50%;transform:translateX(-50%);bottom:0;height:{t.get('altura',860)}px">
+<div style="position:absolute;left:0;right:0;bottom:0;height:380px;background:linear-gradient(to top,{K} 50%,rgba(5,5,5,0))"></div>
+{lock(K,'left:76px;top:70px',sym_c=K)}
+<span class="tag" style="position:absolute;right:76px;top:86px;background:{K};color:{O}">{t['tag']}</span>
+<h1 class="T w" style="position:absolute;left:76px;right:76px;top:190px;font-size:100px">{t['titulo']}</h1>
+<p style="position:absolute;left:76px;right:76px;bottom:86px;font:600 36px/1.3 Inter;color:{OFF}">{t['sub']}</p>
+{credito(t['credito'], K)}</div>"""
+
 def render(modelo, saida, t):
     with sync_playwright() as pw:
         b = pw.chromium.launch(); pg = b.new_page(viewport={"width":1080,"height":1350})
