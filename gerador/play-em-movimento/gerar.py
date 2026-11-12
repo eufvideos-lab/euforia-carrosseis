@@ -89,7 +89,7 @@ def m_player():
     s4 = f"""<div class="slide" style="{bg}">
       {player_chrome(4, 4, 'O seu play', 'Fim')}
       <div class="abs" style="left:80px;right:80px;top:200px">
-        <div class="x" style="font-size:76px">Agende um <span class="lar"><span style="white-space:nowrap">Raio-X</span> gratuito</span> com os nossos consultores.</div>
+        <div class="x" style="font-size:76px">Agende um <span class="lar"><span style="white-space:nowrap">Raio-X</span> gratuito</span> com a nossa equipe.</div>
         <div class="box" style="margin-top:56px;color:#FF6518"><div class="lab" style="color:#F2EFEA">Comente</div><div class="x" style="font-size:120px">Roteiro</div></div>
         <div class="t" style="margin-top:36px;font-size:32px;color:#cfc8bf">A gente te manda o link no direct. <b style="color:#F2EFEA">Exclusivo para profissionais com resultado no offline</b> que precisam escalar no digital.</div>
       </div></div>"""
@@ -136,7 +136,7 @@ def m_manchete():
     s4 = f"""<div class="slide" style="{bg}">{manchete_chrome(4, 4, '@euforiagrupo')}
       <div class="abs" style="left:80px;right:80px;top:214px">
         <div class="lab" style="color:#C2410C">Serviço</div>
-        <div class="x" style="font-size:74px;margin-top:20px">Agende um <span style="white-space:nowrap">Raio-X</span> gratuito com os nossos consultores.</div>
+        <div class="x" style="font-size:74px;margin-top:20px">Agende um <span style="white-space:nowrap">Raio-X</span> gratuito com a nossa equipe.</div>
         <div class="box" style="margin-top:54px;background:#050505;border-color:#050505;color:#FF6518"><div class="lab" style="color:#F2EFEA">Comente</div><div class="x" style="font-size:150px">Base</div></div>
         <div class="t" style="margin-top:36px;font-size:32px;color:#3a3531">A gente te manda o link no direct. <b style="color:#050505">Exclusivo para profissionais com resultado no offline</b> que precisam escalar no digital.</div>
       </div></div>"""
@@ -173,7 +173,7 @@ def m_mito():
     s4 = f"""<div class="slide" style="background:#FF6518;color:#050505">
       <div class="top">{logo('mono-preto')}<div class="lab">4 / 4</div></div>
       <div class="abs" style="left:80px;right:80px;top:210px">
-        <div class="x" style="font-size:78px">Agende um <span style="white-space:nowrap">Raio-X</span> gratuito com os nossos consultores.</div>
+        <div class="x" style="font-size:78px">Agende um <span style="white-space:nowrap">Raio-X</span> gratuito com a nossa equipe.</div>
         <div class="box" style="margin-top:54px;background:#050505;border-color:#050505;color:#FF6518"><div class="lab" style="color:#F2EFEA">Comente</div><div class="x" style="font-size:150px">Fato</div></div>
         <div class="t" style="margin-top:36px;font-size:32px;font-weight:600">A gente te manda o link no direct. <b>Exclusivo para profissionais com resultado no offline</b> que precisam escalar no digital.</div>
       </div></div>"""
@@ -219,7 +219,7 @@ def m_roteiro():
       <div class="abs lab" style="left:80px;bottom:76px;color:#8a827a">Corta para: a sua cena</div></div>"""
     s4 = f"""<div class="slide" style="background:#050505;color:#F2EFEA">{claquete('#FF6518', '#050505', 'A sua', '4 de 4', '#F2EFEA')}
       <div class="abs" style="left:80px;right:80px;top:320px">
-        <div class="x" style="font-size:76px">Agende um <span class="lar"><span style="white-space:nowrap">Raio-X</span> gratuito</span> com os nossos consultores.</div>
+        <div class="x" style="font-size:76px">Agende um <span class="lar"><span style="white-space:nowrap">Raio-X</span> gratuito</span> com a nossa equipe.</div>
         <div class="box" style="margin-top:54px;color:#FF6518"><div class="lab" style="color:#F2EFEA">Comente</div><div class="x" style="font-size:150px">Cena</div></div>
         <div class="t" style="margin-top:36px;font-size:32px;color:#cfc8bf">A gente te manda o link no direct. <b style="color:#F2EFEA">Exclusivo para profissionais com resultado no offline</b> que precisam escalar no digital.</div>
       </div></div>"""
@@ -251,7 +251,7 @@ def m_placar():
     s3 = num(2, 3, "", "+2,1", "bi", "De visualizações geradas", "Para quem ensina o que sabe.")
     s4 = f"""<div class="slide" style="background:#050505;color:#F2EFEA">{chrome(-1, 4)}
       <div class="abs" style="left:80px;right:80px;top:200px">
-        <div class="x" style="font-size:76px">Agende um <span class="lar"><span style="white-space:nowrap">Raio-X</span> gratuito</span> com os nossos consultores.</div>
+        <div class="x" style="font-size:76px">Agende um <span class="lar"><span style="white-space:nowrap">Raio-X</span> gratuito</span> com a nossa equipe.</div>
         <div class="box" style="margin-top:50px;color:#FF6518"><div class="lab" style="color:#F2EFEA">Comente</div><div class="x" style="font-size:130px">Placar</div></div>
         <div class="t" style="margin-top:32px;font-size:31px;color:#cfc8bf">A gente te manda o link no direct. <b style="color:#F2EFEA">Exclusivo para profissionais com resultado no offline</b> que precisam escalar no digital.</div>
       </div></div>"""

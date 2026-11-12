@@ -13,7 +13,7 @@ def cta(palavra, tema="preto", topo="", top=210):
     tam = 150 if len(palavra) <= 5 else (120 if len(palavra) <= 7 else 96)
     return f"""<div class="slide" style="background:{bg};color:{fg}">{topo or f'<div class="top">{logo(lg)}<div class="lab" style="opacity:.6">3 / 3</div></div>'}
       <div class="abs" style="left:80px;right:80px;top:{top}px">
-        <div class="x" style="font-size:76px">Agende um <span style="color:{ac}">{RX} gratuito</span> com os nossos consultores.</div>
+        <div class="x" style="font-size:76px">Agende um <span style="color:{ac}">{RX} gratuito</span> com a nossa equipe.</div>
         <div class="box" style="margin-top:54px;{box}"><div class="lab" style="color:{O}">Comente</div><div class="x" style="font-size:{tam}px">{palavra}</div></div>
         <div class="t" style="margin-top:36px;font-size:32px;color:{sub}">A gente te manda o link no direct. <b style="color:{fg}">Exclusivo para profissionais com resultado no offline</b> que precisam escalar no digital.</div>
       </div></div>"""
@@ -101,7 +101,7 @@ def m09():
         <div style="background:{O};color:{P};padding:50px 50px 0 90px;border-right:6px dashed {P}">
           <div class="lab" style="font-size:24px">Vale uma sessão</div>
           <div class="c" style="font-size:230px;margin-top:8px">Raio-X</div>
-          <div style="display:flex;gap:40px;margin-top:22px"><div><div class="lab" style="font-size:16px;opacity:.6">Entrada</div><div class="c" style="font-size:56px">Gratuita</div></div><div><div class="lab" style="font-size:16px;opacity:.6">Com</div><div class="c" style="font-size:56px">Nossos consultores</div></div></div>
+          <div style="display:flex;gap:40px;margin-top:22px"><div><div class="lab" style="font-size:16px;opacity:.6">Entrada</div><div class="c" style="font-size:56px">Gratuita</div></div><div><div class="lab" style="font-size:16px;opacity:.6">Com</div><div class="c" style="font-size:56px">Nossa equipe</div></div></div>
         </div>
         <div style="background:{L};color:{P};padding:50px 70px 0 36px"><div class="lab" style="font-size:20px">Admite</div><div class="c" style="font-size:260px;line-height:.8;margin-top:10px">1</div>
           <div style="margin-top:26px;height:96px;background:repeating-linear-gradient(90deg,{P} 0 6px,transparent 6px 10px,{P} 10px 20px,transparent 20px 26px,{P} 26px 30px,transparent 30px 40px)"></div></div>
@@ -111,7 +111,7 @@ def m09():
         return f'<div style="padding:34px 0;border-top:3px solid {F}"><div class="lab" style="color:{L}">{a}</div><div class="x" style="font-size:54px;margin-top:12px">{b}</div></div>'
     s2 = f"""<div class="slide" style="background:{P};color:{O}"><div class="top">{logo('cor-fundo-escuro')}<div class="lab" style="color:{C}">2 / 3</div></div>
       <div class="abs" style="left:80px;right:80px;top:200px"><div class="c" style="font-size:150px">Programa da sessão</div>
-      <div style="margin-top:40px;border-bottom:3px solid {F}">{campo('Para quem', 'Profissionais com resultado no offline')}{campo('Com quem', 'Os nossos consultores')}{campo('Quanto custa', 'Nada. É gratuito.')}</div></div></div>"""
+      <div style="margin-top:40px;border-bottom:3px solid {F}">{campo('Para quem', 'Profissionais com resultado no offline')}{campo('Com quem', 'A nossa equipe')}{campo('Quanto custa', 'Nada. É gratuito.')}</div></div></div>"""
     page("modelo-09-ingresso", [s1, s2, cta("Ingresso", "preto")])
 
 # ───────── 10 · ECO ─────────
