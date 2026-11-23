@@ -237,6 +237,102 @@ def dom_roteiro():
       </div></div>"""
     salvar("2026-11-29_mostre-seu-trabalho", [s1, s2, s3, s4, s5])
 
-for f in (seg_manchete, ter_notificacao, qua_placar, qui_eco, sex_checklist, sab_rec, dom_roteiro):
+
+# ───────── fotos de personalidades (modelos 16 a 18, liberados pelo Henrique em 23/11) ─────────
+import gerar3 as g3
+for f_ in set(glob.glob(os.path.join(AQUI, "modelo-*.html"))) - antes:
+    os.remove(f_)
+from gerar3 import foto, credito, BARRAS
+
+# SEG 23/11 · carrossel · REVISTA · Steve Jobs
+def seg_revista():
+    def topo3(i): return f'<div class="top">{logo("cor-fundo-escuro")}<div class="lab" style="color:{C}">Matéria de capa · {i} / 4</div></div>'
+    s1 = f"""<div class="slide" style="background:{P};color:{O}">
+      <div class="abs" style="left:0;right:0;top:250px;bottom:0">{foto('jobs-iphone.jpg', 'width:100%;height:100%;object-position:62% 20%')}</div>
+      <div class="abs c" style="left:0;right:0;top:26px;text-align:center;font-size:330px;color:{L};line-height:.8">Euforia</div>
+      <div class="abs" style="left:60px;right:60px;top:292px;display:flex;justify-content:space-between"><div class="lab" style="background:{P};padding:8px 12px 6px">Edição · Grandes nomes</div><div class="lab" style="background:{L};color:{P};padding:8px 12px 6px">Negócios</div></div>
+      <div class="abs" style="left:0;right:0;bottom:0;background:{P};padding:44px 60px 56px">
+        <div class="x" style="font-size:64px">“Hoje, a Apple vai <span class="lar">reinventar o telefone.</span>”</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:22px"><div style="font-size:30px;color:#cfc8bf;font-weight:600">Steve Jobs, no palco da Macworld, em 9 de janeiro de 2007</div><div style="width:150px;height:54px;background:{O};padding:6px;flex:none"><div style="height:100%;background:{BARRAS}"></div></div></div>
+      </div>
+      {credito('forbes.com', '#cfc8bf', 'right:20px;top:360px')}</div>"""
+    fatos = ["Ele mesmo subiu ao palco para apresentar o iPhone", "Explicou em uma frase: iPod, telefone e internet num aparelho só", "A apresentação virou referência de como lançar um produto"]
+    s2 = f"""<div class="slide" style="background:{P};color:{O}">{topo3(2)}
+      <div class="abs" style="left:80px;right:80px;top:200px"><div class="c" style="font-size:150px">O maior lançamento da empresa. <span class="lar">Apresentado pelo dono.</span></div>
+      <div style="margin-top:40px">{lista(fatos, L, O, F, 40, 26)}</div>
+      <div style="font-size:24px;color:{C};margin-top:26px">Fontes: MacRumors, Network World e Macworld.</div></div></div>"""
+    s3 = f"""<div class="slide" style="background:{L};color:{P}">{'<div class="top">' + logo('mono-preto') + '<div class="lab" style="opacity:.7">Matéria de capa · 3 / 4</div></div>'}
+      <div class="abs" style="left:80px;right:80px;top:220px"><div class="lab">A lição para o seu negócio</div>
+      <div class="c" style="font-size:170px;margin-top:30px">Ninguém explica o seu trabalho melhor do que você.</div>
+      <div class="t" style="margin-top:44px;font-size:42px;font-weight:600;max-width:880px">Você não precisa de um palco em San Francisco. Precisa de uma câmera, um roteiro e constância.</div></div></div>"""
+    s4 = cta("Palco", "preto", f'<div class="top">{logo("cor-fundo-escuro")}<div class="lab" style="color:{C}">Matéria de capa · 4 / 4</div></div>', 210, "Salve e mande pra quem explica muito bem o que faz")
+    salvar("2026-11-23_steve-jobs-palco", [s1, s2, s3, s4])
+
+# QUA 25/11 · carrossel · FIGURINHA · Silvio Santos
+def qua_figurinha():
+    def stat(a, b):
+        return f'<div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 0;border-top:3px solid {P}"><span class="lab" style="font-size:19px">{a}</span><span class="c" style="font-size:50px;text-align:right">{b}</span></div>'
+    s1 = f"""<div class="slide" style="background:{L};color:{P}">
+      <div class="abs" style="left:120px;top:70px;width:840px;height:1130px;background:{O};border:10px solid {P};border-radius:44px;transform:rotate(-3deg);padding:34px 40px 0;box-shadow:22px 22px 0 {P}">
+        <div style="display:flex;justify-content:space-between;align-items:center"><div class="lab">Coleção · Grandes nomes</div><div class="c" style="font-size:64px;background:{P};color:{L};padding:10px 18px 2px;border-radius:14px">Lenda</div></div>
+        <div style="margin-top:22px;height:520px;border-radius:24px;overflow:hidden;border:6px solid {P};position:relative">{foto('silvio-retrato.jpg', 'width:100%;height:100%;object-position:50% 20%')}
+          <div class="abs" style="left:0;bottom:0;background:{L};padding:12px 22px 4px;border-radius:0 20px 0 0;border-top:6px solid {P};border-right:6px solid {P}"><div class="c" style="font-size:96px">Silvio Santos</div></div></div>
+        <div style="margin-top:20px;border-bottom:3px solid {P}">{stat('Começou', 'Camelô, aos 14')}{stat('Comprou', 'Baú da Felicidade')}{stat('Fundou', 'SBT, em 1981')}{stat('Entrou para', 'o Guinness')}</div>
+        <div style="font-size:17px;margin-top:10px;color:#5c5650">Foto: oglobo.globo.com</div>
+      </div>
+      <div class="abs" style="left:80px;right:80px;bottom:56px;display:flex;justify-content:space-between;align-items:center">{logo('mono-preto')}<div style="display:flex;align-items:center;gap:18px"><div class="lab">Vire a figurinha</div>{bar(P, 110, 30)}</div></div></div>"""
+    fatos = ["Camelô nas ruas do centro do Rio, aos 14 anos", "Venceu um concurso para locutor na Rádio Guanabara", "Comprou o Baú da Felicidade de Manoel de Nóbrega", "Ganhou a concessão e fundou o SBT, em 1981", "O programa dele entrou para o Guinness como o mais duradouro da TV brasileira"]
+    s2 = f"""<div class="slide" style="background:{L};color:{P}">
+      <div class="abs" style="left:70px;top:80px;width:940px;height:1190px;background:{O};border:10px solid {P};border-radius:44px;padding:54px 54px 0;box-shadow:18px 18px 0 {P}">
+        <div class="lab" style="color:{B}">Verso · 2 / 4 · A trajetória</div>
+        <div class="x" style="font-size:66px;margin-top:22px">De camelô a dono de <span style="color:{B}">emissora.</span></div>
+        <div style="margin-top:30px">{lista(fatos, B, P, A, 36, 20)}</div>
+        <div style="font-size:22px;color:#5c5650;margin-top:22px">Fontes: Terra, Suno e Wikipédia.</div>
+      </div></div>"""
+    s3 = f"""<div class="slide" style="background:{P};color:{O}">
+      <div class="abs" style="left:0;top:0;width:1080px;height:640px">{foto('silvio-palco.jpg', 'width:100%;height:100%;object-position:50% 30%')}</div>
+      <div class="abs" style="left:0;right:0;top:560px;height:80px;background:linear-gradient(180deg,transparent,{P})"></div>
+      {credito('agenciabrasil.ebc.com.br', '#cfc8bf', 'right:20px;top:120px')}
+      <div class="abs lab" style="left:80px;top:72px;background:{L};color:{P};padding:8px 12px 6px">3 / 4 · A jogada dele</div>
+      <div class="abs" style="left:80px;right:80px;top:680px"><div class="c" style="font-size:150px">O dono era <span class="lar">o rosto.</span></div>
+      <div class="t" style="margin-top:30px;color:#cfc8bf;max-width:900px">Por décadas, ele mesmo apareceu toda semana para vender, apresentar e conversar com o público. A confiança no Silvio virou confiança no negócio.</div></div></div>"""
+    s4 = cta("Rosto", "laranja", f'<div class="top">{logo("mono-preto")}<div class="lab" style="opacity:.7">4 / 4</div></div>', 210, "Você não precisa de uma emissora. Precisa aparecer.")
+    salvar("2026-11-25_silvio-santos", [s1, s2, s3, s4])
+
+# DOM 29/11 · carrossel · DOSSIÊ · Warren Buffett
+def dom_dossie():
+    def campo(a, b):
+        return f'<div style="display:grid;grid-template-columns:140px 1fr;align-items:baseline;padding:16px 0;border-bottom:3px dotted {P}"><span class="lab" style="font-size:20px">{a}</span><span class="c" style="font-size:44px;white-space:nowrap">{b}</span></div>'
+    pasta = f'<div class="abs" style="left:50px;top:120px;width:520px;height:90px;background:{A};border-radius:26px 26px 0 0"></div><div class="abs" style="left:50px;right:50px;top:190px;bottom:60px;background:{A};border-radius:0 30px 30px 30px"></div>'
+    s1 = f"""<div class="slide" style="background:{G};color:{P}">{pasta}
+      <div class="abs lab" style="left:86px;top:146px;font-size:24px">Arquivo · Grandes nomes</div>
+      <div class="abs" style="left:100px;top:250px;width:880px;height:900px;background:{O};transform:rotate(-2deg);padding:50px 50px 0">
+        <div class="c" style="font-size:150px">Dossiê</div>
+        <div style="width:500px;margin-top:20px">{campo('Nome', 'Warren Buffett')}{campo('Cidade', 'Omaha, EUA')}{campo('Codinome', 'Oráculo de Omaha')}{campo('Arma', 'Uma carta por ano')}</div>
+      </div>
+      <div class="abs" style="right:80px;top:300px;width:320px;height:420px;background:{O};padding:16px 16px 60px;transform:rotate(5deg);box-shadow:10px 10px 0 {P}">{foto('buffett-retrato.jpg', 'width:100%;height:100%;object-position:50% 20%')}<div style="font-size:16px;margin-top:10px;color:#5c5650">Foto: en.wikipedia.org</div></div>
+      <div class="abs" style="right:210px;top:262px;width:44px;height:120px;border:9px solid {P};border-radius:22px;transform:rotate(12deg)"></div>
+      <div class="abs c" style="right:100px;top:860px;font-size:76px;color:{L};border:9px solid {L};border-radius:18px;padding:16px 24px 4px;transform:rotate(-9deg)">4 curiosidades</div>
+      <div class="abs x" style="left:120px;right:120px;bottom:120px;font-size:66px;transform:rotate(-2deg)">O que o maior investidor faz todo ano</div></div>"""
+    cur = ["Comprou a primeira ação aos 11 anos.", "Mora na mesma casa desde 1958. Pagou US$ 31.500 por ela.", "De 1965 a 2024, escreveu uma carta aos acionistas todo ano.", "A reunião anual em Omaha ganhou o apelido de “Woodstock dos capitalistas”."]
+    s2 = f"""<div class="slide" style="background:{G};color:{P}">{pasta}
+      <div class="abs lab" style="left:86px;top:146px;font-size:24px">Arquivo · 2 / 4</div>
+      <div class="abs" style="left:90px;top:240px;width:900px;height:1000px;background:{O};padding:54px 54px 0">
+        <div class="c" style="font-size:120px">4 curiosidades</div>
+        <div style="margin-top:20px">{lista(cur, B, P, P, 39, 26)}</div>
+        <div style="font-size:22px;color:#5c5650;margin-top:24px">Fontes: CNBC, Fortune e Money.</div>
+      </div></div>"""
+    s3 = f"""<div class="slide" style="background:{G};color:{O}">
+      <div class="abs" style="right:0;top:0;width:470px;height:1350px">{foto('buffett-jovem.jpg', 'width:100%;height:100%;object-position:40% 20%')}</div>
+      <div class="abs" style="right:470px;top:0;width:120px;height:1350px;background:linear-gradient(90deg,{G},transparent);transform:translateX(120px)"></div>
+      {credito('cnn.com', '#cfc8bf', 'right:20px;top:120px')}
+      <div class="abs lab" style="left:80px;top:80px;color:{C}">Arquivo · 3 / 4 · A lição</div>
+      <div class="abs" style="left:80px;width:560px;top:220px"><div class="c" style="font-size:150px">60 anos.<br><span class="lar">Uma carta por ano.</span></div>
+      <div class="t" style="margin-top:36px;color:#cfc8bf;font-size:38px">Ele explica o que pensa, com as próprias palavras, todo ano. Quem comunica com constância vira referência.</div>
+      <div class="t" style="margin-top:26px;font-size:38px;font-weight:800">Hoje, a sua carta pode ser um vídeo por semana.</div></div></div>"""
+    s4 = cta("Carta", "grafite", f'<div class="top">{logo("cor-fundo-escuro")}<div class="lab" style="color:{C}">Arquivo · 4 / 4</div></div>', 210, "Salve e mande pra quem tem muito a dizer")
+    salvar("2026-11-29_warren-buffett", [s1, s2, s3, s4])
+
+for f in (seg_revista, ter_notificacao, qua_figurinha, qui_eco, sex_checklist, sab_rec, dom_dossie):
     f()
 print("ok")
